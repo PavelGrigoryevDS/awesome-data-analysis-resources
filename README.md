@@ -1,4 +1,5 @@
-# 👋 Welcome to the Awesome Data Analysis Toolkit
+# 👋 Welcome to the Data Analysis Resources
+
 ![GitHub](https://img.shields.io/badge/status-under_construction-brightgreen?style=flat) 
 ![GitHub](https://img.shields.io/badge/contributions-welcome-brightgreen)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
