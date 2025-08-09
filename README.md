@@ -1,11 +1,14 @@
-# 👋 Welcome to the Data Analysis Resources
+<meta name="description" content="400+ resources for data analysis and data science: Python, SQL, ML, Visualization, Dashboards, and Interview Prep. Cheatsheets, tutorials, roadmaps and tools.">
+
+# 🚀 Awesome Data Analysis Resources
 
 ![GitHub](https://img.shields.io/badge/status-under_construction-brightgreen?style=flat) 
 ![GitHub](https://img.shields.io/badge/contributions-welcome-brightgreen)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-This repository is a collection of valuable resources, tools, and links that will help navigate the world of data analysis.
+**400+ handpicked tools, libraries, cheatsheets, roadmaps, and tutorials** to master data analysis, machine learning, and visualization.  
+Perfect for beginners and experienced data analysts and scientists. Contributions welcome!  
 
 ---
 
@@ -135,6 +138,7 @@ A collection of resources for learning and mastering Python programming.
 Tutorials and best practices for working with pandas DataFrames.
 - [A collection of resources for pandas](https://github.com/tommyod/awesome-pandas) - A curated list of resources for using the Pandas library.
 - [100 data puzzles for pandas, ranging from short and simple to super tricky (60% complete)](https://github.com/ajcr/100-pandas-puzzles) - A collection of data puzzles to practice your Pandas skills.
+- [Pandas Tutor](https://pandastutor.com/) - Visualize Pandas operations step-by-step (perfect for beginners).
 - [Practice your pandas skills!](https://github.com/guipsamora/pandas_exercises) - Exercises designed to help you improve your Pandas skills.
 - [Recipes for using Python's pandas library](https://github.com/jvns/pandas-cookbook) - A cookbook with various recipes for using Pandas effectively.
 - [Pandas Cookbook, published by Packt](https://github.com/PacktPublishing/Pandas-Cookbook) - A comprehensive cookbook for learning Pandas.
@@ -385,6 +389,7 @@ Ttutorials for building and enhancing dashboards and visualizations using variou
 - [DashTools - Plotly Dash Command Line Tools - Create, Run and Deploy Templated Python Apps from Terminal.](https://github.com/andrew-hossack/dash-tools) - Command line tools for Dash applications.
 - [Data Visualisation with Plotly Cookbook.](https://github.com/quantgirluk/Plotly-Dash-Cookbook) - Cookbook for data visualization using Plotly.
 - [Plotly Dash Tutorial.](https://github.com/austinlasseter/plotly_dash_tutorial) - Tutorial for learning Plotly Dash.
+- [Dash Enterprise Samples](https://github.com/plotly/dash-sample-apps) - Production-ready Dash apps.  
 - [geeksforgeeks - Tableau Tutorial.](https://www.geeksforgeeks.org/tableau-tutorial/) - Comprehensive tutorial on Tableau.
 - [geeksforgeeks - Power BI Tutorial.](https://www.geeksforgeeks.org/power-bi-tutorial/) - Detailed tutorial on Power BI.
 
@@ -497,7 +502,6 @@ A collection of resources for learning and applying mathematics and statistics, 
 - [Fast.ai - Computational Linear Algebra.](https://github.com/fastai/numerical-linear-algebra) - Resource for learning linear algebra computationally.
 - [Immersive Linear Algebra.](http://immersivemath.com/ila/) - Interactive resource for understanding linear algebra.
 - [Brilliant.org - Interactive courses.](https://brilliant.org/courses/#math-foundational) - Engaging courses on foundational mathematics.
-- [Data Science Cheat Sheets (Math).](https://github.com/ml874/Data-Science-Cheatsheet) - Cheat sheets for quick reference in data science mathematics.
 - [Scipy Lecture Notes.](https://scipy-lectures.org/) - Comprehensive notes on scientific computing with Python.
 - [Quora: Mathematics for Data Science.](https://www.quora.com/What-mathematical-skills-are-required-for-data-science) - Discussion on mathematical skills needed for data science.
 - [Cross Validated (Stack Exchange).](https://stats.stackexchange.com/) - Q&A site for statistics and data analysis.
@@ -534,7 +538,8 @@ A selection of resources focused on statistics and probability, including tutori
 A collection of resources focused on A/B testing.
 - [Useful articles on the topics of AB testing and statistics.](https://github.com/zhitkovk/awesome_ab_testing) - A collection of articles focused on AB testing and statistical methods.
 - [dynamicyield - A/B Testing & Optimization Course.](https://www.dynamicyield.com/course/testing-and-optimization/) - An online course covering A/B testing and optimization techniques.
-
+- [Evan's Awesome A/B Tools](https://www.evanmiller.org/ab-testing/) - A/B test calculators.
+  
 [⬆ back to top](#-contents)
 
 ---
@@ -544,6 +549,7 @@ A collection of resources to help you learn and apply machine learning concepts 
 - [100 Days of ML Coding](https://github.com/Avik-Jain/100-Days-Of-ML-Code) - A comprehensive coding challenge to learn machine learning over 100 days.
 - [Microsoft - ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - A beginner-friendly introduction to machine learning concepts and practices.
 - [Learn how to design, develop, deploy and iterate on production-grade ML applications.](https://github.com/GokuMohandas/Made-With-ML) - Resource for building and deploying machine learning applications.
+- [MLU-Explain](https://mlu-explain.github.io/) - Visual explanations of ML algorithms (XGBoost, PCA etc).
 - [A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python.](https://github.com/ageron/handson-ml3) - Hands-on guide to machine learning and deep learning using Python.
 - [Jason's Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit?slide=id.g168a3288f7_0_58) - Presentation covering the basics of machine learning concepts.
 
@@ -725,6 +731,7 @@ A collection of cheatsheets across various domains to aid in quick reference and
 ### Data Science & Machine Learning
 - [Data Science All Cheat Sheet](https://github.com/yash42828/Data-Science--All-Cheat-Sheet) - Covers ML, DL, and analytics.
 - [Data Science Cheatsheets](https://github.com/FavioVazquez/ds-cheatsheets) - Curated DS/ML concepts and workflows.
+- [Data Science Cheat Sheets (Math).](https://github.com/ml874/Data-Science-Cheatsheet) - Cheat sheets for quick reference in data science mathematics.
 - [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) - Data manipulation with Pandas.
 - [PySpark Cheatsheet](https://github.com/kevinschaich/pyspark-cheatsheet) - Common PySpark patterns.
 
