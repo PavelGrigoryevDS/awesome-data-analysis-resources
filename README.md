@@ -1,23 +1,27 @@
 <meta name="description" content="400+ resources for data analysis and data science: Python, SQL, ML, Visualization, Dashboards, and Interview Prep. Cheatsheets, tutorials, roadmaps and tools.">
 
-# 🚀 Awesome Data Analysis Resources
+# Awesome Data Analysis [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![GitHub](https://img.shields.io/badge/status-under_construction-brightgreen?style=flat) 
-![GitHub](https://img.shields.io/badge/contributions-welcome-brightgreen)
+![GitHub](https://img.shields.io/badge/status-active-brightgreen?style=flat) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-![License](https://img.shields.io/badge/license-MIT-blue)
+[![CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 **400+ handpicked tools, libraries, cheatsheets, roadmaps, and tutorials** to master data analysis, machine learning, and visualization.  
 Perfect for beginners and experienced data analysts and scientists. Contributions welcome!  
 
 ---
 
-## 🌟 Motivation 
-I created this repository as a centralized collection for quickly finding valuable data analysis resources and tools. 
+## 🌟 Why This Repository?
 
-My aim is to simplify the discovery process and help enhance skills.
+A curated collection of **the most practical resources** I've found valuable in my data analysis journey. This repository:
 
-This repository will be continuously updated with new content.
+- Covers **end-to-end data workflow**: from Python/SQL fundamentals to ML deployment
+- Focuses on **modern tools** used in industry.
+- Includes **hand-picked quality content** - no fluff
+- Organized with **emoji-categorized sections** for quick navigation
+- Will be **regularly updated**
+
+*Maintained with ❤️*
 
 ---
 
@@ -828,19 +832,19 @@ A wide range of resources designed to facilitate learning, development, and expl
 ---
 
 ## 🤝 Contributing
+
 **I welcome your contributions!**
 
-1. **Fork the repository**: Create your own copy of the project to work on.
-2. **Add your link(s)**: Navigate to the appropriate section and include your valuable resources.
-3. **Submit a pull request**: Provide a brief description of the resource you added, so I can understand its relevance.
-
-Thank you for helping me grow and enhance this project!
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add resources.
 
 [⬆ back to top](#-contents)
 
 ---
 
 ## 📜 License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+This work is dedicated to the public domain under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.  
 
 [⬆ back to top](#-contents)
