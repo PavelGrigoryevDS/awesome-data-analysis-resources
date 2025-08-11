@@ -2,13 +2,16 @@
 
 # Awesome Data Analysis [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Web Page](https://img.shields.io/badge/🌐_Web_Page-2563EB?logoColor=white)](https://pavelgrigoryevds.github.io/awesome-data-analysis/)
+[![Web Page](https://img.shields.io/badge/🌐_Web_Page-696969)](https://pavelgrigoryevds.github.io/awesome-data-analysis/)
 ![GitHub](https://img.shields.io/badge/status-active-brightgreen?style=flat) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 **400+ handpicked tools, libraries, cheatsheets, roadmaps, and tutorials** to master data analysis, machine learning, and visualization.  
 Perfect for beginners and experienced data analysts and scientists. Contributions welcome!  
+
+**📖 For comfortable reading:** [Web version](https://pavelgrigoryevds.github.io/awesome-data-analysis/)
+
 
 ---
 
