@@ -12,7 +12,6 @@ Perfect for beginners and experienced data analysts and scientists. Contribution
 
 **📖 For comfortable reading:** [Web version](https://pavelgrigoryevds.github.io/awesome-data-analysis/)
 
-
 ---
 
 ## 🌟 Why This Repository?
