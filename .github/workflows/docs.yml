@@ -27,8 +27,10 @@ jobs:
         run: |
           # Use root README.md as the main page
           cp README.md docs/source/index.md
-          # Optional: Clean up badges if they cause layout issues
-          sed -i '/!\[.*\](.*)/d' docs/source/index.md
+          # Remove all img.shields.io badges
+          sed -i '/https:\/\/img.shields.io\//d' docs/source/index.md
+          # Remove the "comfortable reading" line
+          sed -i '/📖 For comfortable reading:/d' docs/source/index.md
 
       - name: Build Sphinx docs
         run: |
