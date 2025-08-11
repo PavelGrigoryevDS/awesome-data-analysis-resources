@@ -27,10 +27,8 @@ jobs:
         run: |
           # Use root README.md as the main page
           cp README.md docs/source/index.md
-          # Remove all img.shields.io badges
-          sed -i '/https:\/\/img.shields.io\//d' docs/source/index.md
-          # Remove the "comfortable reading" line
-          sed -i '/📖 For comfortable reading:/d' docs/source/index.md
+          # We delete the excess in the beginning
+          sed -i '/^# Awesome Data Analysis \[!\[Awesome](https:\/\/awesome.re\/badge.svg)](https:\/\/awesome.re)$/,/^<a id="contents"><\/a>$/ {/^# Awesome Data Analysis \[!\[Awesome](https:\/\/awesome.re\/badge.svg)](https:\/\/awesome.re)$/!{/^<a id="contents"><\/a>$/!d}}' docs/source/index.md
 
       - name: Build Sphinx docs
         run: |
