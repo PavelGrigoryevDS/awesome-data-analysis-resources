@@ -376,7 +376,6 @@ A collection of Python libraries and drivers for seamless database access and in
 <a id="data-visualization-resources"></a>
 ### Resources
 Color theory, chart selection guides, and storytelling tips.
-- [Data Visualization](https://github.com/NajiElKotob/Awesome-Viz) - A curated list of resources for data visualization.
 - [A data visualization curriculum of interactive notebooks.](https://github.com/uwdata/visualization-curriculum) - Interactive notebooks designed to teach data visualization concepts.
 - [The Python Graph Gallery](https://python-graph-gallery.com/) - A collection of Python graph examples for data visualization.
 - [FlowingData explores how we use analysis and visualization to understand data and ourselves.](https://flowingdata.com/) - Insights on data analysis and visualization.
@@ -547,11 +546,8 @@ A collection of resources for learning and applying mathematics and statistics, 
 - [Fast.ai - Computational Linear Algebra.](https://github.com/fastai/numerical-linear-algebra) - Resource for learning linear algebra computationally.
 - [Immersive Linear Algebra.](http://immersivemath.com/ila/) - Interactive resource for understanding linear algebra.
 - [Brilliant.org - Interactive courses.](https://brilliant.org/courses/#math-foundational) - Engaging courses on foundational mathematics.
-- [Scipy Lecture Notes.](https://scipy-lectures.org/) - Comprehensive notes on scientific computing with Python.
-- [Quora: Mathematics for Data Science.](https://www.quora.com/What-mathematical-skills-are-required-for-data-science) - Discussion on mathematical skills needed for data science.
 - [Cross Validated (Stack Exchange).](https://stats.stackexchange.com/) - Q&A site for statistics and data analysis.
 - [Wolfram Alpha - Online equation solver.](https://www.wolframalpha.com/) - Computational knowledge engine for solving equations.
-- [MIT Video Lectures on Mathematics.](https://www.youtube.com/user/MIT/playlists?view=50&sort=dd&shelf_id=4) - Video lectures covering various math topics from MIT.
 
 [⬆ back to top](#contents)
 
@@ -850,7 +846,6 @@ A collection of cheatsheets across various domains to aid in quick reference and
 
 <a id="cheatsheets-sql-databases"></a>
 ### SQL & Databases
-- [SQL Query Cheatsheet](https://helpercodes.com/sql-query-cheat-sheet-tutorial/) - Common SQL queries.
 - [Quick SQL Cheatsheet.](https://github.com/enochtangg/quick-SQL-cheatsheet) - Handy SQL reference guide.
   
 [⬆ back to top](#contents)
