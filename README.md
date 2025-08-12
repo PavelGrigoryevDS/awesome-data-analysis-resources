@@ -1,6 +1,6 @@
 <meta name="description" content="400+ resources for data analysis and data science: Python, SQL, ML, Visualization, Dashboards, and Interview Prep. Cheatsheets, tutorials, roadmaps and tools.">
 
-# Awesome Data Analysis [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Data Analysis [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 [![Web Page](https://img.shields.io/badge/🌐_Web_Page-696969)](https://pavelgrigoryevds.github.io/awesome-data-analysis/)
 ![GitHub](https://img.shields.io/badge/status-active-brightgreen?style=flat) 
