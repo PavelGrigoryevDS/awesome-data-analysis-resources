@@ -111,7 +111,7 @@ Curated collections of high-quality GitHub repos for inspiration and learning.
 <a id="roadmaps"></a>
 ## 🗺️ Roadmaps
 Step-by-step guides and skill trees to master data science and analytics.
-- [**Data Science Roadmap Tutorials**](https://github.com/MrMimic/data-scientist-roadmap) - Tutorials accompanying the "data science roadmap" picture.
+- [Data Science Roadmap Tutorials](https://github.com/MrMimic/data-scientist-roadmap) - Tutorials accompanying the "data science roadmap" picture.
 - [Data Science Roadmap from A to Z](https://github.com/Moataz-Elmesmary/Data-Science-Roadmap) - A comprehensive roadmap for data science.
 - [Roadmap for Data Science](https://github.com/ayush714/data-science-roadmap) - A structured roadmap for aspiring data scientists.
 - [Data Analyst RoadMap](https://github.com/krishnaik06/Data-Analyst-Roadmap) - A comprehensive roadmap for aspiring data analysts.
