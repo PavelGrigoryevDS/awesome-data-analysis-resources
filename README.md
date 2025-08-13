@@ -48,6 +48,7 @@ A curated collection of **the most practical resources** I've found valuable in 
     - [Module Dependency \& Code Management](#python-module-dependency-code-management)
     - [Parallel Computing for DataFrames](#python-parallel-computing-for-dataframes)
     - [Documentation](#python-documentation)
+    - [File Formats \& Documents](#python-file-formats-documents)
     - [Additional](#python-additional)
 - [🗃️ SQL \& Databases](#sql-databases)
   - [Resources](#sql-databases-resources)
@@ -141,6 +142,8 @@ A collection of resources for learning and mastering Python programming.
 - [best-of-python](https://github.com/ml-tooling/best-of-python) - A ranked list of awesome Python open-source libraries and tools.
 - [awesome-python-applications](https://github.com/mahmoud/awesome-python-applications) - Free software that works great, and also happens to be open-source Python.
 - [list-of-python-api-wrappers](https://github.com/realpython/list-of-python-api-wrappers) - List of Python API wrappers and libraries.
+- [Awesome Time Series in Python](https://github.com/MaxBenChrist/awesome_time_series_in_python) - This curated list contains python packages for time series analysis 
+
 
 [⬆ back to top](#contents)
 
@@ -175,7 +178,13 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 - [TheFuzz](https://github.com/seatgeek/thefuzz) - Fuzzy string matching (Levenshtein distance).
 - [PandasAI](https://github.com/sinaptik-ai/pandas-ai) - Conversational data analysis using LLMs and RAG.
 - [DateUtil](https://github.com/dateutil/dateutil) - Extensions for standard Python datetime features.
-  
+- [Fugue](https://github.com/fugue-project/fugue) - Unified interface for Pandas, Spark, and Dask.
+- [Pandas-DataReader](https://github.com/pydata/pandas-datareader) - Reads data from various online sources into pandas DataFrames.
+- [sklearn-pandas](https://github.com/scikit-learn-contrib/sklearn-pandas) - Bridge between Pandas and Scikit-learn.
+- [fitter](https://pythonhosted.org/fitter/) - Figures out the distribution your data comes from.
+- [Arrow](https://github.com/arrow-py/arrow) - Enhanced work with dates and times.
+- [Pendulum](https://github.com/sdispater/pendulum) - Alternative to datetime with timezone support.
+    
 [⬆ back to top](#contents)
 
 ---
@@ -305,31 +314,34 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 
 ---
 
+<a id="python-file-formats-documents"></a>
+#### File Formats & Documents
+- [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/) - Read/write Excel files with support for advanced features.
+- [Tablib](https://github.com/jazzband/tablib) - Exports data to XLSX, JSON, CSV via a single API.
+- [PyPDF2](https://github.com/py-pdf/PyPDF2) - Reads and writes PDF files.
+- [python-docx](https://github.com/python-openxml/python-docx) - Reads and writes Word documents.
+- [CleverCSV](https://github.com/alan-turing-institute/CleverCSV) - Smart CSV reader for messy data.
+- [xlwings](https://github.com/xlwings/xlwings) - Integration of Python with Excel.
+- [xmltodict](https://github.com/martinblech/xmltodict) - Converts XML to Python dictionaries.
+- [python-markdownify](https://github.com/matthewwithanm/python-markdownify) - Convert HTML to Markdown.
+- [MarkItDown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown. 
+  
+[⬆ back to top](#contents)
+
+---
+
 <a id="python-additional"></a>
 #### Additional
 - [Pillow](https://pillow.readthedocs.io/en/stable/) - Image processing library.
-- [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/) - Read/write Excel files with support for advanced features.
-- [Fugue](https://github.com/fugue-project/fugue) - Unified interface for Pandas, Spark, and Dask.
-- [Pandas-DataReader](https://github.com/pydata/pandas-datareader) - Reads data from various online sources into pandas DataFrames.
 - [Ftfy](https://github.com/rspeer/python-ftfy) - Fixes broken Unicode strings.
-- [CleverCSV](https://github.com/alan-turing-institute/CleverCSV) - Smart CSV reader for messy data.
-- [Tablib](https://github.com/jazzband/tablib) - Exports data to XLSX, JSON, CSV via a single API.
 - [Records](https://github.com/kennethreitz-archive/records) - SQL queries to databases via Python syntax.
 - [Dataset](https://github.com/pudo/dataset) - JSON-like interface for working with SQL databases.
 - [JmesPath](https://github.com/jmespath/jmespath.py) - Queries JSON data (SQL-like for JSON).
 - [Glom](https://github.com/mahmoud/glom) - Transforms nested data structures.
 - [Pampy](https://github.com/santinic/pampy) - Pattern matching for Python dictionaries.
-- [Arrow](https://github.com/arrow-py/arrow) - Enhanced work with dates and times.
-- [Pendulum](https://github.com/sdispater/pendulum) - Alternative to datetime with timezone support.
-- [sklearn-pandas](https://github.com/scikit-learn-contrib/sklearn-pandas) - Bridge between Pandas and Scikit-learn.
 - [Geopy](https://github.com/geopy/geopy) - Geocoding addresses and calculating distances.
-- [xlwings](https://github.com/xlwings/xlwings) - Integration of Python with Excel.
-- [PyPDF2](https://github.com/py-pdf/PyPDF2) - Reads and writes PDF files.
-- [xmltodict](https://github.com/martinblech/xmltodict) - Converts XML to Python dictionaries.
-- [python-docx](https://github.com/python-openxml/python-docx) - Reads and writes Word documents.
 - [diagrams](https://github.com/mingrammer/diagrams) - Diagrams as code for cloud system architecture prototyping.
 - [scattertext](https://github.com/JasonKessler/scattertext) - Beautiful visualizations of language differences among document types.
-- [fitter](https://pythonhosted.org/fitter/) - Figures out the distribution your data comes from.
 - [pygorithm](https://github.com/OmkarPathak/pygorithm) - A Python module for learning all major algorithms.
 - [iGraph](https://github.com/igraph/igraph) - A library for creating and manipulating graphs and networks, with bindings for multiple languages.  
 - [Joblib](https://github.com/joblib/joblib) - A lightweight pipelining library for Python, particularly useful for saving and loading large NumPy arrays.  
