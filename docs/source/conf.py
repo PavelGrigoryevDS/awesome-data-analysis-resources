@@ -11,7 +11,6 @@ from datetime import datetime
 
 project = "Awesome Data Analysis"
 copyright = f"{datetime.now().year}, Pavel Grigoryev"
-author = "YourName"
 author = "Pavel Grigoryev"
 
 # -- General configuration ---------------------------------------------------
