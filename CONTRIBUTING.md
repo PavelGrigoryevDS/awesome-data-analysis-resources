@@ -10,7 +10,6 @@ We will make sure the list doesn't grow too long. Please don't submit links that
 
 1. **Create a new issue** [here](https://github.com/PavelGrigoryevDS/awesome-data-analysis/issues)
 2. Describe your suggested resource or improvement
-3. We'll discuss and you can later submit via PR if approved
 
 ### Option 2 (Fork)
 
@@ -59,6 +58,5 @@ Resources should be:
 
 - PRs will be reviewed within 1-3 days
 - We may suggest improvements before merging
-- Duplicate or low-quality resources will be declined
 
 Thank you for helping improve this awesome list!
