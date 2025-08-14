@@ -1,35 +1,36 @@
-<meta name="description" content="400+ resources for data analysis and data science: Python, SQL, ML, Visualization, Dashboards, and Interview Prep. Cheatsheets, tutorials, roadmaps and tools.">
-
 # Awesome Data Analysis [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 [![Web Page](https://img.shields.io/badge/🌐_Web_Page-696969)](https://pavelgrigoryevds.github.io/awesome-data-analysis/)
-![GitHub](https://img.shields.io/badge/status-active-brightgreen?style=flat) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-**400+ handpicked tools, libraries, cheatsheets, roadmaps, and tutorials** to master data analysis, machine learning, and visualization.  
-Perfect for beginners and experienced data analysts and scientists. Contributions welcome!  
+**400+ curated tools, libraries, cheatsheets, roadmaps, and tutorials** to master data analysis.
+Perfect for beginners and experienced data analysts and scientists.
 
 **📖 For comfortable reading:** [Web version](https://pavelgrigoryevds.github.io/awesome-data-analysis/)
 
+**🌱 Want to improve?** [Suggest here](https://github.com/PavelGrigoryevDS/awesome-data-analysis/issues/16) or [Contribution guide](https://github.com/PavelGrigoryevDS/awesome-data-analysis/blob/main/CONTRIBUTING.md)
+
+🌟 **Goal: 100 stars!** Help others find this curated collection ![GitHub stars](https://img.shields.io/github/stars/PavelGrigoryevDS/awesome-data-analysis?style=social)
+
 ---
 
-## 🌟 Why This Repository?
-
-A curated collection of **the most practical resources** I've found valuable in my data analysis journey. This repository:
+## ✨ Why Awesome Data Analysis?
 
 - Covers **end-to-end data workflow**: from Python/SQL fundamentals to ML deployment
-- Focuses on **modern tools** used in industry.
+- Focuses on **modern tools** used in industry
 - Includes **hand-picked quality content** - no fluff
 - Organized with **emoji-categorized sections** for quick navigation
 - Will be **regularly updated**
 
-*Maintained with ❤️*
+Maintained with ❤️
 
 ---
 
 <a id="contents"></a>
-### 📑 Contents
+
+## 📑 Contents
+
 - [🏆 Awesome Data Science Repositories](#awesome-data-science-repositories)
 - [🗺️ Roadmaps](#roadmaps)
 - [🐍 Python](#python)
@@ -98,37 +99,51 @@ A curated collection of **the most practical resources** I've found valuable in 
 ---
 
 <a id="awesome-data-science-repositories"></a>
+
 ## 🏆 Awesome Data Science Repositories
+
 Curated collections of high-quality GitHub repos for inspiration and learning.
+
 - [Awesome Data Science](https://github.com/academic/awesome-datascience) - A comprehensive repository to learn and apply data science for real-world problems.
+- [Data Science for Beginners](https://github.com/microsoft/Data-Science-For-Beginners) - Microsoft's data science curriculum.  
+- [OSSU Data Science](https://github.com/ossu/data-science) - Open Source Society University's self-study path.  
 - [Useful Data Science Topics](https://github.com/khuyentran1401/Data-science) - A collection of articles, videos, and code related to data science.
 - [Curated Data Science Resources](https://github.com/tirthajyoti/Data-science-best-resources) - Carefully curated links for data science resources in one place.
-- [Data Science Using Python](https://github.com/WillKoehrsen/Data-Analysis) - Resources and tutorials for data analysis using Python.
-  
+- [Data Science Using Python](https://github.com/WillKoehrsen/Data-Analysis) - Resources for data analysis using Python.
+
 [⬆ back to top](#contents)
 
 ---
 
 <a id="roadmaps"></a>
+
 ## 🗺️ Roadmaps
+
 Step-by-step guides and skill trees to master data science and analytics.
-- [Data Science Roadmap Tutorials](https://github.com/MrMimic/data-scientist-roadmap) - Tutorials accompanying the "data science roadmap" picture.
-- [Data Science Roadmap from A to Z](https://github.com/Moataz-Elmesmary/Data-Science-Roadmap) - A comprehensive roadmap for data science.
-- [Roadmap for Data Science](https://github.com/ayush714/data-science-roadmap) - A structured roadmap for aspiring data scientists.
-- [Data Analyst RoadMap](https://github.com/krishnaik06/Data-Analyst-Roadmap) - A comprehensive roadmap for aspiring data analysts.
-- [66DaysOfData](https://github.com/mrankitgupta/Data-Analyst-Roadmap) - Sharing a journey of 66 days into data analytics by participating in Ken Jee's #66daysofdata challenge.
-- [Data Analyst Roadmap from Zero](https://github.com/mtahiraslan/data-analyst-roadmap) - A roadmap answering how to become a data analyst from scratch, including technologies and soft skills needed.
-- [Data-Analyst-Roadmap for Professionals](https://github.com/hemansnation/Data-Analyst-Roadmap) - A roadmap containing 8 chapters that can be completed in 8 weeks for both beginners and experienced professionals.
+
+- [Data Analyst Roadmap](https://roadmap.sh/data-analyst) - Structured learning path for analysts.
+- [Data Science Roadmap Tutorials](https://github.com/MrMimic/data-scientist-roadmap) - Tutorials for the data science roadmap.
+- [Data Science Roadmap from A to Z](https://github.com/Moataz-Elmesmary/Data-Science-Roadmap) - Comprehensive roadmap for data science.
+- [Roadmap for Data Science](https://github.com/ayush714/data-science-roadmap) - Structured roadmap for aspiring data scientists.
+- [Data Analyst RoadMap](https://github.com/krishnaik06/Data-Analyst-Roadmap) - Comprehensive roadmap for aspiring data analysts.
+- [66DaysOfData](https://github.com/mrankitgupta/Data-Analyst-Roadmap) - 66-day data analytics learning challenge.
+- [Data Analyst Roadmap from Zero](https://github.com/mtahiraslan/data-analyst-roadmap) - Guide to becoming a data analyst from scratch.
+- [Data-Analyst-Roadmap for Professionals](https://github.com/hemansnation/Data-Analyst-Roadmap) - 8-week program for analysts at all levels.
 
 [⬆ back to top](#contents)
 
 ---
 
 <a id="python"></a>
+
 ## 🐍 Python
+
 <a id="python-resources"></a>
+
 ### Resources
+
 A collection of resources for learning and mastering Python programming.
+
 - [awesome-python](https://github.com/vinta/awesome-python) - An opinionated list of awesome Python frameworks, libraries, software, and resources.
 - [30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) - A 30-day programming challenge to learn the Python programming language.
 - [Real Python Tutorials](https://realpython.com/) - Tutorials on Python from Real Python.
@@ -136,24 +151,26 @@ A collection of resources for learning and mastering Python programming.
 - [DataSciencePython](https://github.com/ujjwalkarn/DataSciencePython) - Common data analysis and machine learning tasks using Python.
 - [PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) - Full text of the "Python Data Science Handbook" in Jupyter Notebooks.
 - [Python-for-Algorithms--Data-Structures--and-Interviews](https://github.com/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews) - Files for Udemy course on algorithms and data structures.
-- [Tanu-N-Prabhu/Python](https://github.com/Tanu-N-Prabhu/Python/tree/master) -  This repository helps you understand python from the scratch. 
+- [Tanu-N-Prabhu/Python](https://github.com/Tanu-N-Prabhu/Python/tree/master) - This repository helps you understand Python from scratch.
 - [interactive-coding-challenges](https://github.com/donnemartin/interactive-coding-challenges) - 120+ interactive Python coding interview challenges.
 - [clean-code-python](https://github.com/zedr/clean-code-python) - Clean Code concepts adapted for Python.
 - [best-of-python](https://github.com/ml-tooling/best-of-python) - A ranked list of awesome Python open-source libraries and tools.
 - [awesome-python-applications](https://github.com/mahmoud/awesome-python-applications) - Free software that works great, and also happens to be open-source Python.
 - [list-of-python-api-wrappers](https://github.com/realpython/list-of-python-api-wrappers) - List of Python API wrappers and libraries.
-- [Awesome Time Series in Python](https://github.com/MaxBenChrist/awesome_time_series_in_python) - This curated list contains python packages for time series analysis 
-
+- [Awesome Time Series in Python](https://github.com/MaxBenChrist/awesome_time_series_in_python) - Curated list of Python packages for time series analysis.
 
 [⬆ back to top](#contents)
 
 ---
 
 <a id="python-data-manipulation-with-pandas"></a>
+
 ### Data Manipulation with Pandas
+
 Tutorials and best practices for working with pandas DataFrames.
+
 - [A collection of resources for pandas](https://github.com/tommyod/awesome-pandas) - A curated list of resources for using the Pandas library.
-- [100 data puzzles for pandas, ranging from short and simple to super tricky (60% complete)](https://github.com/ajcr/100-pandas-puzzles) - A collection of data puzzles to practice your Pandas skills.
+- [100 data puzzles for pandas, ranging from short and simple to super tricky](https://github.com/ajcr/100-pandas-puzzles) - A collection of data puzzles to practice your Pandas skills.
 - [Pandas Tutor](https://pandastutor.com/) - Visualize Pandas operations step-by-step (perfect for beginners).
 - [Practice your pandas skills!](https://github.com/guipsamora/pandas_exercises) - Exercises designed to help you improve your Pandas skills.
 - [Recipes for using Python's pandas library](https://github.com/jvns/pandas-cookbook) - A cookbook with various recipes for using Pandas effectively.
@@ -166,10 +183,14 @@ Tutorials and best practices for working with pandas DataFrames.
 ---
 
 <a id="python-useful-python-tools-for-data-analysis"></a>
+
 ### Useful Python Tools for Data Analysis
+
 A collection of Python libraries for efficient data manipulation, cleaning, visualization, validation, and analysis.
 <a id="python-data-manipulation-cleaning"></a>
+
 #### Data Manipulation & Cleaning
+
 - [Pandas-dq](https://github.com/AutoViML/pandas_dq) - Data type correction and automatic DataFrame cleaning.
 - [Vaex](https://github.com/vaexio/vaex) - High-performance Python library for lazy Out-of-Core DataFrames.
 - [DataCleaner](https://github.com/rhiever/datacleaner) - Python tool for automatically cleaning and preparing datasets.
@@ -184,13 +205,15 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 - [fitter](https://pythonhosted.org/fitter/) - Figures out the distribution your data comes from.
 - [Arrow](https://github.com/arrow-py/arrow) - Enhanced work with dates and times.
 - [Pendulum](https://github.com/sdispater/pendulum) - Alternative to datetime with timezone support.
-    
+
 [⬆ back to top](#contents)
 
 ---
 
 <a id="python-automated-data-visualization-tools"></a>
+
 #### Automated Data Visualization Tools
+
 - [AutoViz](https://github.com/AutoViML/AutoViz) - Automatic data visualization in 1 line of code.
 - [Vizro](https://github.com/mckinsey/vizro) - Low-code toolkit for building high-quality data visualization apps.
 - [Great Tables](https://github.com/posit-dev/great-tables) - Create awesome display tables using Python.
@@ -198,14 +221,16 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 - [Datashader](https://github.com/holoviz/datashader) - Quickly and accurately render even the largest data.
 - [Sweetviz](https://github.com/fbdesignpro/sweetviz) - Automatic EDA with dataset comparison.
 - [Lux](https://github.com/lux-org/lux) - Automatic DataFrame visualization in Jupyter with a click.
-- [Yellowbrick](https://github.com/DistrictDataLabs/yellowbrick) - A suite of visual diagnostic tools for machine learning, extending the Scikit-Learn API.  
+- [Yellowbrick](https://github.com/DistrictDataLabs/yellowbrick) - A suite of visual diagnostic tools for machine learning, extending the Scikit-Learn API.
 
 [⬆ back to top](#contents)
 
 ---
 
 <a id="python-data-quality-profiling"></a>
+
 #### Data Quality & Profiling
+
 - [Pandas-profiling](https://github.com/pandas-profiling/pandas-profiling) - Automatic DataFrame visualization and profiling.
 - [PyOD](https://github.com/yzhao062/pyod) - Python library for outlier and anomaly detection.
 - [YData Profiling](https://github.com/ydataai/ydata-profiling) - 1 line of code data quality profiling & exploratory data analysis.
@@ -218,20 +243,24 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 ---
 
 <a id="python-feature-engineering-selection"></a>
+
 #### Feature Engineering & Selection
+
 - [FeatureTools](https://github.com/alteryx/featuretools) - Open-source automated feature engineering.
 - [Feature Selector](https://github.com/WillKoehrsen/feature-selector) - Tool for dimensionality reduction of machine learning datasets.
-- [TSFresh](https://github.com/blue-yonder/tsfresh) - A Python library for automatically extracting features from time series data.  
-- [Feature Engine](https://github.com/feature-engine/feature_engine) - A feature engineering library with Scikit-Learn compatibility.  
-- [Prince](https://github.com/MaxHalford/prince) - A Python library for multivariate exploratory data analysis, including PCA, CA, MCA, and more.  
-- [Factor Analyzer](https://github.com/EducationalTestingService/factor_analyzer) - A Python package for factor analysis, including exploratory and confirmatory methods.  
-  
+- [TSFresh](https://github.com/blue-yonder/tsfresh) - A Python library for automatically extracting features from time series data.
+- [Feature Engine](https://github.com/feature-engine/feature_engine) - A feature engineering library with Scikit-Learn compatibility.
+- [Prince](https://github.com/MaxHalford/prince) - A Python library for multivariate exploratory data analysis, including PCA, CA, MCA, and more.
+- [Factor Analyzer](https://github.com/EducationalTestingService/factor_analyzer) - A Python package for factor analysis, including exploratory and confirmatory methods.
+
 [⬆ back to top](#contents)
 
 ---
 
 <a id="python-testing-validation"></a>
+
 #### Testing & Validation
+
 - [pytest](https://github.com/pytest-dev/pytest) - Framework for writing small tests.
 - [Cerberus](https://github.com/pyeve/cerberus) - Data validation through schemas.
 - [Pandera](https://github.com/unionai-oss/pandera) - Data validation through declarative schemas.
@@ -242,7 +271,9 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 ---
 
 <a id="python-etl-data-pipelines"></a>
+
 #### ETL & Data Pipelines
+
 - [Prefect](https://github.com/PrefectHQ/prefect) - Workflow orchestration for building resilient data pipelines.
 - [Airflow](https://github.com/apache/airflow) - Platform for automating data workflows.
 - [Apache Arrow](https://github.com/apache/arrow) - Universal columnar format and multi-language toolbox for fast data interchange.
@@ -254,7 +285,9 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 ---
 
 <a id="python-interactive-tools-guis"></a>
+
 #### Interactive Tools & GUIs
+
 - [D-Tale](https://github.com/man-group/dtale) - Interactive GUI for data analysis in a browser.
 - [Pandasgui](https://github.com/adamerose/pandasgui) - GUI for viewing and filtering DataFrames.
 - [QGrid](https://github.com/quantopian/qgrid) - Interactive grid for sorting, filtering, and editing DataFrames in Jupyter.
@@ -267,7 +300,9 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 ---
 
 <a id="python-data-generation-simulation"></a>
+
 #### Data Generation & Simulation
+
 - [Faker](https://github.com/joke2k/faker) - Generates fake data for testing.
 - [Mimesis](https://github.com/lk-geimfari/mimesis) - Generates realistic test data.
 
@@ -276,7 +311,9 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 ---
 
 <a id="python-formatting-logging"></a>
+
 #### Formatting & Logging
+
 - [Rich](https://github.com/Textualize/rich) - Rich text and beautiful formatting in the terminal.
 - [Pandas-log](https://github.com/eyaltrabelsi/pandas-log) - Logs pandas operations for data transformation tracking.
 - [Icecream](https://github.com/gruns/icecream) - Debugging without using print.
@@ -286,7 +323,9 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 ---
 
 <a id="python-module-dependency-code-management"></a>
+
 #### Module Dependency & Code Management
+
 - [pydeps](https://github.com/thebjorn/pydeps) - Python module dependency graphs.
 - [PyForest](https://github.com/8080labs/pyforest) - Automated Python imports for data science.
 
@@ -295,17 +334,21 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 ---
 
 <a id="python-parallel-computing-for-dataframes"></a>
+
 #### Parallel Computing for DataFrames
+
 - [Pandarallel](https://github.com/nalepae/pandarallel) - Parallel operations for pandas DataFrames.
 - [Dask](https://github.com/dask/dask) - Parallel computing for arrays and DataFrames.
 - [Modin](https://github.com/modin-project/modin) - Speeds up Pandas by distributing computations.
-  
+
 [⬆ back to top](#contents)
 
 ---
 
 <a id="python-documentation"></a>
+
 #### Documentation
+
 - [sphinx](https://github.com/sphinx-doc/sphinx) - The Sphinx documentation generator.
 - [pdoc](https://github.com/mitmproxy/pdoc) - API documentation for Python projects.
 - [mkdocs](https://github.com/mkdocs/mkdocs) - Project documentation with Markdown.
@@ -315,7 +358,9 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 ---
 
 <a id="python-file-formats-documents"></a>
+
 #### File Formats & Documents
+
 - [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/) - Read/write Excel files with support for advanced features.
 - [Tablib](https://github.com/jazzband/tablib) - Exports data to XLSX, JSON, CSV via a single API.
 - [PyPDF2](https://github.com/py-pdf/PyPDF2) - Reads and writes PDF files.
@@ -324,14 +369,16 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 - [xlwings](https://github.com/xlwings/xlwings) - Integration of Python with Excel.
 - [xmltodict](https://github.com/martinblech/xmltodict) - Converts XML to Python dictionaries.
 - [python-markdownify](https://github.com/matthewwithanm/python-markdownify) - Convert HTML to Markdown.
-- [MarkItDown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown. 
-  
+- [MarkItDown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown.
+
 [⬆ back to top](#contents)
 
 ---
 
 <a id="python-additional"></a>
+
 #### Additional
+
 - [Pillow](https://pillow.readthedocs.io/en/stable/) - Image processing library.
 - [Ftfy](https://github.com/rspeer/python-ftfy) - Fixes broken Unicode strings.
 - [Records](https://github.com/kennethreitz-archive/records) - SQL queries to databases via Python syntax.
@@ -343,18 +390,23 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 - [diagrams](https://github.com/mingrammer/diagrams) - Diagrams as code for cloud system architecture prototyping.
 - [scattertext](https://github.com/JasonKessler/scattertext) - Beautiful visualizations of language differences among document types.
 - [pygorithm](https://github.com/OmkarPathak/pygorithm) - A Python module for learning all major algorithms.
-- [iGraph](https://github.com/igraph/igraph) - A library for creating and manipulating graphs and networks, with bindings for multiple languages.  
-- [Joblib](https://github.com/joblib/joblib) - A lightweight pipelining library for Python, particularly useful for saving and loading large NumPy arrays.  
-  
+- [iGraph](https://github.com/igraph/igraph) - A library for creating and manipulating graphs and networks, with bindings for multiple languages.
+- [Joblib](https://github.com/joblib/joblib) - A lightweight pipelining library for Python, particularly useful for saving and loading large NumPy arrays.
+
 [⬆ back to top](#contents)
 
 ---
 
 <a id="sql-databases"></a>
+
 ## 🗃️ SQL & Databases
+
 <a id="sql-databases-resources"></a>
+
 ### Resources
+
 SQL tutorials and database design principles.
+
 - [GeeksforGeeks - SQL Tutorial.](https://www.geeksforgeeks.org/sql-tutorial/) - Detailed SQL tutorial.
 - [SQLZoo - SQL Tutorial.](https://sqlzoo.net/wiki/SQL_Tutorial) - Interactive SQL tutorial.
 - [SQL Bolt - Learn SQL.](https://sqlbolt.com/) - Learn SQL through interactive lessons.
@@ -370,8 +422,11 @@ SQL tutorials and database design principles.
 ---
 
 <a id="sql-databases-tools"></a>
+
 ### Tools
-A collection of Python libraries and drivers for seamless database access and interaction
+
+A collection of Python libraries and drivers for seamless database access and interaction.
+
 - [PyODBC - Access databases via ODBC.](https://github.com/mkleehammer/pyodbc) - Python library for ODBC database access.
 - [SQLAlchemy - ORM and SQL Toolkit for Python.](https://github.com/sqlalchemy/sqlalchemy) - SQL toolkit and ORM for Python.
 - [Psycopg2 - PostgreSQL adapter for Python.](https://github.com/psycopg/psycopg2) - PostgreSQL database adapter.
@@ -384,14 +439,19 @@ A collection of Python libraries and drivers for seamless database access and in
 ---
 
 <a id="data-visualization"></a>
+
 ## 📊 Data Visualization
+
 <a id="data-visualization-resources"></a>
+
 ### Resources
+
 Color theory, chart selection guides, and storytelling tips.
+
 - [A data visualization curriculum of interactive notebooks.](https://github.com/uwdata/visualization-curriculum) - Interactive notebooks designed to teach data visualization concepts.
 - [The Python Graph Gallery](https://python-graph-gallery.com/) - A collection of Python graph examples for data visualization.
 - [FlowingData explores how we use analysis and visualization to understand data and ourselves.](https://flowingdata.com/) - Insights on data analysis and visualization.
-- [The Data Visualisation Catalogue](https://datavizcatalogue.com/index.html) - A comprehensive catalog of data visualization types.
+- [The Data Visualization Catalogue](https://datavizcatalogue.com/index.html) - A comprehensive catalog of data visualization types.
 - [From Data to Viz](https://github.com/holtzy/data_to_viz) - A guide to choosing the right visualization based on your data.
 - [A large (+2500) collection of color maps for Python](https://github.com/JosephBARBIERDARNAL/pypalettes) - Extensive collection of color palettes for data visualization.
 - [Data Viz Project is a collection of data visualizations created to inspire and assist users in selecting the appropriate type of visualization for their data.](https://datavizproject.com/) - A resource for selecting suitable visualizations.
@@ -404,8 +464,11 @@ Color theory, chart selection guides, and storytelling tips.
 ---
 
 <a id="data-visualization-tools"></a>
+
 ### Tools
+
 Libraries for static, interactive, and 3D visualizations.
+
 - [Matplotlib](https://matplotlib.org/stable/contents.html) - A comprehensive library for creating static, animated, and interactive visualizations in Python.
 - [Seaborn](https://seaborn.pydata.org/) - A statistical data visualization library based on Matplotlib.
 - [Plotly](https://plotly.com/python/) - A library for creating interactive plots and dashboards.
@@ -423,19 +486,24 @@ Libraries for static, interactive, and 3D visualizations.
 ---
 
 <a id="dashboards"></a>
+
 ## 📈 Dashboards
+
 <a id="dashboards-resources"></a>
+
 ### Resources
+
 Ttutorials for building and enhancing dashboards and visualizations using various tools and frameworks.
+
 - [A curated list of amazingly awesome dashboards/visualization resources.](https://github.com/obazoud/awesome-dashboard) - A collection of outstanding dashboard and visualization resources.
 - [The dash-extensions package is a collection of utility functions, syntax extensions, and Dash components that aim to improve the Dash development experience.](https://github.com/emilhe/dash-extensions) - Enhancements for Dash development.
 - [A ranked gallery of awesome streamlit apps built by the community.](https://github.com/jrieke/best-of-streamlit) - Showcase of community-built Streamlit applications.
 - [A curated list of awesome Dash (plotly) resources.](https://github.com/ucg8j/awesome-dash) - Comprehensive resources for Dash users.
 - [Awesome Panel supports Panel and its users.](https://github.com/awesome-panel/awesome-panel) - Resources and support for Panel users.
 - [DashTools - Plotly Dash Command Line Tools - Create, Run and Deploy Templated Python Apps from Terminal.](https://github.com/andrew-hossack/dash-tools) - Command line tools for Dash applications.
-- [Data Visualisation with Plotly Cookbook.](https://github.com/quantgirluk/Plotly-Dash-Cookbook) - Cookbook for data visualization using Plotly.
+- [Data Visualization with Plotly Cookbook.](https://github.com/quantgirluk/Plotly-Dash-Cookbook) - Cookbook for data visualization using Plotly.
 - [Plotly Dash Tutorial.](https://github.com/austinlasseter/plotly_dash_tutorial) - Tutorial for learning Plotly Dash.
-- [Dash Enterprise Samples](https://github.com/plotly/dash-sample-apps) - Production-ready Dash apps.  
+- [Dash Enterprise Samples](https://github.com/plotly/dash-sample-apps) - Production-ready Dash apps.
 - [geeksforgeeks - Tableau Tutorial.](https://www.geeksforgeeks.org/tableau-tutorial/) - Comprehensive tutorial on Tableau.
 - [geeksforgeeks - Power BI Tutorial.](https://www.geeksforgeeks.org/power-bi-tutorial/) - Detailed tutorial on Power BI.
 
@@ -444,8 +512,11 @@ Ttutorials for building and enhancing dashboards and visualizations using variou
 ---
 
 <a id="dashboards-tools"></a>
+
 ### Tools
+
 Frameworks for building custom dashboard solutions.
+
 - [Dash - Framework for building analytical web apps with interactive plots.](https://github.com/plotly/dash) - Framework for creating interactive web applications.
 - [Streamlit — A faster way to build and share data apps.](https://github.com/streamlit/streamlit) - Simplified framework for building data applications.
 - [Panel - The Powerful Data Exploration & Web App Framework for Python.](https://panel.holoviz.org/) - Framework for creating interactive web applications.
@@ -456,8 +527,11 @@ Frameworks for building custom dashboard solutions.
 ---
 
 <a id="dashboards-software"></a>
+
 ### Software
+
 A list of leading tools and platforms for data visualization and dashboard creation.
+
 - [Tableau](https://www.tableau.com) - Leading data visualization software.
 - [Microsoft Power BI](https://powerbi.microsoft.com) - Business analytics tool for visualizing data.
 - [QlikView - Business intelligence tool that offers data visualization and dashboard capabilities.](https://www.qlik.com/us/products/qlikview) - Tool for data visualization and business intelligence.
@@ -476,10 +550,15 @@ A list of leading tools and platforms for data visualization and dashboard creat
 ---
 
 <a id="web-scraping-crawling"></a>
+
 ## 🕸️ Web Scraping & Crawling
+
 <a id="web-scraping-crawling-resources"></a>
+
 ### Resources
-A collection of valuable resources, tutorials, and libraries for web scraping with Python
+
+A collection of valuable resources, tutorials, and libraries for web scraping with Python.
+
 - [best-of-web-python](https://github.com/ml-tooling/best-of-web-python) - A ranked list of awesome Python libraries for web development.
 - [python-scraping](https://github.com/REMitchell/python-scraping) - Code samples from the book "Web Scraping with Python".
 - [awesome-web-scraping](https://github.com/lorien/awesome-web-scraping) - List of libraries, tools, and APIs for web scraping and data processing.
@@ -488,14 +567,17 @@ A collection of valuable resources, tutorials, and libraries for web scraping wi
 - [trump-lies](https://github.com/justmarkham/trump-lies) - Tutorial for web scraping in Python with Beautiful Soup.
 - [scraping-tutorial](https://github.com/Blatzar/scraping-tutorial) - Tutorial for scraping streaming sites.
 - [Scraper-Projects](https://github.com/amrrs/Scraper-Projects/tree/master) - List of mini projects that involve web scraping.
-  
+
 [⬆ back to top](#contents)
 
 ---
 
 <a id="web-scraping-crawling-tools"></a>
+
 ### Tools
+
 A list of Python libraries and tools for web scraping.
+
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - A library for parsing HTML and XML documents.
 - [Selenium](https://selenium-python.readthedocs.io/) - A tool for automating web applications for testing purposes.
 - [Scrapy](https://scrapy.org/) - An open-source and collaborative web crawling framework for Python.
@@ -515,10 +597,15 @@ A list of Python libraries and tools for web scraping.
 ---
 
 <a id="natural-language-processing-nlp"></a>
+
 ## 📖 Natural Language Processing (NLP)
+
 <a id="natural-language-processing-nlp-resources"></a>
+
 ### Resources
+
 A selection of resources for learning and applying natural language processing in Python.
+
 - [NLP in Python with Deep Learning](https://github.com/NirantK/NLP_Quickbook) - A resource for learning NLP with deep learning.
 - [awesome-nlp](https://github.com/keon/awesome-nlp) - A ranked list of awesome Python libraries for natural language processing (NLP).
 - [hands-on-nltk-tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - The hands-on NLTK tutorial for NLP in Python.
@@ -529,8 +616,11 @@ A selection of resources for learning and applying natural language processing i
 ---
 
 <a id="natural-language-processing-nlp-tools"></a>
+
 ### Tools
-A collection of powerful libraries and frameworks for natural language processing in Python
+
+A collection of powerful libraries and frameworks for natural language processing in Python.
+
 - [Natural Language Toolkit (NLTK)](https://www.nltk.org/) - A leading platform for building Python programs to work with human language data.
 - [TextBlob](https://textblob.readthedocs.io/en/dev/) - A simple library for processing textual data.
 - [SpaCy](https://spacy.io/) - An open-source software library for advanced NLP in Python.
@@ -544,15 +634,19 @@ A collection of powerful libraries and frameworks for natural language processin
 ---
 
 <a id="mathematics-statistics-probability"></a>
+
 ## 🔢 Mathematics, Statistics & Probability
+
 <a id="mathematics-statistics-probability-mathematics"></a>
+
 ### Mathematics
-A collection of resources for learning and applying mathematics and statistics, particularly in the context of data science and machine learning. 
+
+A collection of resources for learning and applying mathematics and statistics, particularly in the context of data science and machine learning.
+
 - [General statistics, mathematical programming, and numerical/scientific computing scripts and notebooks in Python.](https://github.com/tirthajyoti/Stats-Maths-with-Python) - Collection of Python scripts and notebooks for statistics and mathematics.
 - [Introduction to Statistics and Basics of Mathematics for Data Science - The Hacker's Way.](https://github.com/amitkaps/hackermath) - Resource for learning statistics and mathematics for data science.
 - [Mathematics for Machine Learning (Book + Jupyter Notebooks).](https://github.com/mml-book/mml-book.github.io) - Comprehensive resource for mathematics in machine learning.
 - [Calculus and Optimization for Machine Learning.](https://github.com/jonkrohn/ML-foundations) - Focus on calculus and optimization techniques for ML.
-- [Probabilistic Programming and Bayesian Methods (Python).](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) - Resource for learning Bayesian methods in Python.
 - [Khan Academy - Math for Data Science.](https://www.khanacademy.org/math) - Free online courses covering various math topics.
 - [Towards Data Science - Math Section.](https://towardsdatascience.com/tagged/mathematics) - Articles and resources on mathematics for data science.
 - [Fast.ai - Computational Linear Algebra.](https://github.com/fastai/numerical-linear-algebra) - Resource for learning linear algebra computationally.
@@ -566,8 +660,11 @@ A collection of resources for learning and applying mathematics and statistics, 
 ---
 
 <a id="mathematics-statistics-probability-statistics-probability"></a>
+
 ### Statistics & Probability
-A selection of resources focused on statistics and probability, including tutorials, interactive tools, and comprehensive guides
+
+A selection of resources focused on statistics and probability, including tutorials, interactive tools, and comprehensive guides.
+
 - [geeksforgeeks - Probability in Maths.](https://www.geeksforgeeks.org/probability-in-maths/) - Overview of probability concepts in mathematics.
 - [geeksforgeeks - Statistics in Maths.](https://www.geeksforgeeks.org/statistics/) - Introduction to statistical concepts in mathematics.
 - [Statistical Data Analysis in Python.](https://github.com/fonnesbeck/statistical-analysis-python-tutorial) - Tutorial for statistical analysis using Python.
@@ -582,26 +679,32 @@ A selection of resources focused on statistics and probability, including tutori
 - [StatLect - Digital textbook on probability and statistics.](https://www.statlect.com/) - Comprehensive online textbook covering probability and statistics concepts.
 - [Python modules and IPython Notebooks, for the book "Introduction to Statistics With Python."](https://github.com/thomas-haslwanter/statsintro_python) - Code and notebooks accompanying the book on statistics with Python.
 - [stanford.edu - Probabilities and Statistics.](https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics) - Refresher course on probabilities and statistics from Stanford University.
-- [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) - An introduction to Bayesian methods + probabilistic programming with a computation/understanding-first, mathematics-second point of view.
+- [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) - Resource for learning Bayesian methods in Python.
 
 [⬆ back to top](#contents)
 
 ---
 
 <a id="ab-testing"></a>
+
 ## 🧪 A/B Testing
+
 A collection of resources focused on A/B testing.
+
 - [Useful articles on the topics of AB testing and statistics.](https://github.com/zhitkovk/awesome_ab_testing) - A collection of articles focused on AB testing and statistical methods.
 - [dynamicyield - A/B Testing & Optimization Course.](https://www.dynamicyield.com/course/testing-and-optimization/) - An online course covering A/B testing and optimization techniques.
 - [Evan's Awesome A/B Tools](https://www.evanmiller.org/ab-testing/) - A/B test calculators.
-  
+
 [⬆ back to top](#contents)
 
 ---
 
 <a id="machine-learning"></a>
+
 ## 🤖 Machine Learning
+
 A collection of resources to help you learn and apply machine learning concepts and techniques.
+
 - [100 Days of ML Coding](https://github.com/Avik-Jain/100-Days-Of-ML-Code) - A comprehensive coding challenge to learn machine learning over 100 days.
 - [Microsoft - ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - A beginner-friendly introduction to machine learning concepts and practices.
 - [Learn how to design, develop, deploy and iterate on production-grade ML applications.](https://github.com/GokuMohandas/Made-With-ML) - Resource for building and deploying machine learning applications.
@@ -614,10 +717,15 @@ A collection of resources to help you learn and apply machine learning concepts 
 ---
 
 <a id="productivity-development-tools"></a>
+
 ## 🧠 Productivity & Development Tools
+
 <a id="productivity-development-tools-resources"></a>
+
 ### Resources
+
 A collection of resources and tools to enhance productivity and streamline development processes.
+
 - [Awesome Jupyter](https://github.com/markusschanta/awesome-jupyter) - Curated list of Jupyter projects, libraries, and resources.
 - [Best of Jupyter](https://github.com/ml-tooling/best-of-jupyter) - Ranked list of notable Jupyter Notebook, Hub, and Lab projects.
 - [awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - A curated list of awesome AutoHotkey libraries, scripts, and resources.
@@ -630,25 +738,28 @@ A collection of resources and tools to enhance productivity and streamline devel
 - [Trello](https://trello.com/home) - A visual project management tool.
 - [Asana](https://asana.com/) - A project management platform for tracking work and projects.
 - [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) - A repository for ChatGPT prompt curation.
-- [Markdown Here](https://github.com/adam-p/markdown-here) - Extension for writing emails in Markdown and rendering them before sending.- 
+- [Markdown Here](https://github.com/adam-p/markdown-here) - Extension for writing emails in Markdown and rendering them before sending.
 - [Cookiecutter Data Science](https://github.com/drivendataorg/cookiecutter-data-science) - A standardized project structure for data science projects.
 - [Sketch](https://www.sketch.com/) - Toolkit designed for designers, focusing on their workflow.
 - [The Markdown Guide](https://www.markdownguide.org/) - Comprehensive guide to learning Markdown.
-- [Kittle](https://www.kittl.com/) - Platform for creating and editing charts and data visualizations.
+- [Kittl](https://www.kittl.com/) - Platform for creating and editing charts and data visualizations.
 
 [⬆ back to top](#contents)
 
 ---
 
 <a id="productivity-development-tools-useful-linux-tools"></a>
+
 ### Useful Linux Tools
+
 A selection of tools to enhance productivity and functionality in Linux environments.
+
 - [peek](https://github.com/phw/peek) - Simple animated GIF screen recorder with an easy to use interface.
 - [CopyQ](https://github.com/hluk/CopyQ) - Clipboard manager with advanced features.
 - [translate-shell](https://github.com/soimort/translate-shell) - Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
 - [espanso](https://github.com/espanso/espanso) - Cross-platform Text Expander written in Rust.
 - [flameshot](https://github.com/flameshot-org/flameshot) - Powerful yet simple to use screenshot software.
-- [Inkscape](https://github.com/inkscape/inkscape) - A powerful, free, and open-source vector graphics editor for creating and editing visualizations. 
+- [Inkscape](https://github.com/inkscape/inkscape) - A powerful, free, and open-source vector graphics editor for creating and editing visualizations.
 - [rclone](https://rclone.org/) - A command-line program to manage files on cloud storage.
 - [rsync](https://rsync.samba.org/) - A fast and versatile file copying tool that can synchronize files and directories between two locations over a network or locally.
 - [timeshift](https://github.com/linuxmint/timeshift) - System restore tool for Linux that creates filesystem snapshots using rsync+hardlinks or BTRFS snapshots.
@@ -665,8 +776,11 @@ A selection of tools to enhance productivity and functionality in Linux environm
 ---
 
 <a id="productivity-development-tools-useful-vs-code-extensions"></a>
+
 ### Useful VS Code Extensions
+
 A collection of extensions to enhance functionality and productivity in Visual Studio Code.
+
 - [JDBC Adapter For Database Client.](https://marketplace.visualstudio.com/items/?itemName=cweijan.dbclient-jdbc) - Connect to various databases using JDBC.
 - [DBCode - Connect to PostgreSQL, MySQL, SQL Server, SQLite, Mongo, Oracle, DuckDB and other major databases.](https://marketplace.visualstudio.com/items?itemName=DBCode.dbcode) - Database client for managing and querying databases.
 - [Markdown All in One.](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - Essential tools for Markdown editing.
@@ -711,10 +825,15 @@ A collection of extensions to enhance functionality and productivity in Visual S
 ---
 
 <a id="skill-development-career-resources"></a>
+
 ## 📚 Skill Development & Career Resources
+
 <a id="skill-development-career-resources-practice-resources"></a>
+
 ### Practice Resources
+
 A collection of resources to enhance skills and advance your career in data analysis and related fields.
+
 - [Kaggle Competitions](https://www.kaggle.com/competitions) - Platform for participating in data analysis and machine learning competitions.
 - [Improving How We Visualize and Analyze Data](https://makeovermonday.co.uk/) - A platform focused on enhancing data visualization practices.
 - [A weekly challenge to re-create data-driven visualizations.](https://workout-wednesday.com/) - Engage in weekly challenges to improve your visualization skills.
@@ -729,8 +848,11 @@ A collection of resources to enhance skills and advance your career in data anal
 ---
 
 <a id="skill-development-career-resources-curated-jupyter-notebooks"></a>
+
 ### Curated Jupyter Notebooks
+
 A selection of curated Jupyter notebooks to support learning and exploration in data science and analysis.
+
 - [awesome-notebooks](https://github.com/jupyter-naas/awesome-notebooks) - Data & AI notebook templates catalog organized by tools.
 - [data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) - Data science Python notebooks covering various topics.
 - [pydata-book](https://github.com/wesm/pydata-book) - Materials and IPython notebooks for "Python for Data Analysis" by Wes McKinney.
@@ -738,15 +860,18 @@ A selection of curated Jupyter notebooks to support learning and exploration in 
 - [DataMiningNotebooks](https://github.com/eclarson/DataMiningNotebooks) - Example notebooks for data mining accompanying the course at Southern Methodist University.
 - [pythondataanalysis](https://github.com/hnawaz007/pythondataanalysis) - Python data repository with Jupyter notebooks and scripts.
 - [python-for-data-analysis](https://github.com/cuttlefishh/python-for-data-analysis) - An introduction to data science using Python and Pandas with Jupyter notebooks.
-- [jdwittenauer ipython-notebooks](https://github.com/jdwittenauer/ipython-notebooks) - A collection of IPython notebooks covering various topics. 
+- [jdwittenauer ipython-notebooks](https://github.com/jdwittenauer/ipython-notebooks) - A collection of IPython notebooks covering various topics.
 
 [⬆ back to top](#contents)
 
 ---
 
 <a id="skill-development-career-resources-data-sources-datasets"></a>
+
 ### Data Sources & Datasets
+
 A collection of resources for accessing datasets and data sources for analysis and projects.
+
 - [Kaggle Datasets](https://www.kaggle.com/datasets) - Extensive collection of datasets for practice in data analysis.
 - [A Python library for downloading datasets from Kaggle, Google Drive, and other online sources.](https://github.com/JovianHQ/opendatasets) - Library for easy dataset downloads.
 - [An open source multi-tool for exploring and publishing data.](https://github.com/simonw/datasette) - Tool for data exploration and publishing.
@@ -761,8 +886,11 @@ A collection of resources for accessing datasets and data sources for analysis a
 ---
 
 <a id="skill-development-career-resources-resume-and-interview-tips"></a>
+
 ### Resume and Interview Tips
+
 A variety of resources to help you prepare for interviews and enhance your resume.
+
 - [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) - A curated awesome list of lists of interview questions.
 - [Data-Science-Interview-Questions-Answers](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers) - Curated list of data science interview questions and answers.
 - [Data-Science-Interview-Preperation-Resources](https://github.com/youssefHosni/Data-Science-Interview-Preperation-Resources) - Resource to help you prepare for your upcoming data science interviews.
@@ -782,10 +910,14 @@ A variety of resources to help you prepare for interviews and enhance your resum
 ---
 
 <a id="cheatsheets"></a>
+
 ## 📋 Cheatsheets
+
 A collection of cheatsheets across various domains to aid in quick reference and learning.
 <a id="cheatsheets-python"></a>
+
 ### Python
+
 - [Python Cheat Sheet](https://vivitoa.github.io/python-cheat-sheet/) - Comprehensive Python syntax and examples.
 - [Learn Python Playground and Cheatsheet](https://github.com/trekhleb/learn-python) - Interactive Python learning.
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/) - Quick reference for Python basics and advanced topics.
@@ -796,7 +928,9 @@ A collection of cheatsheets across various domains to aid in quick reference and
 ---
 
 <a id="cheatsheets-data-science-machine-learning"></a>
+
 ### Data Science & Machine Learning
+
 - [Data Science All Cheat Sheet](https://github.com/yash42828/Data-Science--All-Cheat-Sheet) - Covers ML, DL, and analytics.
 - [Data Science Cheatsheets](https://github.com/FavioVazquez/ds-cheatsheets) - Curated DS/ML concepts and workflows.
 - [Data Science Cheat Sheets (Math).](https://github.com/ml874/Data-Science-Cheatsheet) - Cheat sheets for quick reference in data science mathematics.
@@ -808,7 +942,9 @@ A collection of cheatsheets across various domains to aid in quick reference and
 ---
 
 <a id="cheatsheets-linux-command-line"></a>
+
 ### Linux & Command Line
+
 - [Comprehensive Linux Cheatsheet](https://github.com/gto76/linux-cheatsheet) - Linux commands and shortcuts.
 - [Bash Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh) - Bash scripting essentials.
 - [Unix Commands Reference](https://github.com/AdiBro/Data-Science-Resources/blob/master/Cheat-Sheets/CL-Git/Unix-Commands-Reference.pdf) - Unix terminal basics.
@@ -818,7 +954,9 @@ A collection of cheatsheets across various domains to aid in quick reference and
 ---
 
 <a id="cheatsheets-git-github"></a>
+
 ### Git & GitHub
+
 - [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) - Git/GitHub workflows and tips.
 - [Git Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/git.sh) - Git commands and best practices.
 - [Git and Git Flow Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet) - Branching strategies.
@@ -828,7 +966,9 @@ A collection of cheatsheets across various domains to aid in quick reference and
 ---
 
 <a id="cheatsheets-probability-statistics"></a>
+
 ### Probability & Statistics
+
 - [Stanford CME 106 Cheatsheets](https://github.com/shervinea/stanford-cme-106-probability-and-statistics) - Probability and statistics for engineers.
 - [10-Page Probability Cheatsheet](https://github.com/wzchen/probability_cheatsheet) - In-depth probability concepts.
 - [Statistics Cheatsheet](https://github.com/khanhnamle1994/cracking-the-data-science-interview/blob/master/Cheatsheets/stats_cheatsheet.pdf) - Key statistical methods.
@@ -838,7 +978,9 @@ A collection of cheatsheets across various domains to aid in quick reference and
 ---
 
 <a id="cheatsheets-docker"></a>
+
 ### Docker
+
 - [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) - Docker commands and workflows.
 - [Docker Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/docker.sh) - Containerization basics.
 
@@ -847,7 +989,9 @@ A collection of cheatsheets across various domains to aid in quick reference and
 ---
 
 <a id="cheatsheets-tools-workflow"></a>
+
 ### Tools & Workflow
+
 - [VSCode Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/vscode.md) - VS Code shortcuts.
 - [Markdown Cheatsheet](https://github.com/tchapi/markdown-cheatsheet) - Formatting for GitHub READMEs.
 - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet) - Emojis in Markdown.
@@ -857,15 +1001,19 @@ A collection of cheatsheets across various domains to aid in quick reference and
 ---
 
 <a id="cheatsheets-sql-databases"></a>
+
 ### SQL & Databases
+
 - [Quick SQL Cheatsheet.](https://github.com/enochtangg/quick-SQL-cheatsheet) - Handy SQL reference guide.
-  
+
 [⬆ back to top](#contents)
 
 ---
 
 <a id="cheatsheets-interview-preparation"></a>
+
 ### Interview Preparation
+
 - [21 Must-Have Cheat Sheets for Data Science Interviews](https://www.kdnuggets.com/2022/06/21-cheat-sheets-data-science-interviews.html) - Interview-focused guides.
 - [Solutions Architect Metrics Cheatsheet](https://github.com/csjcode/solutions-architect-metrics-cheatsheet) - System design metrics.
 
@@ -874,26 +1022,30 @@ A collection of cheatsheets across various domains to aid in quick reference and
 ---
 
 <a id="cheatsheets-miscellaneous"></a>
+
 ### Miscellaneous
+
 - [CheatSheet for CheatSheets](https://github.com/plusminuschirag/CheatSheet-for-CheatSheets) - Mega-repository of cheat sheets.
 - [Think Stats Cheatsheet](https://github.com/khanhnamle1994/cracking-the-data-science-interview/blob/master/Cheatsheets/Think-Stats.md) - Book companion.
 - [Dataquest - Power BI Cheat Sheet](https://www.dataquest.io/cheat-sheet/power-bi-cheat-sheet/) - A helpful resource for Power BI users.
-  
+
 [⬆ back to top](#contents)
 
 ---
 
 <a id="additional-resources"></a>
+
 ## 🌐 Additional Resources
+
 A wide range of resources designed to facilitate learning, development, and exploration across different domains.
-- [Growth.Design](https://growth.design/) - A collection of product case studies and behavioral psychology insights for data-driven decision-making. 
-- [Jupyter Book](https://github.com/executablebooks/jupyter-book) -  Create beautiful, publication-quality books and documents from computational content. 
+
+- [Growth.Design](https://growth.design/) - A collection of product case studies and behavioral psychology insights for data-driven decision-making.
+- [Jupyter Book](https://github.com/executablebooks/jupyter-book) -  Create beautiful, publication-quality books and documents from computational content.
 - [Awesome Quarto](https://github.com/mcanouil/awesome-quarto) - A curated list of Quarto resources, including talks, tools, examples, and articles. Contributions are welcome!
-- [A curated list of delightful VS Code packages and resources.](https://github.com/viatsko/awesome-vscode) - A comprehensive list of useful VS Code extensions and resources.
+- [A curated list of delightful VS Code packages and resources](https://github.com/viatsko/awesome-vscode) - A comprehensive list of useful VS Code extensions and resources.
 - [UC Berkeley - Data 8: Foundations of Data Science](https://github.com/data-8/textbook) - Course materials for the Data Science Foundations course.
 - [A collective list of free APIs](https://github.com/public-apis/public-apis) - A comprehensive list of free APIs for various purposes.
 - [Introduction to Big Data](https://github.com/haifengl/bigdata) - Resources and materials for understanding Big Data concepts.
-- [Markdown Here](https://github.com/adam-p/markdown-here) - Extension for writing emails in Markdown and rendering them before sending.
 - [A curated list of awesome READMEs](https://github.com/matiassingers/awesome-readme) - Collection of well-crafted README files for inspiration.
 - [Anomaly detection resources](https://github.com/yzhao062/anomaly-detection-resources) - Books, papers, videos, and toolboxes related to anomaly detection.
 - [Awesome Code Review](https://github.com/joho/awesome-code-review?tab=readme-ov-file#awesome-code-review-) - A collection of resources for code review practices.
@@ -904,9 +1056,10 @@ A wide range of resources designed to facilitate learning, development, and expl
 ---
 
 <a id="contributing"></a>
+
 ## 🤝 Contributing
 
-**I welcome your contributions!**
+**We welcome your contributions!**
 
 See [CONTRIBUTING.md](https://github.com/PavelGrigoryevDS/awesome-data-analysis/blob/main/CONTRIBUTING.md) for how to add resources.
 
@@ -915,10 +1068,11 @@ See [CONTRIBUTING.md](https://github.com/PavelGrigoryevDS/awesome-data-analysis/
 ---
 
 <a id="license"></a>
+
 ## 📜 License
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-This work is dedicated to the public domain under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.  
+This work is dedicated to the public domain under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.
 
 [⬆ back to top](#contents)
