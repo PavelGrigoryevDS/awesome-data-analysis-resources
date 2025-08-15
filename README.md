@@ -448,13 +448,12 @@ A collection of Python libraries and drivers for seamless database access and in
 
 Color theory, chart selection guides, and storytelling tips.
 
-- [A data visualization curriculum of interactive notebooks](https://github.com/uwdata/visualization-curriculum) - Interactive notebooks designed to teach data visualization concepts.
+- [Data Visualization Curriculum](https://github.com/uwdata/visualization-curriculum) - Interactive notebooks designed to teach data visualization concepts.
 - [The Python Graph Gallery](https://python-graph-gallery.com/) - A collection of Python graph examples for data visualization.
-- [FlowingData explores how we use analysis and visualization to understand data and ourselves](https://flowingdata.com/) - Insights on data analysis and visualization.
+- [FlowingData](https://flowingdata.com/) - Insights on data analysis and visualization.
 - [The Data Visualization Catalogue](https://datavizcatalogue.com/index.html) - A comprehensive catalog of data visualization types.
 - [From Data to Viz](https://github.com/holtzy/data_to_viz) - A guide to choosing the right visualization based on your data.
-- [A large (+2500) collection of color maps for Python](https://github.com/JosephBARBIERDARNAL/pypalettes) - Extensive collection of color palettes for data visualization.
-- [Data Viz Project is a collection of data visualizations created to inspire and assist users in selecting the appropriate type of visualization for their data](https://datavizproject.com/) - A resource for selecting suitable visualizations.
+- [Data Viz Project](https://datavizproject.com/) - A resource for selecting suitable visualizations.
 - [Your guide for choosing the right chart types](https://www.anychart.com/chartopedia/usage-type/) - A guide to help you select the appropriate chart types.
 - [Data Visualization Insights & Tutorials](https://dataforvisualization.com/) - Tutorials and insights on data visualization techniques.
 - [Truth & Beauty - Moritz Stefaner](https://truth-and-beauty.net/) - Exploration of the aesthetics of data visualization.
@@ -480,6 +479,7 @@ Libraries for static, interactive, and 3D visualizations.
 - [Pygal](https://pygal.org/en/stable/) - A Python SVG charting library.
 - [Plotnine](https://plotnine.readthedocs.io/en/stable/) - A grammar of graphics for Python.
 - [bqplot](https://github.com/bqplot/bqplot) - A plotting library for IPython/Jupyter notebooks.
+- [PyPalettes](https://github.com/JosephBARBIERDARNAL/pypalettes) - A large (+2500) collection of color maps for Python.
 
 [⬆ back to top](#contents)
 
