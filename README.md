@@ -9,7 +9,7 @@ Perfect for beginners and experienced data analysts and scientists.
 
 **📖 For comfortable reading:** [Web version](https://pavelgrigoryevds.github.io/awesome-data-analysis/)
 
-**🌱 Want to improve?** [Suggest here](https://github.com/PavelGrigoryevDS/awesome-data-analysis/issues/16) or [Contribution guide](https://github.com/PavelGrigoryevDS/awesome-data-analysis/blob/main/CONTRIBUTING.md)
+**🌱 Want to improve?** [Suggest here](https://github.com/PavelGrigoryevDS/awesome-data-analysis/issues/16) or [Welcome to Discussions](https://github.com/PavelGrigoryevDS/awesome-data-analysis/discussions)
 
 🌟 **Goal: 100 stars!** Help others find this curated collection ![GitHub stars](https://img.shields.io/github/stars/PavelGrigoryevDS/awesome-data-analysis?style=social)
 
@@ -20,7 +20,6 @@ Perfect for beginners and experienced data analysts and scientists.
 - Covers **end-to-end data workflow**: from Python/SQL fundamentals to ML deployment
 - Focuses on **modern tools** used in industry
 - Includes **hand-picked quality content** - no fluff
-- Organized with **emoji-categorized sections** for quick navigation
 - Will be **regularly updated**
 
 Maintained with ❤️
@@ -407,14 +406,14 @@ A collection of Python libraries for efficient data manipulation, cleaning, visu
 
 SQL tutorials and database design principles.
 
-- [GeeksforGeeks - SQL Tutorial.](https://www.geeksforgeeks.org/sql-tutorial/) - Detailed SQL tutorial.
-- [SQLZoo - SQL Tutorial.](https://sqlzoo.net/wiki/SQL_Tutorial) - Interactive SQL tutorial.
-- [SQL Bolt - Learn SQL.](https://sqlbolt.com/) - Learn SQL through interactive lessons.
-- [SQL Tutorial.](https://www.sqltutorial.org/) - Comprehensive SQL tutorial resource.
-- [PostgreSQL Tutorial by W3Resource.](https://w3resource.com/PostgreSQL/tutorial.php) - Tutorial for PostgreSQL.
-- [MySQL Tutorial by W3Resource.](https://www.w3resource.com/mysql/mysql-tutorials.php) - Tutorial for MySQL.
-- [MongoDB Tutorial by W3Resource.](https://www.w3resource.com/mongodb/nosql.php) - Tutorial for MongoDB.
-- [InterviewBit - SQL Interview Questions.](https://www.interviewbit.com/sql-interview-questions/) - Collection of SQL interview questions.
+- [GeeksforGeeks - SQL Tutorial](https://www.geeksforgeeks.org/sql-tutorial/) - Detailed SQL tutorial.
+- [SQLZoo - SQL Tutorial](https://sqlzoo.net/wiki/SQL_Tutorial) - Interactive SQL tutorial.
+- [SQL Bolt - Learn SQL](https://sqlbolt.com/) - Learn SQL through interactive lessons.
+- [SQL Tutorial](https://www.sqltutorial.org/) - Comprehensive SQL tutorial resource.
+- [PostgreSQL Tutorial by W3Resource](https://w3resource.com/PostgreSQL/tutorial.php) - Tutorial for PostgreSQL.
+- [MySQL Tutorial by W3Resource](https://www.w3resource.com/mysql/mysql-tutorials.php) - Tutorial for MySQL.
+- [MongoDB Tutorial by W3Resource](https://www.w3resource.com/mongodb/nosql.php) - Tutorial for MongoDB.
+- [InterviewBit - SQL Interview Questions](https://www.interviewbit.com/sql-interview-questions/) - Collection of SQL interview questions.
 - [EverSQL](https://www.eversql.com/) - AI-powered SQL query optimization and database observability tool.
 
 [⬆ back to top](#contents)
@@ -427,12 +426,12 @@ SQL tutorials and database design principles.
 
 A collection of Python libraries and drivers for seamless database access and interaction.
 
-- [PyODBC - Access databases via ODBC.](https://github.com/mkleehammer/pyodbc) - Python library for ODBC database access.
-- [SQLAlchemy - ORM and SQL Toolkit for Python.](https://github.com/sqlalchemy/sqlalchemy) - SQL toolkit and ORM for Python.
-- [Psycopg2 - PostgreSQL adapter for Python.](https://github.com/psycopg/psycopg2) - PostgreSQL database adapter.
-- [MySQL Connector/Python - Official MySQL driver.](https://github.com/mysql/mysql-connector-python) - MySQL driver for Python.
-- [PonyORM - ORM with query generation on the fly.](https://github.com/ponyorm/pony) - ORM for Python with dynamic query generation.
-- [PyMongo - Official MongoDB driver.](https://github.com/mongodb/mongo-python-driver) - MongoDB driver for Python.
+- [PyODBC - Access databases via ODBC](https://github.com/mkleehammer/pyodbc) - Python library for ODBC database access.
+- [SQLAlchemy - ORM and SQL Toolkit for Python](https://github.com/sqlalchemy/sqlalchemy) - SQL toolkit and ORM for Python.
+- [Psycopg2 - PostgreSQL adapter for Python](https://github.com/psycopg/psycopg2) - PostgreSQL database adapter.
+- [MySQL Connector/Python - Official MySQL driver](https://github.com/mysql/mysql-connector-python) - MySQL driver for Python.
+- [PonyORM - ORM with query generation on the fly](https://github.com/ponyorm/pony) - ORM for Python with dynamic query generation.
+- [PyMongo - Official MongoDB driver](https://github.com/mongodb/mongo-python-driver) - MongoDB driver for Python.
 
 [⬆ back to top](#contents)
 
@@ -448,16 +447,16 @@ A collection of Python libraries and drivers for seamless database access and in
 
 Color theory, chart selection guides, and storytelling tips.
 
-- [A data visualization curriculum of interactive notebooks.](https://github.com/uwdata/visualization-curriculum) - Interactive notebooks designed to teach data visualization concepts.
+- [A data visualization curriculum of interactive notebooks](https://github.com/uwdata/visualization-curriculum) - Interactive notebooks designed to teach data visualization concepts.
 - [The Python Graph Gallery](https://python-graph-gallery.com/) - A collection of Python graph examples for data visualization.
-- [FlowingData explores how we use analysis and visualization to understand data and ourselves.](https://flowingdata.com/) - Insights on data analysis and visualization.
+- [FlowingData explores how we use analysis and visualization to understand data and ourselves](https://flowingdata.com/) - Insights on data analysis and visualization.
 - [The Data Visualization Catalogue](https://datavizcatalogue.com/index.html) - A comprehensive catalog of data visualization types.
 - [From Data to Viz](https://github.com/holtzy/data_to_viz) - A guide to choosing the right visualization based on your data.
 - [A large (+2500) collection of color maps for Python](https://github.com/JosephBARBIERDARNAL/pypalettes) - Extensive collection of color palettes for data visualization.
-- [Data Viz Project is a collection of data visualizations created to inspire and assist users in selecting the appropriate type of visualization for their data.](https://datavizproject.com/) - A resource for selecting suitable visualizations.
+- [Data Viz Project is a collection of data visualizations created to inspire and assist users in selecting the appropriate type of visualization for their data](https://datavizproject.com/) - A resource for selecting suitable visualizations.
 - [Your guide for choosing the right chart types](https://www.anychart.com/chartopedia/usage-type/) - A guide to help you select the appropriate chart types.
 - [Data Visualization Insights & Tutorials](https://dataforvisualization.com/) - Tutorials and insights on data visualization techniques.
-- [Truth & Beauty - Moritz Stefaner.](https://truth-and-beauty.net/) - Exploration of the aesthetics of data visualization.
+- [Truth & Beauty - Moritz Stefaner](https://truth-and-beauty.net/) - Exploration of the aesthetics of data visualization.
 
 [⬆ back to top](#contents)
 
@@ -495,17 +494,17 @@ Libraries for static, interactive, and 3D visualizations.
 
 Ttutorials for building and enhancing dashboards and visualizations using various tools and frameworks.
 
-- [A curated list of amazingly awesome dashboards/visualization resources.](https://github.com/obazoud/awesome-dashboard) - A collection of outstanding dashboard and visualization resources.
-- [The dash-extensions package is a collection of utility functions, syntax extensions, and Dash components that aim to improve the Dash development experience.](https://github.com/emilhe/dash-extensions) - Enhancements for Dash development.
-- [A ranked gallery of awesome streamlit apps built by the community.](https://github.com/jrieke/best-of-streamlit) - Showcase of community-built Streamlit applications.
-- [A curated list of awesome Dash (plotly) resources.](https://github.com/ucg8j/awesome-dash) - Comprehensive resources for Dash users.
-- [Awesome Panel supports Panel and its users.](https://github.com/awesome-panel/awesome-panel) - Resources and support for Panel users.
-- [DashTools - Plotly Dash Command Line Tools - Create, Run and Deploy Templated Python Apps from Terminal.](https://github.com/andrew-hossack/dash-tools) - Command line tools for Dash applications.
-- [Data Visualization with Plotly Cookbook.](https://github.com/quantgirluk/Plotly-Dash-Cookbook) - Cookbook for data visualization using Plotly.
-- [Plotly Dash Tutorial.](https://github.com/austinlasseter/plotly_dash_tutorial) - Tutorial for learning Plotly Dash.
+- [A curated list of amazingly awesome dashboards/visualization resources](https://github.com/obazoud/awesome-dashboard) - A collection of outstanding dashboard and visualization resources.
+- [The dash-extensions package is a collection of utility functions, syntax extensions, and Dash components that aim to improve the Dash development experience](https://github.com/emilhe/dash-extensions) - Enhancements for Dash development.
+- [A ranked gallery of awesome streamlit apps built by the community](https://github.com/jrieke/best-of-streamlit) - Showcase of community-built Streamlit applications.
+- [A curated list of awesome Dash (plotly) resources](https://github.com/ucg8j/awesome-dash) - Comprehensive resources for Dash users.
+- [Awesome Panel supports Panel and its users](https://github.com/awesome-panel/awesome-panel) - Resources and support for Panel users.
+- [DashTools - Plotly Dash Command Line Tools - Create, Run and Deploy Templated Python Apps from Terminal](https://github.com/andrew-hossack/dash-tools) - Command line tools for Dash applications.
+- [Data Visualization with Plotly Cookbook](https://github.com/quantgirluk/Plotly-Dash-Cookbook) - Cookbook for data visualization using Plotly.
+- [Plotly Dash Tutorial](https://github.com/austinlasseter/plotly_dash_tutorial) - Tutorial for learning Plotly Dash.
 - [Dash Enterprise Samples](https://github.com/plotly/dash-sample-apps) - Production-ready Dash apps.
-- [geeksforgeeks - Tableau Tutorial.](https://www.geeksforgeeks.org/tableau-tutorial/) - Comprehensive tutorial on Tableau.
-- [geeksforgeeks - Power BI Tutorial.](https://www.geeksforgeeks.org/power-bi-tutorial/) - Detailed tutorial on Power BI.
+- [geeksforgeeks - Tableau Tutorial](https://www.geeksforgeeks.org/tableau-tutorial/) - Comprehensive tutorial on Tableau.
+- [geeksforgeeks - Power BI Tutorial](https://www.geeksforgeeks.org/power-bi-tutorial/) - Detailed tutorial on Power BI.
 
 [⬆ back to top](#contents)
 
@@ -517,10 +516,10 @@ Ttutorials for building and enhancing dashboards and visualizations using variou
 
 Frameworks for building custom dashboard solutions.
 
-- [Dash - Framework for building analytical web apps with interactive plots.](https://github.com/plotly/dash) - Framework for creating interactive web applications.
-- [Streamlit — A faster way to build and share data apps.](https://github.com/streamlit/streamlit) - Simplified framework for building data applications.
-- [Panel - The Powerful Data Exploration & Web App Framework for Python.](https://panel.holoviz.org/) - Framework for creating interactive web applications.
-- [Gradio - Build & share delightful machine learning apps.](https://www.gradio.app/) - Tool for creating and sharing machine learning applications.
+- [Dash - Framework for building analytical web apps with interactive plots](https://github.com/plotly/dash) - Framework for creating interactive web applications.
+- [Streamlit — A faster way to build and share data apps](https://github.com/streamlit/streamlit) - Simplified framework for building data applications.
+- [Panel - The Powerful Data Exploration & Web App Framework for Python](https://panel.holoviz.org/) - Framework for creating interactive web applications.
+- [Gradio - Build & share delightful machine learning apps](https://www.gradio.app/) - Tool for creating and sharing machine learning applications.
 
 [⬆ back to top](#contents)
 
@@ -534,14 +533,14 @@ A list of leading tools and platforms for data visualization and dashboard creat
 
 - [Tableau](https://www.tableau.com) - Leading data visualization software.
 - [Microsoft Power BI](https://powerbi.microsoft.com) - Business analytics tool for visualizing data.
-- [QlikView - Business intelligence tool that offers data visualization and dashboard capabilities.](https://www.qlik.com/us/products/qlikview) - Tool for data visualization and business intelligence.
-- [Metabase - Open-source business intelligence tool that allows users to visualize data easily.](https://www.metabase.com) - User-friendly open-source BI tool.
-- [Apache Superset - Open-source data exploration and visualization platform.](https://superset.apache.org) - Powerful data exploration and visualization tool.
-- [Redash - Helps you make sense of your data.](https://redash.io/) - Tool for visualizing and sharing data insights.
-- [Grafana - Open-source platform for monitoring and observability, ideal for creating dashboards.](https://grafana.com) - Dashboarding and monitoring tool.
-- [Datawrapper - Tool designed for journalists to create charts and maps easily.](https://www.datawrapper.de) - User-friendly chart and map creation tool.
-- [ChartBlocks - User-friendly platform for building and sharing charts online.](https://www.chartblocks.com) - Online chart creation platform.
-- [Infogram - Drag-and-drop tool for creating infographics and interactive visualizations.](https://infogram.com) - Tool for creating infographics and visual content.
+- [QlikView - Business intelligence tool that offers data visualization and dashboard capabilities](https://www.qlik.com/us/products/qlikview) - Tool for data visualization and business intelligence.
+- [Metabase - Open-source business intelligence tool that allows users to visualize data easily](https://www.metabase.com) - User-friendly open-source BI tool.
+- [Apache Superset - Open-source data exploration and visualization platform](https://superset.apache.org) - Powerful data exploration and visualization tool.
+- [Redash - Helps you make sense of your data](https://redash.io/) - Tool for visualizing and sharing data insights.
+- [Grafana - Open-source platform for monitoring and observability, ideal for creating dashboards](https://grafana.com) - Dashboarding and monitoring tool.
+- [Datawrapper - Tool designed for journalists to create charts and maps easily](https://www.datawrapper.de) - User-friendly chart and map creation tool.
+- [ChartBlocks - User-friendly platform for building and sharing charts online](https://www.chartblocks.com) - Online chart creation platform.
+- [Infogram - Drag-and-drop tool for creating infographics and interactive visualizations](https://infogram.com) - Tool for creating infographics and visual content.
 - [Google Data Studio](https://datastudio.google.com) - Free tool for creating interactive dashboards and reports.
 - [Rath](https://github.com/Kanaries/Rath) - Next-generation automated data exploratory analysis and visualization platform.
 
@@ -643,17 +642,17 @@ A collection of powerful libraries and frameworks for natural language processin
 
 A collection of resources for learning and applying mathematics and statistics, particularly in the context of data science and machine learning.
 
-- [General statistics, mathematical programming, and numerical/scientific computing scripts and notebooks in Python.](https://github.com/tirthajyoti/Stats-Maths-with-Python) - Collection of Python scripts and notebooks for statistics and mathematics.
-- [Introduction to Statistics and Basics of Mathematics for Data Science - The Hacker's Way.](https://github.com/amitkaps/hackermath) - Resource for learning statistics and mathematics for data science.
-- [Mathematics for Machine Learning (Book + Jupyter Notebooks).](https://github.com/mml-book/mml-book.github.io) - Comprehensive resource for mathematics in machine learning.
-- [Calculus and Optimization for Machine Learning.](https://github.com/jonkrohn/ML-foundations) - Focus on calculus and optimization techniques for ML.
-- [Khan Academy - Math for Data Science.](https://www.khanacademy.org/math) - Free online courses covering various math topics.
-- [Towards Data Science - Math Section.](https://towardsdatascience.com/tagged/mathematics) - Articles and resources on mathematics for data science.
-- [Fast.ai - Computational Linear Algebra.](https://github.com/fastai/numerical-linear-algebra) - Resource for learning linear algebra computationally.
-- [Immersive Linear Algebra.](http://immersivemath.com/ila/) - Interactive resource for understanding linear algebra.
-- [Brilliant.org - Interactive courses.](https://brilliant.org/courses/#math-foundational) - Engaging courses on foundational mathematics.
-- [Cross Validated (Stack Exchange).](https://stats.stackexchange.com/) - Q&A site for statistics and data analysis.
-- [Wolfram Alpha - Online equation solver.](https://www.wolframalpha.com/) - Computational knowledge engine for solving equations.
+- [General statistics, mathematical programming, and numerical/scientific computing scripts and notebooks in Python](https://github.com/tirthajyoti/Stats-Maths-with-Python) - Collection of Python scripts and notebooks for statistics and mathematics.
+- [Introduction to Statistics and Basics of Mathematics for Data Science - The Hacker's Way](https://github.com/amitkaps/hackermath) - Resource for learning statistics and mathematics for data science.
+- [Mathematics for Machine Learning (Book + Jupyter Notebooks)](https://github.com/mml-book/mml-book.github.io) - Comprehensive resource for mathematics in machine learning.
+- [Calculus and Optimization for Machine Learning](https://github.com/jonkrohn/ML-foundations) - Focus on calculus and optimization techniques for ML.
+- [Khan Academy - Math for Data Science](https://www.khanacademy.org/math) - Free online courses covering various math topics.
+- [Towards Data Science - Math Section](https://towardsdatascience.com/tagged/mathematics) - Articles and resources on mathematics for data science.
+- [Fast.ai - Computational Linear Algebra](https://github.com/fastai/numerical-linear-algebra) - Resource for learning linear algebra computationally.
+- [Immersive Linear Algebra](http://immersivemath.com/ila/) - Interactive resource for understanding linear algebra.
+- [Brilliant.org - Interactive courses](https://brilliant.org/courses/#math-foundational) - Engaging courses on foundational mathematics.
+- [Cross Validated (Stack Exchange)](https://stats.stackexchange.com/) - Q&A site for statistics and data analysis.
+- [Wolfram Alpha - Online equation solver](https://www.wolframalpha.com/) - Computational knowledge engine for solving equations.
 
 [⬆ back to top](#contents)
 
@@ -665,20 +664,20 @@ A collection of resources for learning and applying mathematics and statistics, 
 
 A selection of resources focused on statistics and probability, including tutorials, interactive tools, and comprehensive guides.
 
-- [geeksforgeeks - Probability in Maths.](https://www.geeksforgeeks.org/probability-in-maths/) - Overview of probability concepts in mathematics.
-- [geeksforgeeks - Statistics in Maths.](https://www.geeksforgeeks.org/statistics/) - Introduction to statistical concepts in mathematics.
-- [Statistical Data Analysis in Python.](https://github.com/fonnesbeck/statistical-analysis-python-tutorial) - Tutorial for statistical analysis using Python.
+- [geeksforgeeks - Probability in Maths](https://www.geeksforgeeks.org/probability-in-maths/) - Overview of probability concepts in mathematics.
+- [geeksforgeeks - Statistics in Maths](https://www.geeksforgeeks.org/statistics/) - Introduction to statistical concepts in mathematics.
+- [Statistical Data Analysis in Python](https://github.com/fonnesbeck/statistical-analysis-python-tutorial) - Tutorial for statistical analysis using Python.
 - [Self-study on Larry Wasserman's "All of Statistics."](https://github.com/telmo-correa/all-of-statistics) - Resource for studying statistics based on Wasserman's book.
-- [A series of Python Jupyter notebooks that help you better understand "The Elements of Statistical Learning" book.](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks) - Notebooks for understanding statistical learning concepts.
-- [A visual introduction to probability and statistics.](https://github.com/seeingtheory/Seeing-Theory) - Interactive visual resource for learning probability and statistics.
-- [The probability and statistics cookbook.](https://github.com/mavam/stat-cookbook) - Cookbook for statistical methods and techniques.
-- [NoteBooks Statistics and Machine Learning.](https://github.com/leonvanbokhorst/NoteBooks-Statistics-and-MachineLearning) - Notebooks covering statistics and machine learning topics.
-- [Code repository for O'Reilly book.](https://github.com/gedeck/practical-statistics-for-data-scientists) - Companion code for a practical statistics book.
-- [Statistical Learning Theory - Stanford University.](https://web.stanford.edu/class/cs229t/notes.pdf) - Lecture notes on statistical learning theory.
-- [Statistics and probability.](https://www.khanacademy.org/math/statistics-probability) - Khan Academy resource for statistics and probability.
-- [StatLect - Digital textbook on probability and statistics.](https://www.statlect.com/) - Comprehensive online textbook covering probability and statistics concepts.
+- [A series of Python Jupyter notebooks that help you better understand "The Elements of Statistical Learning" book](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks) - Notebooks for understanding statistical learning concepts.
+- [A visual introduction to probability and statistics](https://github.com/seeingtheory/Seeing-Theory) - Interactive visual resource for learning probability and statistics.
+- [The probability and statistics cookbook](https://github.com/mavam/stat-cookbook) - Cookbook for statistical methods and techniques.
+- [NoteBooks Statistics and Machine Learning](https://github.com/leonvanbokhorst/NoteBooks-Statistics-and-MachineLearning) - Notebooks covering statistics and machine learning topics.
+- [Code repository for O'Reilly book](https://github.com/gedeck/practical-statistics-for-data-scientists) - Companion code for a practical statistics book.
+- [Statistical Learning Theory - Stanford University](https://web.stanford.edu/class/cs229t/notes.pdf) - Lecture notes on statistical learning theory.
+- [Statistics and probability](https://www.khanacademy.org/math/statistics-probability) - Khan Academy resource for statistics and probability.
+- [StatLect - Digital textbook on probability and statistics](https://www.statlect.com/) - Comprehensive online textbook covering probability and statistics concepts.
 - [Python modules and IPython Notebooks, for the book "Introduction to Statistics With Python."](https://github.com/thomas-haslwanter/statsintro_python) - Code and notebooks accompanying the book on statistics with Python.
-- [stanford.edu - Probabilities and Statistics.](https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics) - Refresher course on probabilities and statistics from Stanford University.
+- [stanford.edu - Probabilities and Statistics](https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics) - Refresher course on probabilities and statistics from Stanford University.
 - [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) - Resource for learning Bayesian methods in Python.
 
 [⬆ back to top](#contents)
@@ -691,8 +690,8 @@ A selection of resources focused on statistics and probability, including tutori
 
 A collection of resources focused on A/B testing.
 
-- [Useful articles on the topics of AB testing and statistics.](https://github.com/zhitkovk/awesome_ab_testing) - A collection of articles focused on AB testing and statistical methods.
-- [dynamicyield - A/B Testing & Optimization Course.](https://www.dynamicyield.com/course/testing-and-optimization/) - An online course covering A/B testing and optimization techniques.
+- [Useful articles on the topics of AB testing and statistics](https://github.com/zhitkovk/awesome_ab_testing) - A collection of articles focused on AB testing and statistical methods.
+- [dynamicyield - A/B Testing & Optimization Course](https://www.dynamicyield.com/course/testing-and-optimization/) - An online course covering A/B testing and optimization techniques.
 - [Evan's Awesome A/B Tools](https://www.evanmiller.org/ab-testing/) - A/B test calculators.
 
 [⬆ back to top](#contents)
@@ -707,9 +706,9 @@ A collection of resources to help you learn and apply machine learning concepts 
 
 - [100 Days of ML Coding](https://github.com/Avik-Jain/100-Days-Of-ML-Code) - A comprehensive coding challenge to learn machine learning over 100 days.
 - [Microsoft - ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - A beginner-friendly introduction to machine learning concepts and practices.
-- [Learn how to design, develop, deploy and iterate on production-grade ML applications.](https://github.com/GokuMohandas/Made-With-ML) - Resource for building and deploying machine learning applications.
+- [Learn how to design, develop, deploy and iterate on production-grade ML applications](https://github.com/GokuMohandas/Made-With-ML) - Resource for building and deploying machine learning applications.
 - [MLU-Explain](https://mlu-explain.github.io/) - Visual explanations of ML algorithms (XGBoost, PCA etc).
-- [A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python.](https://github.com/ageron/handson-ml3) - Hands-on guide to machine learning and deep learning using Python.
+- [A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python](https://github.com/ageron/handson-ml3) - Hands-on guide to machine learning and deep learning using Python.
 - [Jason's Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit?slide=id.g168a3288f7_0_58) - Presentation covering the basics of machine learning concepts.
 
 [⬆ back to top](#contents)
@@ -781,44 +780,44 @@ A selection of tools to enhance productivity and functionality in Linux environm
 
 A collection of extensions to enhance functionality and productivity in Visual Studio Code.
 
-- [JDBC Adapter For Database Client.](https://marketplace.visualstudio.com/items/?itemName=cweijan.dbclient-jdbc) - Connect to various databases using JDBC.
-- [DBCode - Connect to PostgreSQL, MySQL, SQL Server, SQLite, Mongo, Oracle, DuckDB and other major databases.](https://marketplace.visualstudio.com/items?itemName=DBCode.dbcode) - Database client for managing and querying databases.
-- [Markdown All in One.](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - Essential tools for Markdown editing.
-- [Markdown Preview GitHub Styles.](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) - Changes VS Code's markdown preview to match GitHub's styling.
-- [Snippington Python Pandas Basic.](https://marketplace.visualstudio.com/items?itemName=snippington.snp-pandas-basic) - Basic tools for working with Pandas in Python.
-- [PDF Viewer for Visual Studio Code.](https://marketplace.visualstudio.com/items?itemName=mathematic.vscode-pdf) - View PDF files directly in VS Code.
-- [Quick Python Print.](https://marketplace.visualstudio.com/items?itemName=WeidaWang.quick-python-print) - Quickly handle print operations in Python.
-- [Rainbow CSV.](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) - Highlight CSV and TSV files and run SQL-like queries.
-- [Remove Blank Lines.](https://marketplace.visualstudio.com/items?itemName=thamaraiselvam.remove-blank-lines) - Extension to remove empty lines in documents.
-- [PDF Preview in VSCode.](https://marketplace.visualstudio.com/items/tomoki1207.pdf) - Show PDF previews in VS Code.
-- [CSV to Table.](https://marketplace.visualstudio.com/items?itemName=phplasma.csv-to-table) - Convert CSV/TSV/PSV files to ASCII formatted tables.
-- [Data Preview.](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.vscode-data-preview) - Import, view, slice, and export data.
-- [Data Wrangler.](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler) - Tool for cleaning and preparing tabular datasets.
-- [Error Lens.](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Enhances the display of errors and warnings in code.
-- [Indent Rainbow.](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) - Makes indentation easier to read.
-- [Markdown Table Editor.](https://marketplace.visualstudio.com/items?itemName=TakumiI.markdowntable) - Add features to edit Markdown tables.
-- [WYSIWYG Editor for Markdown.](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office) - View Word and Excel files and edit Markdown.
-- [Prettier - Code Formatter.](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatting extension for VS Code.
-- [Project Manager.](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) - Easily switch between projects.
-- [Python Indent.](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent) - Automatically indent Python code.
-- [SandDance.](https://marketplace.visualstudio.com/items?itemName=msrvida.vscode-sanddance) - Visually explore and present your data.
-- [SQL Notebooks.](https://marketplace.visualstudio.com/items?itemName=cmoog.sqlnotebook) - Open SQL files as VSCode Notebooks.
-- [SQL Tools.](https://marketplace.visualstudio.com/items/?itemName=mtxr.sqltools) - Database management tools for VSCode.
-- [Kanban Board.](https://marketplace.visualstudio.com/items/?itemName=mkloubert.vscode-kanban) - A Kanban board extension for organizing tasks within VS Code.
-- [Path Autocomplete.](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete) - Provides path completion for files and directories in VS Code.
-- [Path Intellisense.](https://marketplace.visualstudio.com/items/?itemName=christian-kohler.path-intellisense) - Autocompletes filenames in your code.
-- [Python Imports Utils.](https://marketplace.visualstudio.com/items?itemName=mgesbert.python-path) - Utilities for managing Python imports.
-- [Workspace Dashboard.](https://marketplace.visualstudio.com/items?itemName=kruemelkatze.vscode-dashboard) - Organize your workspaces in a speed-dial manner.
-- [Remote Development Extension Pack.](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) - Open any folder in a container, on a remote machine, or in WSL.
-- [Text Power Tools.](https://marketplace.visualstudio.com/items/?itemName=qcz.text-power-tools) - An all-in-one solution with 240+ commands for text manipulation.
-- [Toggle Quotes.](https://marketplace.visualstudio.com/items/?itemName=BriteSnow.vscode-toggle-quotes) - Toggle between single, double, and backticks for strings.
-- [Comment Translate.](https://marketplace.visualstudio.com/items/?itemName=intellsmi.comment-translate) - Helps translate comments, strings, and variable names in your code.
-- [Text Marker.](https://marketplace.visualstudio.com/items/?itemName=ryu1kn.text-marker) - Select text in your code and mark all matches with configurable highlight color.
-- [Bookmarks.](https://marketplace.visualstudio.com/items/?itemName=alefragnani.Bookmarks) - Mark lines in your code and jump to them easily.
-- [Dendron.](https://marketplace.visualstudio.com/items/?itemName=dendron.dendron) - A hierarchical note-taking tool that grows as you do.
-- [Gitignore Generator.](https://marketplace.visualstudio.com/items/?itemName=rubbersheep.gi) - Simplifies the process of generating .gitignore files.
-- [Test Explorer UI.](https://marketplace.visualstudio.com/items/?itemName=hbenl.vscode-test-explorer) - Run your tests in the sidebar of Visual Studio Code.
-- [Python Test Explorer.](https://marketplace.visualstudio.com/items/?itemName=LittleFoxTeam.vscode-python-test-adapter) - Run your Python tests in the sidebar of Visual Studio Code.
+- [JDBC Adapter For Database Client](https://marketplace.visualstudio.com/items/?itemName=cweijan.dbclient-jdbc) - Connect to various databases using JDBC.
+- [DBCode - Connect to PostgreSQL, MySQL, SQL Server, SQLite, Mongo, Oracle, DuckDB and other major databases](https://marketplace.visualstudio.com/items?itemName=DBCode.dbcode) - Database client for managing and querying databases.
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - Essential tools for Markdown editing.
+- [Markdown Preview GitHub Styles](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) - Changes VS Code's markdown preview to match GitHub's styling.
+- [Snippington Python Pandas Basic](https://marketplace.visualstudio.com/items?itemName=snippington.snp-pandas-basic) - Basic tools for working with Pandas in Python.
+- [PDF Viewer for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=mathematic.vscode-pdf) - View PDF files directly in VS Code.
+- [Quick Python Print](https://marketplace.visualstudio.com/items?itemName=WeidaWang.quick-python-print) - Quickly handle print operations in Python.
+- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) - Highlight CSV and TSV files and run SQL-like queries.
+- [Remove Blank Lines](https://marketplace.visualstudio.com/items?itemName=thamaraiselvam.remove-blank-lines) - Extension to remove empty lines in documents.
+- [PDF Preview in VSCode](https://marketplace.visualstudio.com/items/tomoki1207.pdf) - Show PDF previews in VS Code.
+- [CSV to Table](https://marketplace.visualstudio.com/items?itemName=phplasma.csv-to-table) - Convert CSV/TSV/PSV files to ASCII formatted tables.
+- [Data Preview](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.vscode-data-preview) - Import, view, slice, and export data.
+- [Data Wrangler](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler) - Tool for cleaning and preparing tabular datasets.
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Enhances the display of errors and warnings in code.
+- [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) - Makes indentation easier to read.
+- [Markdown Table Editor](https://marketplace.visualstudio.com/items?itemName=TakumiI.markdowntable) - Add features to edit Markdown tables.
+- [WYSIWYG Editor for Markdown](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office) - View Word and Excel files and edit Markdown.
+- [Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatting extension for VS Code.
+- [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) - Easily switch between projects.
+- [Python Indent](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent) - Automatically indent Python code.
+- [SandDance](https://marketplace.visualstudio.com/items?itemName=msrvida.vscode-sanddance) - Visually explore and present your data.
+- [SQL Notebooks](https://marketplace.visualstudio.com/items?itemName=cmoog.sqlnotebook) - Open SQL files as VSCode Notebooks.
+- [SQL Tools](https://marketplace.visualstudio.com/items/?itemName=mtxr.sqltools) - Database management tools for VSCode.
+- [Kanban Board](https://marketplace.visualstudio.com/items/?itemName=mkloubert.vscode-kanban) - A Kanban board extension for organizing tasks within VS Code.
+- [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete) - Provides path completion for files and directories in VS Code.
+- [Path Intellisense](https://marketplace.visualstudio.com/items/?itemName=christian-kohler.path-intellisense) - Autocompletes filenames in your code.
+- [Python Imports Utils](https://marketplace.visualstudio.com/items?itemName=mgesbert.python-path) - Utilities for managing Python imports.
+- [Workspace Dashboard](https://marketplace.visualstudio.com/items?itemName=kruemelkatze.vscode-dashboard) - Organize your workspaces in a speed-dial manner.
+- [Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) - Open any folder in a container, on a remote machine, or in WSL.
+- [Text Power Tools](https://marketplace.visualstudio.com/items/?itemName=qcz.text-power-tools) - An all-in-one solution with 240+ commands for text manipulation.
+- [Toggle Quotes](https://marketplace.visualstudio.com/items/?itemName=BriteSnow.vscode-toggle-quotes) - Toggle between single, double, and backticks for strings.
+- [Comment Translate](https://marketplace.visualstudio.com/items/?itemName=intellsmi.comment-translate) - Helps translate comments, strings, and variable names in your code.
+- [Text Marker](https://marketplace.visualstudio.com/items/?itemName=ryu1kn.text-marker) - Select text in your code and mark all matches with configurable highlight color.
+- [Bookmarks](https://marketplace.visualstudio.com/items/?itemName=alefragnani.Bookmarks) - Mark lines in your code and jump to them easily.
+- [Dendron](https://marketplace.visualstudio.com/items/?itemName=dendron.dendron) - A hierarchical note-taking tool that grows as you do.
+- [Gitignore Generator](https://marketplace.visualstudio.com/items/?itemName=rubbersheep.gi) - Simplifies the process of generating .gitignore files.
+- [Test Explorer UI](https://marketplace.visualstudio.com/items/?itemName=hbenl.vscode-test-explorer) - Run your tests in the sidebar of Visual Studio Code.
+- [Python Test Explorer](https://marketplace.visualstudio.com/items/?itemName=LittleFoxTeam.vscode-python-test-adapter) - Run your Python tests in the sidebar of Visual Studio Code.
 
 [⬆ back to top](#contents)
 
@@ -836,7 +835,7 @@ A collection of resources to enhance skills and advance your career in data anal
 
 - [Kaggle Competitions](https://www.kaggle.com/competitions) - Platform for participating in data analysis and machine learning competitions.
 - [Improving How We Visualize and Analyze Data](https://makeovermonday.co.uk/) - A platform focused on enhancing data visualization practices.
-- [A weekly challenge to re-create data-driven visualizations.](https://workout-wednesday.com/) - Engage in weekly challenges to improve your visualization skills.
+- [A weekly challenge to re-create data-driven visualizations](https://workout-wednesday.com/) - Engage in weekly challenges to improve your visualization skills.
 - [Official TidyTuesday Repository](https://github.com/rfordatascience/tidytuesday) - Repository for the TidyTuesday project, promoting data analysis.
 - [DataCamp Projects](https://www.datacamp.com/projects) - Practical projects in data analysis to enhance skills.
 - [DrivenData Competitions](https://www.drivendata.org/competitions/) - Data analysis competitions with a social impact focus.
@@ -873,13 +872,13 @@ A selection of curated Jupyter notebooks to support learning and exploration in 
 A collection of resources for accessing datasets and data sources for analysis and projects.
 
 - [Kaggle Datasets](https://www.kaggle.com/datasets) - Extensive collection of datasets for practice in data analysis.
-- [A Python library for downloading datasets from Kaggle, Google Drive, and other online sources.](https://github.com/JovianHQ/opendatasets) - Library for easy dataset downloads.
-- [An open source multi-tool for exploring and publishing data.](https://github.com/simonw/datasette) - Tool for data exploration and publishing.
-- [A topic-centric list of HQ open datasets.](https://github.com/awesomedata/awesome-public-datasets) - Curated list of high-quality open datasets.
-- [Open Data Sources.](https://github.com/datasciencemasters/data) - Collection of various open data sources.
-- [Free datasets for projects.](https://www.dataquest.io/blog/free-datasets-for-projects/) - Dataquest's compilation of free datasets.
+- [A Python library for downloading datasets from Kaggle, Google Drive, and other online sources](https://github.com/JovianHQ/opendatasets) - Library for easy dataset downloads.
+- [An open source multi-tool for exploring and publishing data](https://github.com/simonw/datasette) - Tool for data exploration and publishing.
+- [A topic-centric list of HQ open datasets](https://github.com/awesomedata/awesome-public-datasets) - Curated list of high-quality open datasets.
+- [Open Data Sources](https://github.com/datasciencemasters/data) - Collection of various open data sources.
+- [Free datasets for projects](https://www.dataquest.io/blog/free-datasets-for-projects/) - Dataquest's compilation of free datasets.
 - [data.world](https://data.world/) - The enterprise data catalog that CIOs, governance professionals, data analysts, and engineers trust in the AI era.
-- [SQL Tutorial by W3Schools.](https://www.w3schools.com/sql/default.asp) - Comprehensive SQL tutorial.
+- [Public Real-Time Datasets and Sources](https://github.com/bytewax/awesome-public-real-time-datasets) - A list of publicly available datasets with real-time data.
 
 [⬆ back to top](#contents)
 
@@ -933,7 +932,7 @@ A collection of cheatsheets across various domains to aid in quick reference and
 
 - [Data Science All Cheat Sheet](https://github.com/yash42828/Data-Science--All-Cheat-Sheet) - Covers ML, DL, and analytics.
 - [Data Science Cheatsheets](https://github.com/FavioVazquez/ds-cheatsheets) - Curated DS/ML concepts and workflows.
-- [Data Science Cheat Sheets (Math).](https://github.com/ml874/Data-Science-Cheatsheet) - Cheat sheets for quick reference in data science mathematics.
+- [Data Science Cheat Sheets (Math)](https://github.com/ml874/Data-Science-Cheatsheet) - Cheat sheets for quick reference in data science mathematics.
 - [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) - Data manipulation with Pandas.
 - [PySpark Cheatsheet](https://github.com/kevinschaich/pyspark-cheatsheet) - Common PySpark patterns.
 
@@ -1004,7 +1003,7 @@ A collection of cheatsheets across various domains to aid in quick reference and
 
 ### SQL & Databases
 
-- [Quick SQL Cheatsheet.](https://github.com/enochtangg/quick-SQL-cheatsheet) - Handy SQL reference guide.
+- [Quick SQL Cheatsheet](https://github.com/enochtangg/quick-SQL-cheatsheet) - Handy SQL reference guide.
 
 [⬆ back to top](#contents)
 
