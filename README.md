@@ -410,6 +410,7 @@ SQL tutorials and database design principles.
 - [SQLZoo - SQL Tutorial](https://sqlzoo.net/wiki/SQL_Tutorial) - Interactive SQL tutorial.
 - [SQL Bolt - Learn SQL](https://sqlbolt.com/) - Learn SQL through interactive lessons.
 - [SQL Tutorial](https://www.sqltutorial.org/) - Comprehensive SQL tutorial resource.
+- [SQL Tutorial by W3Schools.](https://www.w3schools.com/sql/default.asp) - Comprehensive SQL tutorial.
 - [PostgreSQL Tutorial by W3Resource](https://w3resource.com/PostgreSQL/tutorial.php) - Tutorial for PostgreSQL.
 - [MySQL Tutorial by W3Resource](https://www.w3resource.com/mysql/mysql-tutorials.php) - Tutorial for MySQL.
 - [MongoDB Tutorial by W3Resource](https://www.w3resource.com/mongodb/nosql.php) - Tutorial for MongoDB.
