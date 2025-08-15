@@ -1,25 +1,27 @@
 # Contribution Guidelines
 
-We welcome all contributions, especially by those who worked through the list and noticed some missing / unclear information! Please use the pull requests to discuss about the usefulness of a change.
+First of all, **thank you** for taking the time to contribute! We truly appreciate every contribution.
 
-We will make sure the list doesn't grow too long. Please don't submit links that fullfil similar purpose / contain similar information as links already in the list. Instead, delete the old link and state why yours is superior.
+We welcome all contributions. Whether you're fixing typos, adding new resources, or suggesting improvements - it's all valuable!
 
 ## How to Contribute
 
 ### Option 1 (Suggest via Issue)
 
-1. **Create a new issue** [here](https://github.com/PavelGrigoryevDS/awesome-data-analysis/issues)
-2. Describe your suggested resource or improvement
+You can either open a new issue or comment in our permanently open suggestions issue - whichever is more convenient for you.
+
+#### Add to Open Issue
+
+- Add your suggestion [hear](https://github.com/PavelGrigoryevDS/awesome-data-analysis/issues/16)
+
+#### Create New Issue
+
+- Open new issue [hear](https://github.com/PavelGrigoryevDS/awesome-data-analysis/issues)
 
 ### Option 2 (Fork)
 
 1. **Fork** this repository
-2. **Add your resource** in this format:
-
-   ```markdown
-   - [Resource Name](URL) - Brief description.
-   ```
-
+2. **Add your resource**
 3. **Submit a Pull Request**
 
 ### Option 3 (For local editing)
@@ -31,6 +33,14 @@ We will make sure the list doesn't grow too long. Please don't submit links that
    ```
 
 2. Create a branch, make changes, and push
+
+## Submission Format
+
+For resource suggestions, please use this format:
+
+```markdown
+- [Resource Name](URL) - Brief description.
+```
 
 ## Quick Tips
 
