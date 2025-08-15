@@ -1,0 +1,1536 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Awesome Data Analysis &#8212; Awesome Data Analysis  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=f2c7cd42" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar hide-on-wide">
+        
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/PavelGrigoryevDS/awesome-data-analysis" target="_blank"
+   class="btn btn-sm btn-source-repository-button"
+   title="Source repository"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+
+</a>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/index.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Awesome Data Analysis </h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contents">📑 Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#awesome-data-science-repositories">🏆 Awesome Data Science Repositories</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#roadmaps">🗺️ Roadmaps</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python">🐍 Python</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-manipulation-with-pandas">Data Manipulation with Pandas</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-python-tools-for-data-analysis">Useful Python Tools for Data Analysis</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#data-manipulation-cleaning">Data Manipulation &amp; Cleaning</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#automated-data-visualization-tools">Automated Data Visualization Tools</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#data-quality-profiling">Data Quality &amp; Profiling</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-engineering-selection">Feature Engineering &amp; Selection</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#testing-validation">Testing &amp; Validation</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#etl-data-pipelines">ETL &amp; Data Pipelines</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-tools-guis">Interactive Tools &amp; GUIs</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#data-generation-simulation">Data Generation &amp; Simulation</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#formatting-logging">Formatting &amp; Logging</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#module-dependency-code-management">Module Dependency &amp; Code Management</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parallel-computing-for-dataframes">Parallel Computing for DataFrames</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation">Documentation</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#file-formats-documents">File Formats &amp; Documents</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#additional">Additional</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sql-databases">🗃️ SQL &amp; Databases</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tools">Tools</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-visualization">📊 Data Visualization</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Tools</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dashboards">📈 Dashboards</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#software">Software</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#web-scraping-crawling">🕸️ Web Scraping &amp; Crawling</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Tools</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#natural-language-processing-nlp">📖 Natural Language Processing (NLP)</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Tools</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mathematics-statistics-probability">🔢 Mathematics, Statistics &amp; Probability</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mathematics">Mathematics</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#statistics-probability">Statistics &amp; Probability</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-b-testing">🧪 A/B Testing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#machine-learning">🤖 Machine Learning</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#productivity-development-tools">🧠 Productivity &amp; Development Tools</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-linux-tools">Useful Linux Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-vs-code-extensions">Useful VS Code Extensions</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#skill-development-career-resources">📚 Skill Development &amp; Career Resources</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#practice-resources">Practice Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#curated-jupyter-notebooks">Curated Jupyter Notebooks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources-datasets">Data Sources &amp; Datasets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#resume-and-interview-tips">Resume and Interview Tips</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cheatsheets">📋 Cheatsheets</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Python</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-science-machine-learning">Data Science &amp; Machine Learning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linux-command-line">Linux &amp; Command Line</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#git-github">Git &amp; GitHub</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#probability-statistics">Probability &amp; Statistics</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#docker">Docker</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tools-workflow">Tools &amp; Workflow</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">SQL &amp; Databases</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interview-preparation">Interview Preparation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#miscellaneous">Miscellaneous</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">🌐 Additional Resources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing">🤝 Contributing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">📜 License</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="awesome-data-analysis">
+<h1>Awesome Data Analysis <a class="reference external" href="https://github.com/sindresorhus/awesome"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a><a class="headerlink" href="#awesome-data-analysis" title="Link to this heading">#</a></h1>
+<p><strong>400+ curated tools, libraries, cheatsheets, roadmaps, and tutorials</strong> to master data analysis.
+Perfect for beginners and experienced data analysts and scientists.</p>
+<p><a id="contents"></a></p>
+<section id="contents">
+<h2>📑 Contents<a class="headerlink" href="#contents" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="#awesome-data-science-repositories">🏆 Awesome Data Science Repositories</a></p></li>
+<li><p><a class="reference external" href="#roadmaps">🗺️ Roadmaps</a></p></li>
+<li><p><a class="reference external" href="#python">🐍 Python</a></p>
+<ul>
+<li><p><a class="reference external" href="#python-resources">Resources</a></p></li>
+<li><p><a class="reference external" href="#python-data-manipulation-with-pandas">Data Manipulation with Pandas</a></p></li>
+<li><p><a class="reference external" href="#python-useful-python-tools-for-data-analysis">Useful Python Tools for Data Analysis</a></p>
+<ul>
+<li><p><a class="reference external" href="#python-data-manipulation-cleaning">Data Manipulation &amp; Cleaning</a></p></li>
+<li><p><a class="reference external" href="#python-automated-data-visualization-tools">Automated Data Visualization Tools</a></p></li>
+<li><p><a class="reference external" href="#python-data-quality-profiling">Data Quality &amp; Profiling</a></p></li>
+<li><p><a class="reference external" href="#python-feature-engineering-selection">Feature Engineering &amp; Selection</a></p></li>
+<li><p><a class="reference external" href="#python-testing-validation">Testing &amp; Validation</a></p></li>
+<li><p><a class="reference external" href="#python-etl-data-pipelines">ETL &amp; Data Pipelines</a></p></li>
+<li><p><a class="reference external" href="#python-interactive-tools-guis">Interactive Tools &amp; GUIs</a></p></li>
+<li><p><a class="reference external" href="#python-data-generation-simulation">Data Generation &amp; Simulation</a></p></li>
+<li><p><a class="reference external" href="#python-formatting-logging">Formatting &amp; Logging</a></p></li>
+<li><p><a class="reference external" href="#python-module-dependency-code-management">Module Dependency &amp; Code Management</a></p></li>
+<li><p><a class="reference external" href="#python-parallel-computing-for-dataframes">Parallel Computing for DataFrames</a></p></li>
+<li><p><a class="reference external" href="#python-documentation">Documentation</a></p></li>
+<li><p><a class="reference external" href="#python-file-formats-documents">File Formats &amp; Documents</a></p></li>
+<li><p><a class="reference external" href="#python-additional">Additional</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#sql-databases">🗃️ SQL &amp; Databases</a></p>
+<ul>
+<li><p><a class="reference external" href="#sql-databases-resources">Resources</a></p></li>
+<li><p><a class="reference external" href="#sql-databases-tools">Tools</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#data-visualization">📊 Data Visualization</a></p>
+<ul>
+<li><p><a class="reference external" href="#data-visualization-resources">Resources</a></p></li>
+<li><p><a class="reference external" href="#data-visualization-tools">Tools</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#dashboards">📈 Dashboards</a></p>
+<ul>
+<li><p><a class="reference external" href="#dashboards-resources">Resources</a></p></li>
+<li><p><a class="reference external" href="#dashboards-tools">Tools</a></p></li>
+<li><p><a class="reference external" href="#dashboards-software">Software</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#web-scraping-crawling">🕸️ Web Scraping &amp; Crawling</a></p>
+<ul>
+<li><p><a class="reference external" href="#web-scraping-crawling-resources">Resources</a></p></li>
+<li><p><a class="reference external" href="#web-scraping-crawling-tools">Tools</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#natural-language-processing-nlp">📖 Natural Language Processing (NLP)</a></p>
+<ul>
+<li><p><a class="reference external" href="#natural-language-processing-nlp-resources">Resources</a></p></li>
+<li><p><a class="reference external" href="#natural-language-processing-nlp-tools">Tools</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#mathematics-statistics-probability">🔢 Mathematics, Statistics &amp; Probability</a></p>
+<ul>
+<li><p><a class="reference external" href="#mathematics-statistics-probability-mathematics">Mathematics</a></p></li>
+<li><p><a class="reference external" href="#mathematics-statistics-probability-statistics-probability">Statistics &amp; Probability</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#ab-testing">🧪 A/B Testing</a></p></li>
+<li><p><a class="reference external" href="#machine-learning">🤖 Machine Learning</a></p></li>
+<li><p><a class="reference external" href="#productivity-development-tools">🧠 Productivity &amp; Development Tools</a></p>
+<ul>
+<li><p><a class="reference external" href="#productivity-development-tools-resources">Resources</a></p></li>
+<li><p><a class="reference external" href="#productivity-development-tools-useful-linux-tools">Useful Linux Tools</a></p></li>
+<li><p><a class="reference external" href="#productivity-development-tools-useful-vs-code-extensions">Useful VS Code Extensions</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#skill-development-career-resources">📚 Skill Development &amp; Career Resources</a></p>
+<ul>
+<li><p><a class="reference external" href="#skill-development-career-resources-practice-resources">Practice Resources</a></p></li>
+<li><p><a class="reference external" href="#skill-development-career-resources-curated-jupyter-notebooks">Curated Jupyter Notebooks</a></p></li>
+<li><p><a class="reference external" href="#skill-development-career-resources-data-sources-datasets">Data Sources &amp; Datasets</a></p></li>
+<li><p><a class="reference external" href="#skill-development-career-resources-resume-and-interview-tips">Resume and Interview Tips</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#cheatsheets">📋 Cheatsheets</a></p>
+<ul>
+<li><p><a class="reference external" href="#cheatsheets-python">Python</a></p></li>
+<li><p><a class="reference external" href="#cheatsheets-data-science-machine-learning">Data Science &amp; Machine Learning</a></p></li>
+<li><p><a class="reference external" href="#cheatsheets-linux-command-line">Linux &amp; Command Line</a></p></li>
+<li><p><a class="reference external" href="#cheatsheets-git-github">Git &amp; GitHub</a></p></li>
+<li><p><a class="reference external" href="#cheatsheets-probability-statistics">Probability &amp; Statistics</a></p></li>
+<li><p><a class="reference external" href="#cheatsheets-docker">Docker</a></p></li>
+<li><p><a class="reference external" href="#cheatsheets-tools-workflow">Tools &amp; Workflow</a></p></li>
+<li><p><a class="reference external" href="#cheatsheets-sql-databases">SQL &amp; Databases</a></p></li>
+<li><p><a class="reference external" href="#cheatsheets-interview-preparation">Interview Preparation</a></p></li>
+<li><p><a class="reference external" href="#cheatsheets-miscellaneous">Miscellaneous</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#additional-resources">🌐 Additional Resources</a></p></li>
+<li><p><a class="reference external" href="#contributing">🤝 Contributing</a></p></li>
+<li><p><a class="reference external" href="#license">📜 License</a></p></li>
+</ul>
+<hr class="docutils" />
+<p><a id="awesome-data-science-repositories"></a></p>
+</section>
+<section id="awesome-data-science-repositories">
+<h2>🏆 Awesome Data Science Repositories<a class="headerlink" href="#awesome-data-science-repositories" title="Link to this heading">#</a></h2>
+<p>Curated collections of high-quality GitHub repos for inspiration and learning.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/academic/awesome-datascience">Awesome Data Science</a> - A comprehensive repository to learn and apply data science for real-world problems.</p></li>
+<li><p><a class="reference external" href="https://github.com/microsoft/Data-Science-For-Beginners">Data Science for Beginners</a> - Microsoft’s data science curriculum.</p></li>
+<li><p><a class="reference external" href="https://github.com/ossu/data-science">OSSU Data Science</a> - Open Source Society University’s self-study path.</p></li>
+<li><p><a class="reference external" href="https://github.com/khuyentran1401/Data-science">Useful Data Science Topics</a> - A collection of articles, videos, and code related to data science.</p></li>
+<li><p><a class="reference external" href="https://github.com/tirthajyoti/Data-science-best-resources">Curated Data Science Resources</a> - Carefully curated links for data science resources in one place.</p></li>
+<li><p><a class="reference external" href="https://github.com/WillKoehrsen/Data-Analysis">Data Science Using Python</a> - Resources for data analysis using Python.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="roadmaps"></a></p>
+</section>
+<section id="roadmaps">
+<h2>🗺️ Roadmaps<a class="headerlink" href="#roadmaps" title="Link to this heading">#</a></h2>
+<p>Step-by-step guides and skill trees to master data science and analytics.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://roadmap.sh/data-analyst">Data Analyst Roadmap</a> - Structured learning path for analysts.</p></li>
+<li><p><a class="reference external" href="https://github.com/MrMimic/data-scientist-roadmap">Data Science Roadmap Tutorials</a> - Tutorials for the data science roadmap.</p></li>
+<li><p><a class="reference external" href="https://github.com/Moataz-Elmesmary/Data-Science-Roadmap">Data Science Roadmap from A to Z</a> - Comprehensive roadmap for data science.</p></li>
+<li><p><a class="reference external" href="https://github.com/ayush714/data-science-roadmap">Roadmap for Data Science</a> - Structured roadmap for aspiring data scientists.</p></li>
+<li><p><a class="reference external" href="https://github.com/krishnaik06/Data-Analyst-Roadmap">Data Analyst RoadMap</a> - Comprehensive roadmap for aspiring data analysts.</p></li>
+<li><p><a class="reference external" href="https://github.com/mrankitgupta/Data-Analyst-Roadmap">66DaysOfData</a> - 66-day data analytics learning challenge.</p></li>
+<li><p><a class="reference external" href="https://github.com/mtahiraslan/data-analyst-roadmap">Data Analyst Roadmap from Zero</a> - Guide to becoming a data analyst from scratch.</p></li>
+<li><p><a class="reference external" href="https://github.com/hemansnation/Data-Analyst-Roadmap">Data-Analyst-Roadmap for Professionals</a> - 8-week program for analysts at all levels.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python"></a></p>
+</section>
+<section id="python">
+<h2>🐍 Python<a class="headerlink" href="#python" title="Link to this heading">#</a></h2>
+<p><a id="python-resources"></a></p>
+<section id="resources">
+<h3>Resources<a class="headerlink" href="#resources" title="Link to this heading">#</a></h3>
+<p>A collection of resources for learning and mastering Python programming.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/vinta/awesome-python">awesome-python</a> - An opinionated list of awesome Python frameworks, libraries, software, and resources.</p></li>
+<li><p><a class="reference external" href="https://github.com/Asabeneh/30-Days-Of-Python">30-Days-Of-Python</a> - A 30-day programming challenge to learn the Python programming language.</p></li>
+<li><p><a class="reference external" href="https://realpython.com/">Real Python Tutorials</a> - Tutorials on Python from Real Python.</p></li>
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/python-programming-language-tutorial/">geeksforgeeks - Python Tutorial</a> - Python tutorial from GeeksforGeeks.</p></li>
+<li><p><a class="reference external" href="https://github.com/ujjwalkarn/DataSciencePython">DataSciencePython</a> - Common data analysis and machine learning tasks using Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/jakevdp/PythonDataScienceHandbook">PythonDataScienceHandbook</a> - Full text of the “Python Data Science Handbook” in Jupyter Notebooks.</p></li>
+<li><p><a class="reference external" href="https://github.com/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews">Python-for-Algorithms–Data-Structures–and-Interviews</a> - Files for Udemy course on algorithms and data structures.</p></li>
+<li><p><a class="reference external" href="https://github.com/Tanu-N-Prabhu/Python/tree/master">Tanu-N-Prabhu/Python</a> - This repository helps you understand Python from scratch.</p></li>
+<li><p><a class="reference external" href="https://github.com/donnemartin/interactive-coding-challenges">interactive-coding-challenges</a> - 120+ interactive Python coding interview challenges.</p></li>
+<li><p><a class="reference external" href="https://github.com/zedr/clean-code-python">clean-code-python</a> - Clean Code concepts adapted for Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/ml-tooling/best-of-python">best-of-python</a> - A ranked list of awesome Python open-source libraries and tools.</p></li>
+<li><p><a class="reference external" href="https://github.com/mahmoud/awesome-python-applications">awesome-python-applications</a> - Free software that works great, and also happens to be open-source Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/realpython/list-of-python-api-wrappers">list-of-python-api-wrappers</a> - List of Python API wrappers and libraries.</p></li>
+<li><p><a class="reference external" href="https://github.com/MaxBenChrist/awesome_time_series_in_python">Awesome Time Series in Python</a> - Curated list of Python packages for time series analysis.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-data-manipulation-with-pandas"></a></p>
+</section>
+<section id="data-manipulation-with-pandas">
+<h3>Data Manipulation with Pandas<a class="headerlink" href="#data-manipulation-with-pandas" title="Link to this heading">#</a></h3>
+<p>Tutorials and best practices for working with pandas DataFrames.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/tommyod/awesome-pandas">A collection of resources for pandas</a> - A curated list of resources for using the Pandas library.</p></li>
+<li><p><a class="reference external" href="https://github.com/ajcr/100-pandas-puzzles">100 data puzzles for pandas, ranging from short and simple to super tricky</a> - A collection of data puzzles to practice your Pandas skills.</p></li>
+<li><p><a class="reference external" href="https://pandastutor.com/">Pandas Tutor</a> - Visualize Pandas operations step-by-step (perfect for beginners).</p></li>
+<li><p><a class="reference external" href="https://github.com/guipsamora/pandas_exercises">Practice your pandas skills!</a> - Exercises designed to help you improve your Pandas skills.</p></li>
+<li><p><a class="reference external" href="https://github.com/jvns/pandas-cookbook">Recipes for using Python’s pandas library</a> - A cookbook with various recipes for using Pandas effectively.</p></li>
+<li><p><a class="reference external" href="https://github.com/PacktPublishing/Pandas-Cookbook">Pandas Cookbook, published by Packt</a> - A comprehensive cookbook for learning Pandas.</p></li>
+<li><p><a class="reference external" href="https://github.com/stefmolin/Hands-On-Data-Analysis-with-Pandas-2nd-edition">Materials for following along with Hands-On Data Analysis with Pandas</a> - Resources to accompany the “Hands-On Data Analysis with Pandas” book.</p></li>
+<li><p><a class="reference external" href="https://github.com/TomAugspurger/effective-pandas">Effective Pandas</a> - A series focused on writing effective and idiomatic Pandas code.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-useful-python-tools-for-data-analysis"></a></p>
+</section>
+<section id="useful-python-tools-for-data-analysis">
+<h3>Useful Python Tools for Data Analysis<a class="headerlink" href="#useful-python-tools-for-data-analysis" title="Link to this heading">#</a></h3>
+<p>A collection of Python libraries for efficient data manipulation, cleaning, visualization, validation, and analysis.
+<a id="python-data-manipulation-cleaning"></a></p>
+<section id="data-manipulation-cleaning">
+<h4>Data Manipulation &amp; Cleaning<a class="headerlink" href="#data-manipulation-cleaning" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/AutoViML/pandas_dq">Pandas-dq</a> - Data type correction and automatic DataFrame cleaning.</p></li>
+<li><p><a class="reference external" href="https://github.com/vaexio/vaex">Vaex</a> - High-performance Python library for lazy Out-of-Core DataFrames.</p></li>
+<li><p><a class="reference external" href="https://github.com/rhiever/datacleaner">DataCleaner</a> - Python tool for automatically cleaning and preparing datasets.</p></li>
+<li><p><a class="reference external" href="https://github.com/pola-rs/polars">Polars</a> - Multithreaded, vectorized query engine for DataFrames (Rust-powered).</p></li>
+<li><p><a class="reference external" href="https://github.com/Zsailer/pandas_flavor">Pandas-flavor</a> - Add custom methods to Pandas.</p></li>
+<li><p><a class="reference external" href="https://github.com/seatgeek/thefuzz">TheFuzz</a> - Fuzzy string matching (Levenshtein distance).</p></li>
+<li><p><a class="reference external" href="https://github.com/sinaptik-ai/pandas-ai">PandasAI</a> - Conversational data analysis using LLMs and RAG.</p></li>
+<li><p><a class="reference external" href="https://github.com/dateutil/dateutil">DateUtil</a> - Extensions for standard Python datetime features.</p></li>
+<li><p><a class="reference external" href="https://github.com/fugue-project/fugue">Fugue</a> - Unified interface for Pandas, Spark, and Dask.</p></li>
+<li><p><a class="reference external" href="https://github.com/pydata/pandas-datareader">Pandas-DataReader</a> - Reads data from various online sources into pandas DataFrames.</p></li>
+<li><p><a class="reference external" href="https://github.com/scikit-learn-contrib/sklearn-pandas">sklearn-pandas</a> - Bridge between Pandas and Scikit-learn.</p></li>
+<li><p><a class="reference external" href="https://pythonhosted.org/fitter/">fitter</a> - Figures out the distribution your data comes from.</p></li>
+<li><p><a class="reference external" href="https://github.com/arrow-py/arrow">Arrow</a> - Enhanced work with dates and times.</p></li>
+<li><p><a class="reference external" href="https://github.com/sdispater/pendulum">Pendulum</a> - Alternative to datetime with timezone support.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-automated-data-visualization-tools"></a></p>
+</section>
+<section id="automated-data-visualization-tools">
+<h4>Automated Data Visualization Tools<a class="headerlink" href="#automated-data-visualization-tools" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/AutoViML/AutoViz">AutoViz</a> - Automatic data visualization in 1 line of code.</p></li>
+<li><p><a class="reference external" href="https://github.com/mckinsey/vizro">Vizro</a> - Low-code toolkit for building high-quality data visualization apps.</p></li>
+<li><p><a class="reference external" href="https://github.com/posit-dev/great-tables">Great Tables</a> - Create awesome display tables using Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/TutteInstitute/datamapplot">DataMapPlot</a> - Create beautiful plots of data maps.</p></li>
+<li><p><a class="reference external" href="https://github.com/holoviz/datashader">Datashader</a> - Quickly and accurately render even the largest data.</p></li>
+<li><p><a class="reference external" href="https://github.com/fbdesignpro/sweetviz">Sweetviz</a> - Automatic EDA with dataset comparison.</p></li>
+<li><p><a class="reference external" href="https://github.com/lux-org/lux">Lux</a> - Automatic DataFrame visualization in Jupyter with a click.</p></li>
+<li><p><a class="reference external" href="https://github.com/DistrictDataLabs/yellowbrick">Yellowbrick</a> - A suite of visual diagnostic tools for machine learning, extending the Scikit-Learn API.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-data-quality-profiling"></a></p>
+</section>
+<section id="data-quality-profiling">
+<h4>Data Quality &amp; Profiling<a class="headerlink" href="#data-quality-profiling" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/pandas-profiling/pandas-profiling">Pandas-profiling</a> - Automatic DataFrame visualization and profiling.</p></li>
+<li><p><a class="reference external" href="https://github.com/yzhao062/pyod">PyOD</a> - Python library for outlier and anomaly detection.</p></li>
+<li><p><a class="reference external" href="https://github.com/ydataai/ydata-profiling">YData Profiling</a> - 1 line of code data quality profiling &amp; exploratory data analysis.</p></li>
+<li><p><a class="reference external" href="https://github.com/ResidentMario/missingno">Missingno</a> - Visualize missing data patterns in matrix format.</p></li>
+<li><p><a class="reference external" href="https://github.com/NathanEpstein/Dora">Dora</a> - Automate EDA: preprocessing, feature engineering, visualization.</p></li>
+<li><p><a class="reference external" href="https://github.com/SeldonIO/alibi-detect">alibi-detect</a> - Algorithms for outlier, adversarial and drift detection.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-feature-engineering-selection"></a></p>
+</section>
+<section id="feature-engineering-selection">
+<h4>Feature Engineering &amp; Selection<a class="headerlink" href="#feature-engineering-selection" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/alteryx/featuretools">FeatureTools</a> - Open-source automated feature engineering.</p></li>
+<li><p><a class="reference external" href="https://github.com/WillKoehrsen/feature-selector">Feature Selector</a> - Tool for dimensionality reduction of machine learning datasets.</p></li>
+<li><p><a class="reference external" href="https://github.com/blue-yonder/tsfresh">TSFresh</a> - A Python library for automatically extracting features from time series data.</p></li>
+<li><p><a class="reference external" href="https://github.com/feature-engine/feature_engine">Feature Engine</a> - A feature engineering library with Scikit-Learn compatibility.</p></li>
+<li><p><a class="reference external" href="https://github.com/MaxHalford/prince">Prince</a> - A Python library for multivariate exploratory data analysis, including PCA, CA, MCA, and more.</p></li>
+<li><p><a class="reference external" href="https://github.com/EducationalTestingService/factor_analyzer">Factor Analyzer</a> - A Python package for factor analysis, including exploratory and confirmatory methods.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-testing-validation"></a></p>
+</section>
+<section id="testing-validation">
+<h4>Testing &amp; Validation<a class="headerlink" href="#testing-validation" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/pytest-dev/pytest">pytest</a> - Framework for writing small tests.</p></li>
+<li><p><a class="reference external" href="https://github.com/pyeve/cerberus">Cerberus</a> - Data validation through schemas.</p></li>
+<li><p><a class="reference external" href="https://github.com/unionai-oss/pandera">Pandera</a> - Data validation through declarative schemas.</p></li>
+<li><p><a class="reference external" href="https://github.com/deppen8/pandas-vet">PandasVet</a> - Code style validator for Pandas (similar to ESLint).</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-etl-data-pipelines"></a></p>
+</section>
+<section id="etl-data-pipelines">
+<h4>ETL &amp; Data Pipelines<a class="headerlink" href="#etl-data-pipelines" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/PrefectHQ/prefect">Prefect</a> - Workflow orchestration for building resilient data pipelines.</p></li>
+<li><p><a class="reference external" href="https://github.com/apache/airflow">Airflow</a> - Platform for automating data workflows.</p></li>
+<li><p><a class="reference external" href="https://github.com/apache/arrow">Apache Arrow</a> - Universal columnar format and multi-language toolbox for fast data interchange.</p></li>
+<li><p><a class="reference external" href="https://github.com/petl-developers/petl">Petl</a> - ETL tool for data cleaning and transformation.</p></li>
+<li><p><a class="reference external" href="https://github.com/duckdb/duckdb">DuckDB</a> - In-memory analytical database for fast SQL queries.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-interactive-tools-guis"></a></p>
+</section>
+<section id="interactive-tools-guis">
+<h4>Interactive Tools &amp; GUIs<a class="headerlink" href="#interactive-tools-guis" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/man-group/dtale">D-Tale</a> - Interactive GUI for data analysis in a browser.</p></li>
+<li><p><a class="reference external" href="https://github.com/adamerose/pandasgui">Pandasgui</a> - GUI for viewing and filtering DataFrames.</p></li>
+<li><p><a class="reference external" href="https://github.com/quantopian/qgrid">QGrid</a> - Interactive grid for sorting, filtering, and editing DataFrames in Jupyter.</p></li>
+<li><p><a class="reference external" href="https://github.com/Kanaries/pygwalker">PyGWalker</a> - Interactive UIs for visual analysis of pandas DataFrames.</p></li>
+<li><p><a class="reference external" href="https://github.com/mito-ds/monorepo">Mito</a> - Jupyter extensions that help you write code faster.</p></li>
+<li><p><a class="reference external" href="https://github.com/nicolaskruchten/jupyter_pivottablejs">Pivottablejs</a> - Interactive PivotTable.js tables in Jupyter.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-data-generation-simulation"></a></p>
+</section>
+<section id="data-generation-simulation">
+<h4>Data Generation &amp; Simulation<a class="headerlink" href="#data-generation-simulation" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/joke2k/faker">Faker</a> - Generates fake data for testing.</p></li>
+<li><p><a class="reference external" href="https://github.com/lk-geimfari/mimesis">Mimesis</a> - Generates realistic test data.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-formatting-logging"></a></p>
+</section>
+<section id="formatting-logging">
+<h4>Formatting &amp; Logging<a class="headerlink" href="#formatting-logging" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/Textualize/rich">Rich</a> - Rich text and beautiful formatting in the terminal.</p></li>
+<li><p><a class="reference external" href="https://github.com/eyaltrabelsi/pandas-log">Pandas-log</a> - Logs pandas operations for data transformation tracking.</p></li>
+<li><p><a class="reference external" href="https://github.com/gruns/icecream">Icecream</a> - Debugging without using print.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-module-dependency-code-management"></a></p>
+</section>
+<section id="module-dependency-code-management">
+<h4>Module Dependency &amp; Code Management<a class="headerlink" href="#module-dependency-code-management" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/thebjorn/pydeps">pydeps</a> - Python module dependency graphs.</p></li>
+<li><p><a class="reference external" href="https://github.com/8080labs/pyforest">PyForest</a> - Automated Python imports for data science.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-parallel-computing-for-dataframes"></a></p>
+</section>
+<section id="parallel-computing-for-dataframes">
+<h4>Parallel Computing for DataFrames<a class="headerlink" href="#parallel-computing-for-dataframes" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/nalepae/pandarallel">Pandarallel</a> - Parallel operations for pandas DataFrames.</p></li>
+<li><p><a class="reference external" href="https://github.com/dask/dask">Dask</a> - Parallel computing for arrays and DataFrames.</p></li>
+<li><p><a class="reference external" href="https://github.com/modin-project/modin">Modin</a> - Speeds up Pandas by distributing computations.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-documentation"></a></p>
+</section>
+<section id="documentation">
+<h4>Documentation<a class="headerlink" href="#documentation" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/sphinx-doc/sphinx">sphinx</a> - The Sphinx documentation generator.</p></li>
+<li><p><a class="reference external" href="https://github.com/mitmproxy/pdoc">pdoc</a> - API documentation for Python projects.</p></li>
+<li><p><a class="reference external" href="https://github.com/mkdocs/mkdocs">mkdocs</a> - Project documentation with Markdown.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-file-formats-documents"></a></p>
+</section>
+<section id="file-formats-documents">
+<h4>File Formats &amp; Documents<a class="headerlink" href="#file-formats-documents" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://openpyxl.readthedocs.io/en/stable/">OpenPyXL</a> - Read/write Excel files with support for advanced features.</p></li>
+<li><p><a class="reference external" href="https://github.com/jazzband/tablib">Tablib</a> - Exports data to XLSX, JSON, CSV via a single API.</p></li>
+<li><p><a class="reference external" href="https://github.com/py-pdf/PyPDF2">PyPDF2</a> - Reads and writes PDF files.</p></li>
+<li><p><a class="reference external" href="https://github.com/python-openxml/python-docx">python-docx</a> - Reads and writes Word documents.</p></li>
+<li><p><a class="reference external" href="https://github.com/alan-turing-institute/CleverCSV">CleverCSV</a> - Smart CSV reader for messy data.</p></li>
+<li><p><a class="reference external" href="https://github.com/xlwings/xlwings">xlwings</a> - Integration of Python with Excel.</p></li>
+<li><p><a class="reference external" href="https://github.com/martinblech/xmltodict">xmltodict</a> - Converts XML to Python dictionaries.</p></li>
+<li><p><a class="reference external" href="https://github.com/matthewwithanm/python-markdownify">python-markdownify</a> - Convert HTML to Markdown.</p></li>
+<li><p><a class="reference external" href="https://github.com/microsoft/markitdown">MarkItDown</a> - Python tool for converting files and office documents to Markdown.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="python-additional"></a></p>
+</section>
+<section id="additional">
+<h4>Additional<a class="headerlink" href="#additional" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pillow.readthedocs.io/en/stable/">Pillow</a> - Image processing library.</p></li>
+<li><p><a class="reference external" href="https://github.com/rspeer/python-ftfy">Ftfy</a> - Fixes broken Unicode strings.</p></li>
+<li><p><a class="reference external" href="https://github.com/kennethreitz-archive/records">Records</a> - SQL queries to databases via Python syntax.</p></li>
+<li><p><a class="reference external" href="https://github.com/pudo/dataset">Dataset</a> - JSON-like interface for working with SQL databases.</p></li>
+<li><p><a class="reference external" href="https://github.com/jmespath/jmespath.py">JmesPath</a> - Queries JSON data (SQL-like for JSON).</p></li>
+<li><p><a class="reference external" href="https://github.com/mahmoud/glom">Glom</a> - Transforms nested data structures.</p></li>
+<li><p><a class="reference external" href="https://github.com/santinic/pampy">Pampy</a> - Pattern matching for Python dictionaries.</p></li>
+<li><p><a class="reference external" href="https://github.com/geopy/geopy">Geopy</a> - Geocoding addresses and calculating distances.</p></li>
+<li><p><a class="reference external" href="https://github.com/mingrammer/diagrams">diagrams</a> - Diagrams as code for cloud system architecture prototyping.</p></li>
+<li><p><a class="reference external" href="https://github.com/JasonKessler/scattertext">scattertext</a> - Beautiful visualizations of language differences among document types.</p></li>
+<li><p><a class="reference external" href="https://github.com/OmkarPathak/pygorithm">pygorithm</a> - A Python module for learning all major algorithms.</p></li>
+<li><p><a class="reference external" href="https://github.com/igraph/igraph">iGraph</a> - A library for creating and manipulating graphs and networks, with bindings for multiple languages.</p></li>
+<li><p><a class="reference external" href="https://github.com/joblib/joblib">Joblib</a> - A lightweight pipelining library for Python, particularly useful for saving and loading large NumPy arrays.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="sql-databases"></a></p>
+</section>
+</section>
+</section>
+<section id="sql-databases">
+<h2>🗃️ SQL &amp; Databases<a class="headerlink" href="#sql-databases" title="Link to this heading">#</a></h2>
+<p><a id="sql-databases-resources"></a></p>
+<section id="id1">
+<h3>Resources<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<p>SQL tutorials and database design principles.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/sql-tutorial/">GeeksforGeeks - SQL Tutorial</a> - Detailed SQL tutorial.</p></li>
+<li><p><a class="reference external" href="https://sqlzoo.net/wiki/SQL_Tutorial">SQLZoo - SQL Tutorial</a> - Interactive SQL tutorial.</p></li>
+<li><p><a class="reference external" href="https://sqlbolt.com/">SQL Bolt - Learn SQL</a> - Learn SQL through interactive lessons.</p></li>
+<li><p><a class="reference external" href="https://www.sqltutorial.org/">SQL Tutorial</a> - Comprehensive SQL tutorial resource.</p></li>
+<li><p><a class="reference external" href="https://www.w3schools.com/sql/default.asp">SQL Tutorial by W3Schools.</a> - Comprehensive SQL tutorial.</p></li>
+<li><p><a class="reference external" href="https://w3resource.com/PostgreSQL/tutorial.php">PostgreSQL Tutorial by W3Resource</a> - Tutorial for PostgreSQL.</p></li>
+<li><p><a class="reference external" href="https://www.w3resource.com/mysql/mysql-tutorials.php">MySQL Tutorial by W3Resource</a> - Tutorial for MySQL.</p></li>
+<li><p><a class="reference external" href="https://www.w3resource.com/mongodb/nosql.php">MongoDB Tutorial by W3Resource</a> - Tutorial for MongoDB.</p></li>
+<li><p><a class="reference external" href="https://www.interviewbit.com/sql-interview-questions/">InterviewBit - SQL Interview Questions</a> - Collection of SQL interview questions.</p></li>
+<li><p><a class="reference external" href="https://www.eversql.com/">EverSQL</a> - AI-powered SQL query optimization and database observability tool.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="sql-databases-tools"></a></p>
+</section>
+<section id="tools">
+<h3>Tools<a class="headerlink" href="#tools" title="Link to this heading">#</a></h3>
+<p>A collection of Python libraries and drivers for seamless database access and interaction.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/mkleehammer/pyodbc">PyODBC - Access databases via ODBC</a> - Python library for ODBC database access.</p></li>
+<li><p><a class="reference external" href="https://github.com/sqlalchemy/sqlalchemy">SQLAlchemy - ORM and SQL Toolkit for Python</a> - SQL toolkit and ORM for Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/psycopg/psycopg2">Psycopg2 - PostgreSQL adapter for Python</a> - PostgreSQL database adapter.</p></li>
+<li><p><a class="reference external" href="https://github.com/mysql/mysql-connector-python">MySQL Connector/Python - Official MySQL driver</a> - MySQL driver for Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/ponyorm/pony">PonyORM - ORM with query generation on the fly</a> - ORM for Python with dynamic query generation.</p></li>
+<li><p><a class="reference external" href="https://github.com/mongodb/mongo-python-driver">PyMongo - Official MongoDB driver</a> - MongoDB driver for Python.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="data-visualization"></a></p>
+</section>
+</section>
+<section id="data-visualization">
+<h2>📊 Data Visualization<a class="headerlink" href="#data-visualization" title="Link to this heading">#</a></h2>
+<p><a id="data-visualization-resources"></a></p>
+<section id="id2">
+<h3>Resources<a class="headerlink" href="#id2" title="Link to this heading">#</a></h3>
+<p>Color theory, chart selection guides, and storytelling tips.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/uwdata/visualization-curriculum">Data Visualization Curriculum</a> - Interactive notebooks designed to teach data visualization concepts.</p></li>
+<li><p><a class="reference external" href="https://python-graph-gallery.com/">The Python Graph Gallery</a> - A collection of Python graph examples for data visualization.</p></li>
+<li><p><a class="reference external" href="https://flowingdata.com/">FlowingData</a> - Insights on data analysis and visualization.</p></li>
+<li><p><a class="reference external" href="https://datavizcatalogue.com/index.html">The Data Visualization Catalogue</a> - A comprehensive catalog of data visualization types.</p></li>
+<li><p><a class="reference external" href="https://github.com/holtzy/data_to_viz">From Data to Viz</a> - A guide to choosing the right visualization based on your data.</p></li>
+<li><p><a class="reference external" href="https://datavizproject.com/">Data Viz Project</a> - A resource for selecting suitable visualizations.</p></li>
+<li><p><a class="reference external" href="https://www.anychart.com/chartopedia/usage-type/">Your guide for choosing the right chart types</a> - A guide to help you select the appropriate chart types.</p></li>
+<li><p><a class="reference external" href="https://dataforvisualization.com/">Data Visualization Insights &amp; Tutorials</a> - Tutorials and insights on data visualization techniques.</p></li>
+<li><p><a class="reference external" href="https://truth-and-beauty.net/">Truth &amp; Beauty - Moritz Stefaner</a> - Exploration of the aesthetics of data visualization.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="data-visualization-tools"></a></p>
+</section>
+<section id="id3">
+<h3>Tools<a class="headerlink" href="#id3" title="Link to this heading">#</a></h3>
+<p>Libraries for static, interactive, and 3D visualizations.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://matplotlib.org/stable/contents.html">Matplotlib</a> - A comprehensive library for creating static, animated, and interactive visualizations in Python.</p></li>
+<li><p><a class="reference external" href="https://seaborn.pydata.org/">Seaborn</a> - A statistical data visualization library based on Matplotlib.</p></li>
+<li><p><a class="reference external" href="https://plotly.com/python/">Plotly</a> - A library for creating interactive plots and dashboards.</p></li>
+<li><p><a class="reference external" href="https://altair-viz.github.io/">Altair</a> - A declarative statistical visualization library for Python.</p></li>
+<li><p><a class="reference external" href="https://docs.bokeh.org/en/latest/">Bokeh</a> - A library for creating interactive visualizations for modern web browsers.</p></li>
+<li><p><a class="reference external" href="https://holoviews.org/">HoloViews</a> - A tool for building complex visualizations easily.</p></li>
+<li><p><a class="reference external" href="https://geopandas.org/en/stable/">Geopandas</a> - An extension of Pandas for geospatial data.</p></li>
+<li><p><a class="reference external" href="https://python-visualization.github.io/folium/">Folium</a> - A library for visualizing data on interactive maps.</p></li>
+<li><p><a class="reference external" href="https://pygal.org/en/stable/">Pygal</a> - A Python SVG charting library.</p></li>
+<li><p><a class="reference external" href="https://plotnine.readthedocs.io/en/stable/">Plotnine</a> - A grammar of graphics for Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/bqplot/bqplot">bqplot</a> - A plotting library for IPython/Jupyter notebooks.</p></li>
+<li><p><a class="reference external" href="https://github.com/JosephBARBIERDARNAL/pypalettes">PyPalettes</a> - A large (+2500) collection of color maps for Python.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="dashboards"></a></p>
+</section>
+</section>
+<section id="dashboards">
+<h2>📈 Dashboards<a class="headerlink" href="#dashboards" title="Link to this heading">#</a></h2>
+<p><a id="dashboards-resources"></a></p>
+<section id="id4">
+<h3>Resources<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
+<p>Ttutorials for building and enhancing dashboards and visualizations using various tools and frameworks.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/obazoud/awesome-dashboard">A curated list of amazingly awesome dashboards/visualization resources</a> - A collection of outstanding dashboard and visualization resources.</p></li>
+<li><p><a class="reference external" href="https://github.com/emilhe/dash-extensions">The dash-extensions package is a collection of utility functions, syntax extensions, and Dash components that aim to improve the Dash development experience</a> - Enhancements for Dash development.</p></li>
+<li><p><a class="reference external" href="https://github.com/jrieke/best-of-streamlit">A ranked gallery of awesome streamlit apps built by the community</a> - Showcase of community-built Streamlit applications.</p></li>
+<li><p><a class="reference external" href="https://github.com/ucg8j/awesome-dash">A curated list of awesome Dash (plotly) resources</a> - Comprehensive resources for Dash users.</p></li>
+<li><p><a class="reference external" href="https://github.com/awesome-panel/awesome-panel">Awesome Panel supports Panel and its users</a> - Resources and support for Panel users.</p></li>
+<li><p><a class="reference external" href="https://github.com/andrew-hossack/dash-tools">DashTools - Plotly Dash Command Line Tools - Create, Run and Deploy Templated Python Apps from Terminal</a> - Command line tools for Dash applications.</p></li>
+<li><p><a class="reference external" href="https://github.com/quantgirluk/Plotly-Dash-Cookbook">Data Visualization with Plotly Cookbook</a> - Cookbook for data visualization using Plotly.</p></li>
+<li><p><a class="reference external" href="https://github.com/austinlasseter/plotly_dash_tutorial">Plotly Dash Tutorial</a> - Tutorial for learning Plotly Dash.</p></li>
+<li><p><a class="reference external" href="https://github.com/plotly/dash-sample-apps">Dash Enterprise Samples</a> - Production-ready Dash apps.</p></li>
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/tableau-tutorial/">geeksforgeeks - Tableau Tutorial</a> - Comprehensive tutorial on Tableau.</p></li>
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/power-bi-tutorial/">geeksforgeeks - Power BI Tutorial</a> - Detailed tutorial on Power BI.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="dashboards-tools"></a></p>
+</section>
+<section id="id5">
+<h3>Tools<a class="headerlink" href="#id5" title="Link to this heading">#</a></h3>
+<p>Frameworks for building custom dashboard solutions.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/plotly/dash">Dash - Framework for building analytical web apps with interactive plots</a> - Framework for creating interactive web applications.</p></li>
+<li><p><a class="reference external" href="https://github.com/streamlit/streamlit">Streamlit — A faster way to build and share data apps</a> - Simplified framework for building data applications.</p></li>
+<li><p><a class="reference external" href="https://panel.holoviz.org/">Panel - The Powerful Data Exploration &amp; Web App Framework for Python</a> - Framework for creating interactive web applications.</p></li>
+<li><p><a class="reference external" href="https://www.gradio.app/">Gradio - Build &amp; share delightful machine learning apps</a> - Tool for creating and sharing machine learning applications.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="dashboards-software"></a></p>
+</section>
+<section id="software">
+<h3>Software<a class="headerlink" href="#software" title="Link to this heading">#</a></h3>
+<p>A list of leading tools and platforms for data visualization and dashboard creation.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.tableau.com">Tableau</a> - Leading data visualization software.</p></li>
+<li><p><a class="reference external" href="https://powerbi.microsoft.com">Microsoft Power BI</a> - Business analytics tool for visualizing data.</p></li>
+<li><p><a class="reference external" href="https://www.qlik.com/us/products/qlikview">QlikView - Business intelligence tool that offers data visualization and dashboard capabilities</a> - Tool for data visualization and business intelligence.</p></li>
+<li><p><a class="reference external" href="https://www.metabase.com">Metabase - Open-source business intelligence tool that allows users to visualize data easily</a> - User-friendly open-source BI tool.</p></li>
+<li><p><a class="reference external" href="https://superset.apache.org">Apache Superset - Open-source data exploration and visualization platform</a> - Powerful data exploration and visualization tool.</p></li>
+<li><p><a class="reference external" href="https://redash.io/">Redash - Helps you make sense of your data</a> - Tool for visualizing and sharing data insights.</p></li>
+<li><p><a class="reference external" href="https://grafana.com">Grafana - Open-source platform for monitoring and observability, ideal for creating dashboards</a> - Dashboarding and monitoring tool.</p></li>
+<li><p><a class="reference external" href="https://www.datawrapper.de">Datawrapper - Tool designed for journalists to create charts and maps easily</a> - User-friendly chart and map creation tool.</p></li>
+<li><p><a class="reference external" href="https://www.chartblocks.com">ChartBlocks - User-friendly platform for building and sharing charts online</a> - Online chart creation platform.</p></li>
+<li><p><a class="reference external" href="https://infogram.com">Infogram - Drag-and-drop tool for creating infographics and interactive visualizations</a> - Tool for creating infographics and visual content.</p></li>
+<li><p><a class="reference external" href="https://datastudio.google.com">Google Data Studio</a> - Free tool for creating interactive dashboards and reports.</p></li>
+<li><p><a class="reference external" href="https://github.com/Kanaries/Rath">Rath</a> - Next-generation automated data exploratory analysis and visualization platform.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="web-scraping-crawling"></a></p>
+</section>
+</section>
+<section id="web-scraping-crawling">
+<h2>🕸️ Web Scraping &amp; Crawling<a class="headerlink" href="#web-scraping-crawling" title="Link to this heading">#</a></h2>
+<p><a id="web-scraping-crawling-resources"></a></p>
+<section id="id6">
+<h3>Resources<a class="headerlink" href="#id6" title="Link to this heading">#</a></h3>
+<p>A collection of valuable resources, tutorials, and libraries for web scraping with Python.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/ml-tooling/best-of-web-python">best-of-web-python</a> - A ranked list of awesome Python libraries for web development.</p></li>
+<li><p><a class="reference external" href="https://github.com/REMitchell/python-scraping">python-scraping</a> - Code samples from the book “Web Scraping with Python”.</p></li>
+<li><p><a class="reference external" href="https://github.com/lorien/awesome-web-scraping">awesome-web-scraping</a> - List of libraries, tools, and APIs for web scraping and data processing.</p></li>
+<li><p><a class="reference external" href="https://github.com/MorvanZhou/easy-scraping-tutorial">easy-scraping-tutorial</a> - Simple but useful Python web scraping tutorial code.</p></li>
+<li><p><a class="reference external" href="https://github.com/TheWebScrapingClub/webscraping-from-0-to-hero">webscraping-from-0-to-hero</a> - An open project repository sharing knowledge and experiences about web scraping with Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/justmarkham/trump-lies">trump-lies</a> - Tutorial for web scraping in Python with Beautiful Soup.</p></li>
+<li><p><a class="reference external" href="https://github.com/Blatzar/scraping-tutorial">scraping-tutorial</a> - Tutorial for scraping streaming sites.</p></li>
+<li><p><a class="reference external" href="https://github.com/amrrs/Scraper-Projects/tree/master">Scraper-Projects</a> - List of mini projects that involve web scraping.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="web-scraping-crawling-tools"></a></p>
+</section>
+<section id="id7">
+<h3>Tools<a class="headerlink" href="#id7" title="Link to this heading">#</a></h3>
+<p>A list of Python libraries and tools for web scraping.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> - A library for parsing HTML and XML documents.</p></li>
+<li><p><a class="reference external" href="https://selenium-python.readthedocs.io/">Selenium</a> - A tool for automating web applications for testing purposes.</p></li>
+<li><p><a class="reference external" href="https://scrapy.org/">Scrapy</a> - An open-source and collaborative web crawling framework for Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/Gerapy/Gerapy">Gerapy</a> - Distributed Crawler Management Framework based on Scrapy, Scrapyd, Django, and Vue.js.</p></li>
+<li><p><a class="reference external" href="https://github.com/QData/TextAttack">TextAttack</a> - A Python framework for adversarial attacks, data augmentation, and model training in NLP.</p></li>
+<li><p><a class="reference external" href="https://github.com/alirezamika/autoscraper">AutoScraper</a> - A smart, automatic, fast, and lightweight web scraper for Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/kurtmckee/feedparser">Feedparser</a> - A library to parse feeds in Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/adbar/trafilatura">Trafilatura</a> - A Python &amp; command-line tool to gather text and metadata on the web.</p></li>
+<li><p><a class="reference external" href="https://github.com/soimort/you-get">You-Get</a> - A tiny command-line utility to download media contents (videos, audios, images) from the web.</p></li>
+<li><p><a class="reference external" href="https://github.com/maurosoria/dirsearch">dirsearch</a> - A web path scanner.</p></li>
+<li><p><a class="reference external" href="https://github.com/MechanicalSoup/MechanicalSoup">MechanicalSoup</a> - A Python library for automating interaction with websites.</p></li>
+<li><p><a class="reference external" href="https://github.com/ScrapeGraphAI/Scrapegraph-ai">ScrapeGraph AI</a> - A Python scraper based on AI.</p></li>
+<li><p><a class="reference external" href="https://github.com/JustAnotherArchivist/snscrape">snscrape</a> - A social networking service scraper in Python.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="natural-language-processing-nlp"></a></p>
+</section>
+</section>
+<section id="natural-language-processing-nlp">
+<h2>📖 Natural Language Processing (NLP)<a class="headerlink" href="#natural-language-processing-nlp" title="Link to this heading">#</a></h2>
+<p><a id="natural-language-processing-nlp-resources"></a></p>
+<section id="id8">
+<h3>Resources<a class="headerlink" href="#id8" title="Link to this heading">#</a></h3>
+<p>A selection of resources for learning and applying natural language processing in Python.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/NirantK/NLP_Quickbook">NLP in Python with Deep Learning</a> - A resource for learning NLP with deep learning.</p></li>
+<li><p><a class="reference external" href="https://github.com/keon/awesome-nlp">awesome-nlp</a> - A ranked list of awesome Python libraries for natural language processing (NLP).</p></li>
+<li><p><a class="reference external" href="https://github.com/hb20007/hands-on-nltk-tutorial">hands-on-nltk-tutorial</a> - The hands-on NLTK tutorial for NLP in Python.</p></li>
+<li><p><a class="reference external" href="https://www.nltk.org/book/">NLTK Book</a> - Natural Language Processing with Python.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="natural-language-processing-nlp-tools"></a></p>
+</section>
+<section id="id9">
+<h3>Tools<a class="headerlink" href="#id9" title="Link to this heading">#</a></h3>
+<p>A collection of powerful libraries and frameworks for natural language processing in Python.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.nltk.org/">Natural Language Toolkit (NLTK)</a> - A leading platform for building Python programs to work with human language data.</p></li>
+<li><p><a class="reference external" href="https://textblob.readthedocs.io/en/dev/">TextBlob</a> - A simple library for processing textual data.</p></li>
+<li><p><a class="reference external" href="https://spacy.io/">SpaCy</a> - An open-source software library for advanced NLP in Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/davidadamojr/TextRank">TextRank</a> - A library for TextRank algorithm implementation.</p></li>
+<li><p><a class="reference external" href="https://github.com/flairNLP/flair">Flair</a> - A simple framework for state-of-the-art NLP.</p></li>
+<li><p><a class="reference external" href="https://github.com/google-research/bert">BERT</a> - A transformer-based model for NLP tasks.</p></li>
+<li><p><a class="reference external" href="https://github.com/huggingface/transformers">Transformers</a> - A library for state-of-the-art NLP models.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="mathematics-statistics-probability"></a></p>
+</section>
+</section>
+<section id="mathematics-statistics-probability">
+<h2>🔢 Mathematics, Statistics &amp; Probability<a class="headerlink" href="#mathematics-statistics-probability" title="Link to this heading">#</a></h2>
+<p><a id="mathematics-statistics-probability-mathematics"></a></p>
+<section id="mathematics">
+<h3>Mathematics<a class="headerlink" href="#mathematics" title="Link to this heading">#</a></h3>
+<p>A collection of resources for learning and applying mathematics and statistics, particularly in the context of data science and machine learning.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/tirthajyoti/Stats-Maths-with-Python">General statistics, mathematical programming, and numerical/scientific computing scripts and notebooks in Python</a> - Collection of Python scripts and notebooks for statistics and mathematics.</p></li>
+<li><p><a class="reference external" href="https://github.com/amitkaps/hackermath">Introduction to Statistics and Basics of Mathematics for Data Science - The Hacker’s Way</a> - Resource for learning statistics and mathematics for data science.</p></li>
+<li><p><a class="reference external" href="https://github.com/mml-book/mml-book.github.io">Mathematics for Machine Learning (Book + Jupyter Notebooks)</a> - Comprehensive resource for mathematics in machine learning.</p></li>
+<li><p><a class="reference external" href="https://github.com/jonkrohn/ML-foundations">Calculus and Optimization for Machine Learning</a> - Focus on calculus and optimization techniques for ML.</p></li>
+<li><p><a class="reference external" href="https://www.khanacademy.org/math">Khan Academy - Math for Data Science</a> - Free online courses covering various math topics.</p></li>
+<li><p><a class="reference external" href="https://towardsdatascience.com/tagged/mathematics">Towards Data Science - Math Section</a> - Articles and resources on mathematics for data science.</p></li>
+<li><p><a class="reference external" href="https://github.com/fastai/numerical-linear-algebra">Fast.ai - Computational Linear Algebra</a> - Resource for learning linear algebra computationally.</p></li>
+<li><p><a class="reference external" href="http://immersivemath.com/ila/">Immersive Linear Algebra</a> - Interactive resource for understanding linear algebra.</p></li>
+<li><p><a class="reference external" href="https://brilliant.org/courses/#math-foundational">Brilliant.org - Interactive courses</a> - Engaging courses on foundational mathematics.</p></li>
+<li><p><a class="reference external" href="https://stats.stackexchange.com/">Cross Validated (Stack Exchange)</a> - Q&amp;A site for statistics and data analysis.</p></li>
+<li><p><a class="reference external" href="https://www.wolframalpha.com/">Wolfram Alpha - Online equation solver</a> - Computational knowledge engine for solving equations.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="mathematics-statistics-probability-statistics-probability"></a></p>
+</section>
+<section id="statistics-probability">
+<h3>Statistics &amp; Probability<a class="headerlink" href="#statistics-probability" title="Link to this heading">#</a></h3>
+<p>A selection of resources focused on statistics and probability, including tutorials, interactive tools, and comprehensive guides.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/probability-in-maths/">geeksforgeeks - Probability in Maths</a> - Overview of probability concepts in mathematics.</p></li>
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/statistics/">geeksforgeeks - Statistics in Maths</a> - Introduction to statistical concepts in mathematics.</p></li>
+<li><p><a class="reference external" href="https://github.com/fonnesbeck/statistical-analysis-python-tutorial">Statistical Data Analysis in Python</a> - Tutorial for statistical analysis using Python.</p></li>
+<li><p><a class="reference external" href="https://github.com/telmo-correa/all-of-statistics">Self-study on Larry Wasserman’s “All of Statistics.”</a> - Resource for studying statistics based on Wasserman’s book.</p></li>
+<li><p><a class="reference external" href="https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks">A series of Python Jupyter notebooks that help you better understand “The Elements of Statistical Learning” book</a> - Notebooks for understanding statistical learning concepts.</p></li>
+<li><p><a class="reference external" href="https://github.com/seeingtheory/Seeing-Theory">A visual introduction to probability and statistics</a> - Interactive visual resource for learning probability and statistics.</p></li>
+<li><p><a class="reference external" href="https://github.com/mavam/stat-cookbook">The probability and statistics cookbook</a> - Cookbook for statistical methods and techniques.</p></li>
+<li><p><a class="reference external" href="https://github.com/leonvanbokhorst/NoteBooks-Statistics-and-MachineLearning">NoteBooks Statistics and Machine Learning</a> - Notebooks covering statistics and machine learning topics.</p></li>
+<li><p><a class="reference external" href="https://github.com/gedeck/practical-statistics-for-data-scientists">Code repository for O’Reilly book</a> - Companion code for a practical statistics book.</p></li>
+<li><p><a class="reference external" href="https://web.stanford.edu/class/cs229t/notes.pdf">Statistical Learning Theory - Stanford University</a> - Lecture notes on statistical learning theory.</p></li>
+<li><p><a class="reference external" href="https://www.khanacademy.org/math/statistics-probability">Statistics and probability</a> - Khan Academy resource for statistics and probability.</p></li>
+<li><p><a class="reference external" href="https://www.statlect.com/">StatLect - Digital textbook on probability and statistics</a> - Comprehensive online textbook covering probability and statistics concepts.</p></li>
+<li><p><a class="reference external" href="https://github.com/thomas-haslwanter/statsintro_python">Python modules and IPython Notebooks, for the book “Introduction to Statistics With Python.”</a> - Code and notebooks accompanying the book on statistics with Python.</p></li>
+<li><p><a class="reference external" href="https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics">stanford.edu - Probabilities and Statistics</a> - Refresher course on probabilities and statistics from Stanford University.</p></li>
+<li><p><a class="reference external" href="https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers">Bayesian Methods for Hackers</a> - Resource for learning Bayesian methods in Python.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="ab-testing"></a></p>
+</section>
+</section>
+<section id="a-b-testing">
+<h2>🧪 A/B Testing<a class="headerlink" href="#a-b-testing" title="Link to this heading">#</a></h2>
+<p>A collection of resources focused on A/B testing.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/zhitkovk/awesome_ab_testing">Useful articles on the topics of AB testing and statistics</a> - A collection of articles focused on AB testing and statistical methods.</p></li>
+<li><p><a class="reference external" href="https://www.dynamicyield.com/course/testing-and-optimization/">dynamicyield - A/B Testing &amp; Optimization Course</a> - An online course covering A/B testing and optimization techniques.</p></li>
+<li><p><a class="reference external" href="https://www.evanmiller.org/ab-testing/">Evan’s Awesome A/B Tools</a> - A/B test calculators.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="machine-learning"></a></p>
+</section>
+<section id="machine-learning">
+<h2>🤖 Machine Learning<a class="headerlink" href="#machine-learning" title="Link to this heading">#</a></h2>
+<p>A collection of resources to help you learn and apply machine learning concepts and techniques.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/Avik-Jain/100-Days-Of-ML-Code">100 Days of ML Coding</a> - A comprehensive coding challenge to learn machine learning over 100 days.</p></li>
+<li><p><a class="reference external" href="https://github.com/microsoft/ML-For-Beginners">Microsoft - ML-For-Beginners</a> - A beginner-friendly introduction to machine learning concepts and practices.</p></li>
+<li><p><a class="reference external" href="https://github.com/GokuMohandas/Made-With-ML">Learn how to design, develop, deploy and iterate on production-grade ML applications</a> - Resource for building and deploying machine learning applications.</p></li>
+<li><p><a class="reference external" href="https://mlu-explain.github.io/">MLU-Explain</a> - Visual explanations of ML algorithms (XGBoost, PCA etc).</p></li>
+<li><p><a class="reference external" href="https://github.com/ageron/handson-ml3">A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python</a> - Hands-on guide to machine learning and deep learning using Python.</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit?slide=id.g168a3288f7_0_58">Jason’s Machine Learning 101</a> - Presentation covering the basics of machine learning concepts.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="productivity-development-tools"></a></p>
+</section>
+<section id="productivity-development-tools">
+<h2>🧠 Productivity &amp; Development Tools<a class="headerlink" href="#productivity-development-tools" title="Link to this heading">#</a></h2>
+<p><a id="productivity-development-tools-resources"></a></p>
+<section id="id10">
+<h3>Resources<a class="headerlink" href="#id10" title="Link to this heading">#</a></h3>
+<p>A collection of resources and tools to enhance productivity and streamline development processes.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/markusschanta/awesome-jupyter">Awesome Jupyter</a> - Curated list of Jupyter projects, libraries, and resources.</p></li>
+<li><p><a class="reference external" href="https://github.com/ml-tooling/best-of-jupyter">Best of Jupyter</a> - Ranked list of notable Jupyter Notebook, Hub, and Lab projects.</p></li>
+<li><p><a class="reference external" href="https://github.com/ahkscript/awesome-AutoHotkey">awesome-AutoHotkey</a> - A curated list of awesome AutoHotkey libraries, scripts, and resources.</p></li>
+<li><p><a class="reference external" href="https://github.com/jyguyomarch/awesome-productivity">awesome-productivity</a> - A curated list of delightful productivity resources.</p></li>
+<li><p><a class="reference external" href="https://to-do.office.com/tasks/">Microsoft To Do</a> - A simple to-do list app from Microsoft.</p></li>
+<li><p><a class="reference external" href="https://keep.google.com/">Google Keep</a> - A note-taking and list-making app.</p></li>
+<li><p><a class="reference external" href="https://bulletjournal.com/">Bujo</a> - Tools to help transform the way you work and live.</p></li>
+<li><p><a class="reference external" href="https://parabola.io/">Parabola</a> - An AI-powered workflow builder for organizing data.</p></li>
+<li><p><a class="reference external" href="https://www.notion.com/">Notion</a> - An all-in-one workspace for note-taking and task management.</p></li>
+<li><p><a class="reference external" href="https://trello.com/home">Trello</a> - A visual project management tool.</p></li>
+<li><p><a class="reference external" href="https://asana.com/">Asana</a> - A project management platform for tracking work and projects.</p></li>
+<li><p><a class="reference external" href="https://github.com/f/awesome-chatgpt-prompts">awesome-chatgpt-prompts</a> - A repository for ChatGPT prompt curation.</p></li>
+<li><p><a class="reference external" href="https://github.com/adam-p/markdown-here">Markdown Here</a> - Extension for writing emails in Markdown and rendering them before sending.</p></li>
+<li><p><a class="reference external" href="https://github.com/drivendataorg/cookiecutter-data-science">Cookiecutter Data Science</a> - A standardized project structure for data science projects.</p></li>
+<li><p><a class="reference external" href="https://www.sketch.com/">Sketch</a> - Toolkit designed for designers, focusing on their workflow.</p></li>
+<li><p><a class="reference external" href="https://www.markdownguide.org/">The Markdown Guide</a> - Comprehensive guide to learning Markdown.</p></li>
+<li><p><a class="reference external" href="https://www.kittl.com/">Kittl</a> - Platform for creating and editing charts and data visualizations.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="productivity-development-tools-useful-linux-tools"></a></p>
+</section>
+<section id="useful-linux-tools">
+<h3>Useful Linux Tools<a class="headerlink" href="#useful-linux-tools" title="Link to this heading">#</a></h3>
+<p>A selection of tools to enhance productivity and functionality in Linux environments.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/phw/peek">peek</a> - Simple animated GIF screen recorder with an easy to use interface.</p></li>
+<li><p><a class="reference external" href="https://github.com/hluk/CopyQ">CopyQ</a> - Clipboard manager with advanced features.</p></li>
+<li><p><a class="reference external" href="https://github.com/soimort/translate-shell">translate-shell</a> - Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.</p></li>
+<li><p><a class="reference external" href="https://github.com/espanso/espanso">espanso</a> - Cross-platform Text Expander written in Rust.</p></li>
+<li><p><a class="reference external" href="https://github.com/flameshot-org/flameshot">flameshot</a> - Powerful yet simple to use screenshot software.</p></li>
+<li><p><a class="reference external" href="https://github.com/inkscape/inkscape">Inkscape</a> - A powerful, free, and open-source vector graphics editor for creating and editing visualizations.</p></li>
+<li><p><a class="reference external" href="https://rclone.org/">rclone</a> - A command-line program to manage files on cloud storage.</p></li>
+<li><p><a class="reference external" href="https://rsync.samba.org/">rsync</a> - A fast and versatile file copying tool that can synchronize files and directories between two locations over a network or locally.</p></li>
+<li><p><a class="reference external" href="https://github.com/linuxmint/timeshift">timeshift</a> - System restore tool for Linux that creates filesystem snapshots using rsync+hardlinks or BTRFS snapshots.</p></li>
+<li><p><a class="reference external" href="https://github.com/bit-team/backintime">backintime</a> - A comfortable and well-configurable graphical frontend for incremental backups.</p></li>
+<li><p><a class="reference external" href="https://github.com/junegunn/fzf">fzf</a> - A command-line fuzzy finder.</p></li>
+<li><p><a class="reference external" href="https://github.com/osquery/osquery">osquery</a> - SQL powered operating system instrumentation, monitoring, and analytics.</p></li>
+<li><p><a class="reference external" href="https://www.gnu.org/software/parallel/">GNU Parallel</a> - A tool to run jobs in parallel.</p></li>
+<li><p><a class="reference external" href="https://htop.dev/">HTop</a> - An interactive process viewer.</p></li>
+<li><p><a class="reference external" href="https://dev.yorhel.nl/ncdu">Ncdu</a> - A disk usage analyzer with an ncurses interface.</p></li>
+<li><p><a class="reference external" href="https://github.com/nvbn/thefuck">thefuck</a> - A command line tool to correct your previous console command.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="productivity-development-tools-useful-vs-code-extensions"></a></p>
+</section>
+<section id="useful-vs-code-extensions">
+<h3>Useful VS Code Extensions<a class="headerlink" href="#useful-vs-code-extensions" title="Link to this heading">#</a></h3>
+<p>A collection of extensions to enhance functionality and productivity in Visual Studio Code.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=cweijan.dbclient-jdbc">JDBC Adapter For Database Client</a> - Connect to various databases using JDBC.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=DBCode.dbcode">DBCode - Connect to PostgreSQL, MySQL, SQL Server, SQLite, Mongo, Oracle, DuckDB and other major databases</a> - Database client for managing and querying databases.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one">Markdown All in One</a> - Essential tools for Markdown editing.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles">Markdown Preview GitHub Styles</a> - Changes VS Code’s markdown preview to match GitHub’s styling.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=snippington.snp-pandas-basic">Snippington Python Pandas Basic</a> - Basic tools for working with Pandas in Python.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=mathematic.vscode-pdf">PDF Viewer for Visual Studio Code</a> - View PDF files directly in VS Code.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=WeidaWang.quick-python-print">Quick Python Print</a> - Quickly handle print operations in Python.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv">Rainbow CSV</a> - Highlight CSV and TSV files and run SQL-like queries.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=thamaraiselvam.remove-blank-lines">Remove Blank Lines</a> - Extension to remove empty lines in documents.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/tomoki1207.pdf">PDF Preview in VSCode</a> - Show PDF previews in VS Code.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=phplasma.csv-to-table">CSV to Table</a> - Convert CSV/TSV/PSV files to ASCII formatted tables.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.vscode-data-preview">Data Preview</a> - Import, view, slice, and export data.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler">Data Wrangler</a> - Tool for cleaning and preparing tabular datasets.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens">Error Lens</a> - Enhances the display of errors and warnings in code.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow">Indent Rainbow</a> - Makes indentation easier to read.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=TakumiI.markdowntable">Markdown Table Editor</a> - Add features to edit Markdown tables.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office">WYSIWYG Editor for Markdown</a> - View Word and Excel files and edit Markdown.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier - Code Formatter</a> - Code formatting extension for VS Code.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager">Project Manager</a> - Easily switch between projects.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent">Python Indent</a> - Automatically indent Python code.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=msrvida.vscode-sanddance">SandDance</a> - Visually explore and present your data.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=cmoog.sqlnotebook">SQL Notebooks</a> - Open SQL files as VSCode Notebooks.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=mtxr.sqltools">SQL Tools</a> - Database management tools for VSCode.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=mkloubert.vscode-kanban">Kanban Board</a> - A Kanban board extension for organizing tasks within VS Code.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete">Path Autocomplete</a> - Provides path completion for files and directories in VS Code.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=christian-kohler.path-intellisense">Path Intellisense</a> - Autocompletes filenames in your code.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=mgesbert.python-path">Python Imports Utils</a> - Utilities for managing Python imports.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=kruemelkatze.vscode-dashboard">Workspace Dashboard</a> - Organize your workspaces in a speed-dial manner.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack">Remote Development Extension Pack</a> - Open any folder in a container, on a remote machine, or in WSL.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=qcz.text-power-tools">Text Power Tools</a> - An all-in-one solution with 240+ commands for text manipulation.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=BriteSnow.vscode-toggle-quotes">Toggle Quotes</a> - Toggle between single, double, and backticks for strings.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=intellsmi.comment-translate">Comment Translate</a> - Helps translate comments, strings, and variable names in your code.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=ryu1kn.text-marker">Text Marker</a> - Select text in your code and mark all matches with configurable highlight color.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=alefragnani.Bookmarks">Bookmarks</a> - Mark lines in your code and jump to them easily.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=dendron.dendron">Dendron</a> - A hierarchical note-taking tool that grows as you do.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=rubbersheep.gi">Gitignore Generator</a> - Simplifies the process of generating .gitignore files.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=hbenl.vscode-test-explorer">Test Explorer UI</a> - Run your tests in the sidebar of Visual Studio Code.</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items/?itemName=LittleFoxTeam.vscode-python-test-adapter">Python Test Explorer</a> - Run your Python tests in the sidebar of Visual Studio Code.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="skill-development-career-resources"></a></p>
+</section>
+</section>
+<section id="skill-development-career-resources">
+<h2>📚 Skill Development &amp; Career Resources<a class="headerlink" href="#skill-development-career-resources" title="Link to this heading">#</a></h2>
+<p><a id="skill-development-career-resources-practice-resources"></a></p>
+<section id="practice-resources">
+<h3>Practice Resources<a class="headerlink" href="#practice-resources" title="Link to this heading">#</a></h3>
+<p>A collection of resources to enhance skills and advance your career in data analysis and related fields.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.kaggle.com/competitions">Kaggle Competitions</a> - Platform for participating in data analysis and machine learning competitions.</p></li>
+<li><p><a class="reference external" href="https://makeovermonday.co.uk/">Improving How We Visualize and Analyze Data</a> - A platform focused on enhancing data visualization practices.</p></li>
+<li><p><a class="reference external" href="https://workout-wednesday.com/">A weekly challenge to re-create data-driven visualizations</a> - Engage in weekly challenges to improve your visualization skills.</p></li>
+<li><p><a class="reference external" href="https://github.com/rfordatascience/tidytuesday">Official TidyTuesday Repository</a> - Repository for the TidyTuesday project, promoting data analysis.</p></li>
+<li><p><a class="reference external" href="https://www.datacamp.com/projects">DataCamp Projects</a> - Practical projects in data analysis to enhance skills.</p></li>
+<li><p><a class="reference external" href="https://www.drivendata.org/competitions/">DrivenData Competitions</a> - Data analysis competitions with a social impact focus.</p></li>
+<li><p><a class="reference external" href="https://leetcode.com/problemset/all/?filters=tag%3AData%20Science">LeetCode Data Science Problems</a> - Challenges related to data analysis and algorithms.</p></li>
+<li><p><a class="reference external" href="https://www.codecademy.com/learn/paths/data-science">Codecademy Data Science Path</a> - Interactive courses for learning data analysis.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="skill-development-career-resources-curated-jupyter-notebooks"></a></p>
+</section>
+<section id="curated-jupyter-notebooks">
+<h3>Curated Jupyter Notebooks<a class="headerlink" href="#curated-jupyter-notebooks" title="Link to this heading">#</a></h3>
+<p>A selection of curated Jupyter notebooks to support learning and exploration in data science and analysis.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/jupyter-naas/awesome-notebooks">awesome-notebooks</a> - Data &amp; AI notebook templates catalog organized by tools.</p></li>
+<li><p><a class="reference external" href="https://github.com/donnemartin/data-science-ipython-notebooks">data-science-ipython-notebooks</a> - Data science Python notebooks covering various topics.</p></li>
+<li><p><a class="reference external" href="https://github.com/wesm/pydata-book">pydata-book</a> - Materials and IPython notebooks for “Python for Data Analysis” by Wes McKinney.</p></li>
+<li><p><a class="reference external" href="https://github.com/jadianes/spark-py-notebooks">spark-py-notebooks</a> - Apache Spark &amp; Python tutorials for big data analysis and machine learning.</p></li>
+<li><p><a class="reference external" href="https://github.com/eclarson/DataMiningNotebooks">DataMiningNotebooks</a> - Example notebooks for data mining accompanying the course at Southern Methodist University.</p></li>
+<li><p><a class="reference external" href="https://github.com/hnawaz007/pythondataanalysis">pythondataanalysis</a> - Python data repository with Jupyter notebooks and scripts.</p></li>
+<li><p><a class="reference external" href="https://github.com/cuttlefishh/python-for-data-analysis">python-for-data-analysis</a> - An introduction to data science using Python and Pandas with Jupyter notebooks.</p></li>
+<li><p><a class="reference external" href="https://github.com/jdwittenauer/ipython-notebooks">jdwittenauer ipython-notebooks</a> - A collection of IPython notebooks covering various topics.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="skill-development-career-resources-data-sources-datasets"></a></p>
+</section>
+<section id="data-sources-datasets">
+<h3>Data Sources &amp; Datasets<a class="headerlink" href="#data-sources-datasets" title="Link to this heading">#</a></h3>
+<p>A collection of resources for accessing datasets and data sources for analysis and projects.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.kaggle.com/datasets">Kaggle Datasets</a> - Extensive collection of datasets for practice in data analysis.</p></li>
+<li><p><a class="reference external" href="https://github.com/JovianHQ/opendatasets">A Python library for downloading datasets from Kaggle, Google Drive, and other online sources</a> - Library for easy dataset downloads.</p></li>
+<li><p><a class="reference external" href="https://github.com/simonw/datasette">An open source multi-tool for exploring and publishing data</a> - Tool for data exploration and publishing.</p></li>
+<li><p><a class="reference external" href="https://github.com/awesomedata/awesome-public-datasets">A topic-centric list of HQ open datasets</a> - Curated list of high-quality open datasets.</p></li>
+<li><p><a class="reference external" href="https://github.com/datasciencemasters/data">Open Data Sources</a> - Collection of various open data sources.</p></li>
+<li><p><a class="reference external" href="https://www.dataquest.io/blog/free-datasets-for-projects/">Free datasets for projects</a> - Dataquest’s compilation of free datasets.</p></li>
+<li><p><a class="reference external" href="https://data.world/">data.world</a> - The enterprise data catalog that CIOs, governance professionals, data analysts, and engineers trust in the AI era.</p></li>
+<li><p><a class="reference external" href="https://github.com/bytewax/awesome-public-real-time-datasets">Public Real-Time Datasets and Sources</a> - A list of publicly available datasets with real-time data.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="skill-development-career-resources-resume-and-interview-tips"></a></p>
+</section>
+<section id="resume-and-interview-tips">
+<h3>Resume and Interview Tips<a class="headerlink" href="#resume-and-interview-tips" title="Link to this heading">#</a></h3>
+<p>A variety of resources to help you prepare for interviews and enhance your resume.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/DopplerHQ/awesome-interview-questions">awesome-interview-questions</a> - A curated awesome list of lists of interview questions.</p></li>
+<li><p><a class="reference external" href="https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers">Data-Science-Interview-Questions-Answers</a> - Curated list of data science interview questions and answers.</p></li>
+<li><p><a class="reference external" href="https://github.com/youssefHosni/Data-Science-Interview-Preperation-Resources">Data-Science-Interview-Preperation-Resources</a> - Resource to help you prepare for your upcoming data science interviews.</p></li>
+<li><p><a class="reference external" href="https://devinterview.io/">devinterview.io</a> - Ace your next tech interview with confidence.</p></li>
+<li><p><a class="reference external" href="https://www.interviewqs.com/">interviewqs</a> - Ace your next data science interview.</p></li>
+<li><p><a class="reference external" href="https://github.com/khanhnamle1994/cracking-the-data-science-interview/blob/master/Question-Bank/Data-Interview-Qs/README.md">Data-Interview-Qs</a> - A curated list of data science interview questions and answers.</p></li>
+<li><p><a class="reference external" href="https://github.com/khanhnamle1994/cracking-the-data-science-interview/blob/master/Question-Bank/Interview-Query/README.md">Interview Query</a> - A platform for preparing for data science interviews.</p></li>
+<li><p><a class="reference external" href="https://github.com/khanhnamle1994/cracking-the-data-science-interview/blob/master/Question-Bank/150-Essential-Data-Science-Questions-and-Answers.pdf">150-Essential-Data-Science-Questions-and-Answers</a> - A collection of essential data science questions and answers.</p></li>
+<li><p><a class="reference external" href="https://github.com/khanhnamle1994/cracking-the-data-science-interview/blob/master/Question-Bank/Data-Science-Prep/README.md">Data-Science-Prep</a> - Sample interview questions for data science.</p></li>
+<li><p><a class="reference external" href="https://github.com/khanhnamle1994/cracking-the-data-science-interview/blob/master/Question-Bank/Analytics-Vidhya.md">Analytics Vidhya</a> - 40 interview questions asked at startups in machine learning/data science.</p></li>
+<li><p><a class="reference external" href="https://github.com/khanhnamle1994/cracking-the-data-science-interview/blob/master/DataScience%20Interview%20Questions.pdf">DataScience Interview Questions</a> - A collection of data science interview questions.</p></li>
+<li><p><a class="reference external" href="https://www.interviewbit.com/">interviewbit</a> - A platform to prepare for data science interviews.</p></li>
+<li><p><a class="reference external" href="https://www.interviewquery.com/">Interview Query</a> - Another platform to prepare for data science interviews.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="cheatsheets"></a></p>
+</section>
+</section>
+<section id="cheatsheets">
+<h2>📋 Cheatsheets<a class="headerlink" href="#cheatsheets" title="Link to this heading">#</a></h2>
+<p>A collection of cheatsheets across various domains to aid in quick reference and learning.
+<a id="cheatsheets-python"></a></p>
+<section id="id11">
+<h3>Python<a class="headerlink" href="#id11" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://vivitoa.github.io/python-cheat-sheet/">Python Cheat Sheet</a> - Comprehensive Python syntax and examples.</p></li>
+<li><p><a class="reference external" href="https://github.com/trekhleb/learn-python">Learn Python Playground and Cheatsheet</a> - Interactive Python learning.</p></li>
+<li><p><a class="reference external" href="https://www.pythoncheatsheet.org/">Python Cheatsheet</a> - Quick reference for Python basics and advanced topics.</p></li>
+<li><p><a class="reference external" href="https://github.com/gto76/python-cheatsheet">Comprehensive Python Cheatsheet</a> - Detailed Python functions and libraries.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="cheatsheets-data-science-machine-learning"></a></p>
+</section>
+<section id="data-science-machine-learning">
+<h3>Data Science &amp; Machine Learning<a class="headerlink" href="#data-science-machine-learning" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/yash42828/Data-Science--All-Cheat-Sheet">Data Science All Cheat Sheet</a> - Covers ML, DL, and analytics.</p></li>
+<li><p><a class="reference external" href="https://github.com/FavioVazquez/ds-cheatsheets">Data Science Cheatsheets</a> - Curated DS/ML concepts and workflows.</p></li>
+<li><p><a class="reference external" href="https://github.com/ml874/Data-Science-Cheatsheet">Data Science Cheat Sheets (Math)</a> - Cheat sheets for quick reference in data science mathematics.</p></li>
+<li><p><a class="reference external" href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf">Pandas Cheat Sheet</a> - Data manipulation with Pandas.</p></li>
+<li><p><a class="reference external" href="https://github.com/kevinschaich/pyspark-cheatsheet">PySpark Cheatsheet</a> - Common PySpark patterns.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="cheatsheets-linux-command-line"></a></p>
+</section>
+<section id="linux-command-line">
+<h3>Linux &amp; Command Line<a class="headerlink" href="#linux-command-line" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/gto76/linux-cheatsheet">Comprehensive Linux Cheatsheet</a> - Linux commands and shortcuts.</p></li>
+<li><p><a class="reference external" href="https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh">Bash Awesome Cheatsheets</a> - Bash scripting essentials.</p></li>
+<li><p><a class="reference external" href="https://github.com/AdiBro/Data-Science-Resources/blob/master/Cheat-Sheets/CL-Git/Unix-Commands-Reference.pdf">Unix Commands Reference</a> - Unix terminal basics.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="cheatsheets-git-github"></a></p>
+</section>
+<section id="git-github">
+<h3>Git &amp; GitHub<a class="headerlink" href="#git-github" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/tiimgreen/github-cheat-sheet">GitHub Cheat Sheet</a> - Git/GitHub workflows and tips.</p></li>
+<li><p><a class="reference external" href="https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/git.sh">Git Awesome Cheatsheets</a> - Git commands and best practices.</p></li>
+<li><p><a class="reference external" href="https://github.com/arslanbilal/git-cheat-sheet">Git and Git Flow Cheat Sheet</a> - Branching strategies.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="cheatsheets-probability-statistics"></a></p>
+</section>
+<section id="probability-statistics">
+<h3>Probability &amp; Statistics<a class="headerlink" href="#probability-statistics" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/shervinea/stanford-cme-106-probability-and-statistics">Stanford CME 106 Cheatsheets</a> - Probability and statistics for engineers.</p></li>
+<li><p><a class="reference external" href="https://github.com/wzchen/probability_cheatsheet">10-Page Probability Cheatsheet</a> - In-depth probability concepts.</p></li>
+<li><p><a class="reference external" href="https://github.com/khanhnamle1994/cracking-the-data-science-interview/blob/master/Cheatsheets/stats_cheatsheet.pdf">Statistics Cheatsheet</a> - Key statistical methods.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="cheatsheets-docker"></a></p>
+</section>
+<section id="docker">
+<h3>Docker<a class="headerlink" href="#docker" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/wsargent/docker-cheat-sheet">Docker Cheat Sheet</a> - Docker commands and workflows.</p></li>
+<li><p><a class="reference external" href="https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/docker.sh">Docker Awesome Cheatsheets</a> - Containerization basics.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="cheatsheets-tools-workflow"></a></p>
+</section>
+<section id="tools-workflow">
+<h3>Tools &amp; Workflow<a class="headerlink" href="#tools-workflow" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/vscode.md">VSCode Awesome Cheatsheets</a> - VS Code shortcuts.</p></li>
+<li><p><a class="reference external" href="https://github.com/tchapi/markdown-cheatsheet">Markdown Cheatsheet</a> - Formatting for GitHub READMEs.</p></li>
+<li><p><a class="reference external" href="https://github.com/ikatyang/emoji-cheat-sheet">Emoji Cheat Sheet</a> - Emojis in Markdown.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="cheatsheets-sql-databases"></a></p>
+</section>
+<section id="id12">
+<h3>SQL &amp; Databases<a class="headerlink" href="#id12" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/enochtangg/quick-SQL-cheatsheet">Quick SQL Cheatsheet</a> - Handy SQL reference guide.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="cheatsheets-interview-preparation"></a></p>
+</section>
+<section id="interview-preparation">
+<h3>Interview Preparation<a class="headerlink" href="#interview-preparation" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.kdnuggets.com/2022/06/21-cheat-sheets-data-science-interviews.html">21 Must-Have Cheat Sheets for Data Science Interviews</a> - Interview-focused guides.</p></li>
+<li><p><a class="reference external" href="https://github.com/csjcode/solutions-architect-metrics-cheatsheet">Solutions Architect Metrics Cheatsheet</a> - System design metrics.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="cheatsheets-miscellaneous"></a></p>
+</section>
+<section id="miscellaneous">
+<h3>Miscellaneous<a class="headerlink" href="#miscellaneous" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/plusminuschirag/CheatSheet-for-CheatSheets">CheatSheet for CheatSheets</a> - Mega-repository of cheat sheets.</p></li>
+<li><p><a class="reference external" href="https://github.com/khanhnamle1994/cracking-the-data-science-interview/blob/master/Cheatsheets/Think-Stats.md">Think Stats Cheatsheet</a> - Book companion.</p></li>
+<li><p><a class="reference external" href="https://www.dataquest.io/cheat-sheet/power-bi-cheat-sheet/">Dataquest - Power BI Cheat Sheet</a> - A helpful resource for Power BI users.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="additional-resources"></a></p>
+</section>
+</section>
+<section id="additional-resources">
+<h2>🌐 Additional Resources<a class="headerlink" href="#additional-resources" title="Link to this heading">#</a></h2>
+<p>A wide range of resources designed to facilitate learning, development, and exploration across different domains.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://growth.design/">Growth.Design</a> - A collection of product case studies and behavioral psychology insights for data-driven decision-making.</p></li>
+<li><p><a class="reference external" href="https://github.com/executablebooks/jupyter-book">Jupyter Book</a> -  Create beautiful, publication-quality books and documents from computational content.</p></li>
+<li><p><a class="reference external" href="https://github.com/mcanouil/awesome-quarto">Awesome Quarto</a> - A curated list of Quarto resources, including talks, tools, examples, and articles. Contributions are welcome!</p></li>
+<li><p><a class="reference external" href="https://github.com/viatsko/awesome-vscode">A curated list of delightful VS Code packages and resources</a> - A comprehensive list of useful VS Code extensions and resources.</p></li>
+<li><p><a class="reference external" href="https://github.com/data-8/textbook">UC Berkeley - Data 8: Foundations of Data Science</a> - Course materials for the Data Science Foundations course.</p></li>
+<li><p><a class="reference external" href="https://github.com/public-apis/public-apis">A collective list of free APIs</a> - A comprehensive list of free APIs for various purposes.</p></li>
+<li><p><a class="reference external" href="https://github.com/haifengl/bigdata">Introduction to Big Data</a> - Resources and materials for understanding Big Data concepts.</p></li>
+<li><p><a class="reference external" href="https://github.com/matiassingers/awesome-readme">A curated list of awesome READMEs</a> - Collection of well-crafted README files for inspiration.</p></li>
+<li><p><a class="reference external" href="https://github.com/yzhao062/anomaly-detection-resources">Anomaly detection resources</a> - Books, papers, videos, and toolboxes related to anomaly detection.</p></li>
+<li><p><a class="reference external" href="https://github.com/joho/awesome-code-review?tab=readme-ov-file#awesome-code-review-">Awesome Code Review</a> - A collection of resources for code review practices.</p></li>
+<li><p><a class="reference external" href="https://www.w3resource.com/index.php">W3Resource</a> - Online platform offering tutorials, code examples, and exercises for various programming languages.</p></li>
+</ul>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="contributing"></a></p>
+</section>
+<section id="contributing">
+<h2>🤝 Contributing<a class="headerlink" href="#contributing" title="Link to this heading">#</a></h2>
+<p><strong>We welcome your contributions!</strong></p>
+<p>See <a class="reference external" href="https://github.com/PavelGrigoryevDS/awesome-data-analysis/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a> for how to add resources.</p>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+<hr class="docutils" />
+<p><a id="license"></a></p>
+</section>
+<section id="license">
+<h2>📜 License<a class="headerlink" href="#license" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="http://creativecommons.org/publicdomain/zero/1.0/"><img alt="CC0" src="http://i.creativecommons.org/p/zero/1.0/88x31.png" /></a></p>
+<p>This work is dedicated to the public domain under the <a class="reference external" href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a> license.</p>
+<p><a class="reference external" href="#contents">⬆ back to top</a></p>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contents">📑 Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#awesome-data-science-repositories">🏆 Awesome Data Science Repositories</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#roadmaps">🗺️ Roadmaps</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python">🐍 Python</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-manipulation-with-pandas">Data Manipulation with Pandas</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-python-tools-for-data-analysis">Useful Python Tools for Data Analysis</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#data-manipulation-cleaning">Data Manipulation &amp; Cleaning</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#automated-data-visualization-tools">Automated Data Visualization Tools</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#data-quality-profiling">Data Quality &amp; Profiling</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-engineering-selection">Feature Engineering &amp; Selection</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#testing-validation">Testing &amp; Validation</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#etl-data-pipelines">ETL &amp; Data Pipelines</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-tools-guis">Interactive Tools &amp; GUIs</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#data-generation-simulation">Data Generation &amp; Simulation</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#formatting-logging">Formatting &amp; Logging</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#module-dependency-code-management">Module Dependency &amp; Code Management</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parallel-computing-for-dataframes">Parallel Computing for DataFrames</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation">Documentation</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#file-formats-documents">File Formats &amp; Documents</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#additional">Additional</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sql-databases">🗃️ SQL &amp; Databases</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tools">Tools</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-visualization">📊 Data Visualization</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Tools</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dashboards">📈 Dashboards</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#software">Software</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#web-scraping-crawling">🕸️ Web Scraping &amp; Crawling</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Tools</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#natural-language-processing-nlp">📖 Natural Language Processing (NLP)</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Tools</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mathematics-statistics-probability">🔢 Mathematics, Statistics &amp; Probability</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mathematics">Mathematics</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#statistics-probability">Statistics &amp; Probability</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-b-testing">🧪 A/B Testing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#machine-learning">🤖 Machine Learning</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#productivity-development-tools">🧠 Productivity &amp; Development Tools</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-linux-tools">Useful Linux Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-vs-code-extensions">Useful VS Code Extensions</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#skill-development-career-resources">📚 Skill Development &amp; Career Resources</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#practice-resources">Practice Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#curated-jupyter-notebooks">Curated Jupyter Notebooks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources-datasets">Data Sources &amp; Datasets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#resume-and-interview-tips">Resume and Interview Tips</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cheatsheets">📋 Cheatsheets</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Python</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-science-machine-learning">Data Science &amp; Machine Learning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linux-command-line">Linux &amp; Command Line</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#git-github">Git &amp; GitHub</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#probability-statistics">Probability &amp; Statistics</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#docker">Docker</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tools-workflow">Tools &amp; Workflow</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">SQL &amp; Databases</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interview-preparation">Interview Preparation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#miscellaneous">Miscellaneous</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">🌐 Additional Resources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing">🤝 Contributing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">📜 License</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Pavel Grigoryev
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025, Pavel Grigoryev.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.sidebar-toggle.primary-toggle {
+    display: none !important;
+}
+
+.bd-page-width {
+    max-width: 1100px !important;
+}
+
+.search-button {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
